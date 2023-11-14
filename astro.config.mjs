@@ -18,19 +18,26 @@ export default defineConfig({
 			},
 			sidebar: [
 				{
-					label: 'Guías',
+					label: 'MD',
+					collapsed: true,
 					items: [
-						// Each item here is one entry in the navigation menu.
-						{ label: 'Guías', link: '/guides/indice' },
-						{ label: 'MD', link: '/guides/markdown/introducion' },
+						// Each item here is one entry in the navigation menu.						
+						{ label: 'Markdown', link: '/guides/markdown/introducion' },
+						{ label: 'Folla de atallos', link: '/guides/markdown/markdown-cheat-sheet' },
+					],
+				},
+				{
+					label: 'HTML',
+					collapsed: true,
+					items: [
+						// Each item here is one entry in the navigation menu.						
 						{ label: 'HTML', link: '/guides/html/introducion' },
-					//	{ label: 'CSS', link: '/guides/css/introducion' },
-						{ label: 'JS', link: '/guides/javascript/introducion' },
-						{ label: 'PHP', link: '/guides/php/introducion' },	
+						{ label: 'Hipertexto', link: '/guides/html/html' },
 					],
 				},
 				{
 					label: 'CSS',
+					collapsed: true,
 					items: [
 						// Each item here is one entry in the navigation menu.						
 						{ label: 'CSS', link: '/guides/css/introducion/' },
@@ -38,7 +45,32 @@ export default defineConfig({
 					],
 				},
 				{
-					label: 'Reference',
+					label: 'JS',
+					collapsed: true,
+					items: [
+						// Each item here is one entry in the navigation menu.						
+						{ label: 'Javascript', link: '/guides/javascript/introducion' },
+					],
+				},
+				{
+					label: 'PHP',
+					collapsed: true,
+					items: [
+						// Each item here is one entry in the navigation menu.						
+						{ label: 'PHP', link: '/guides/php/introducion' },
+					],
+				},
+				{
+					label: 'Python',
+					collapsed: true,
+					items: [
+						// Each item here is one entry in the navigation menu.						
+						{ label: 'Python', link: '/guides/python/introducion' },
+					],
+				},
+				{
+					label: 'Referenzas',
+					collapsed: true,
 					autogenerate: { directory: 'reference' },
 				},
 			],

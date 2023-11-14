@@ -124,7 +124,7 @@ A partir de aí, tes a posibilidade de crear **varias capas** e organizalas do x
 }
 ```
 
-Digamos que temos a seguinte pila de capas **na parte superior** do ficheiro CSS: 
+Digamos que temos a seguinte pila de capas **na parte superior** do arquivo CSS: 
 
 ```css
 @layer base, typography, utilities;

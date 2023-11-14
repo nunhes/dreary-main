@@ -175,11 +175,11 @@ Un documento HTML está formado, segundo este exemplo, por tres seccións
 
 A primeira,  a **definición do tipo de documento**, é única. Debe aparecer antes da etiqueta `<html>` que encerra o contido do arquivo. DOCTYPE permite que a aplicación que le o documento - o navegador- saiba que estándar seguiu o programador. Neste caso HTML5, un tipo de documento que calquera navegador pode recoñecer e que permite utilizar tanto código actual como máis antigo.
 
-**Na cabeceira** - `<head>` -, se inclúen a codificación de caracteres que debe utilizar o navegador ( *meta charset* ), a meta descrición, relevante para o motor de busca (`meta name="description"`) ou o título da páxina web (`<title>...</title>`), que aparece na parte superior do navegador. Ademais destes, que aínda que optativos son moi recomendables para favorecer unha boa avaliación por parte do buscador, tamén se poden engadir numerosos metadatos. A única excepción é o elemento *<title>* , xa que é o único obrigatorio nun documento HTML, xunto coa definición do tipo de documento. Máis tarde engadirase á cabeceira unha **ligazón ao arquivo CSS** onde se inclúen os aspectos de deseño e formato.
+**Na cabeceira** - `<head>` -, se inclúen a codificación de caracteres que debe utilizar o navegador ( *meta charset* ), a meta descrición, relevante para o motor de busca (`meta name="description"`) ou o título da páxina web (`<title>...</title>`), que aparece na parte superior do navegador. Ademais destes, que aínda que optativos son moi recomendables para favorecer unha boa avaliación por parte do buscador, tamén se poden engadir numerosos metadatos. A única excepción é o elemento `<title>` , xa que é o único obrigatorio nun documento HTML, xunto coa definición do tipo de documento. Máis tarde engadirase á cabeceira unha **ligazón ao arquivo CSS** onde se inclúen os aspectos de deseño e formato.
 
 A etiqueta `<body>` marca o que o navegador ten que mostrar ao usuario.
 
-**Nota**: as etiquetas para a estrutura HTML básica son opcionais, é dicir, en teoría poderían non incluírse. Neste caso, o navegador crearía automaticamente as etiquetas *<html>* , *<head>* e *<body>* e subordinaría a elas os elementos correspondentes. Non obstante, é normal crealos. O desglose facilita a lectura do documento, o que beneficia especialmente aos principiantes.
+**Nota**: *as etiquetas para a estrutura HTML básica son opcionais, é dicir, en teoría poderían non incluírse. Neste caso, o navegador crearía automaticamente as etiquetas `<html>` , `<head>` e `<body>` e subordinaría a elas os elementos correspondentes. Non obstante, é normal crealos. O desglose facilita a lectura do documento, o que beneficia especialmente aos principiantes.*
 
 ![Visualización no navegador](./assets/primeira-pax-render.png)
 
@@ -196,7 +196,7 @@ Cando se usan imaxes nun sitio web hai que ter en conta:
 
 Existen distintos formatos de imaxe que son plenamente soportados ou aceptados polos distintos navegadores. O máis complexo é acertar ao **elixir o formato axeitado**. Cada formato ten as súas avantaxas e os seus inconvenientes segundo o caso.
 
-#### Vectores vs. mapa mits
+#### Vectores vs. mapa bits
 
 Antes de analizar os formatos de imaxe compatibles para web, **é importante comprender a diferenza entre unha imaxe vectorial e un mapa de bits.** 
 
@@ -270,7 +270,10 @@ O atributo `alt`, permite escribir un texto alternativo para a imaxe. Este texto
 Ampliado con estes atributos, a inclusión dunha imaxe en HTML quedaría así:
 
 ```html
-<img src="images/graphic1.png" width="960" height="274" alt="Aprendendo HTML: este é un gráfico de mostra. Faga clic aquí!" />
+<img src="images/graphic1.png"
+     width="960"
+     height="274"
+     alt="Aprendendo HTML: este é un gráfico de mostra. Faga clic aquí!" />
 ```
 
 **Nota**: Se as variables de ancho e alto se corresponden coa medida orixinal da imaxe gráfica, declaralas é opcional.

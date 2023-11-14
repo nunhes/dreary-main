@@ -18,7 +18,7 @@ A forma máis rápida de **aprender PHP** é comprendendo os exemplos e adaptán
 
 ## Instalación PHP
 
-Para executar scripts PHP, primeiro necesitas un servidor web que sexa capaz de interpretar esta linguaxe de programación. Para iso, ten que ser complementado cun **intérprete PHP.** Trátase, neste sentido, dun compoñente de software que pode identificar as pasaxes dun ficheiro que contén código PHP. En principio, PHP pode executarse en calquera servidor web e o intérprete forma parte do paquete de descarga de PHP. A versión actual pódese descargar gratuitamente dende o **sitio web oficial do proxecto** **[php.net](http://www.php.net/downloads.php)** .
+Para executar scripts PHP, primeiro necesitas un servidor web que sexa capaz de interpretar esta linguaxe de programación. Para iso, ten que ser complementado cun **intérprete PHP.** Trátase, neste sentido, dun compoñente de software que pode identificar as pasaxes dun arquivo que contén código PHP. En principio, PHP pode executarse en calquera servidor web e o intérprete forma parte do paquete de descarga de PHP. A versión actual pódese descargar gratuitamente dende o **sitio web oficial do proxecto** **[php.net](http://www.php.net/downloads.php)** .
 
 Como regra xeral, o intérprete PHP está integrado a través dun **módulo de servidor** ou como o protocolo FastCGI **.** Por razóns de rendemento, non se recomenda utilizar o intérprete como programa CGI. Na práctica, PHP úsase a miúdo en combinación co **[servidor HTTP Apache](https://www.ionos.es/digitalguide/servidores/configuracion/instala-apache-en-tu-pc/)** . Se esta conexión se completa coa base de datos **[MySQL](https://www.ionos.es/digitalguide/servidores/know-how/guia-para-aprender-a-utilizar-mysql/)** ou **MariaDB** , dependendo do sistema operativo, pódese denominar **[LAMP](https://www.ionos.es/digitalguide/servidores/know-how/servidor-lamp-la-solucion-para-webs-dinamicas/)** (Linux), **WAMP** (Windows) ou **[MAMP](https://www.ionos.es/digitalguide/servidores/know-how/mamp-programas-practicos-para-mac-os-x/)** (macOS).
 
@@ -50,15 +50,15 @@ Os scripts PHP baséanse sempre no mesmo esquema. A **etiqueta PHP que se abre**
 
 As funcións son miniaplicativos que permiten externalizar partes do código do programa. Para evitar a redundancia, as tarefas recorrentes defínense como funcións e chámanse mediante un nome de función. Os desenvolvedores usan [funcións PHP predefinidas](http://php.net/manual/es/funcref.php) ou crean os seus propios applets.
 
-Garda o ficheiro de texto co nome de *proba* en formato *.php* (script PHP) e abre o servidor web. Mentres estea a usar o ambiente de proba XAMPP, coloque *test.php* no directorio XAMPP baixo ***htdocs\*** ( *C:\xampp\htdocs* ).
+Garda o arquivo de texto co nome de *proba* en formato *.php* (script PHP) e abre o servidor web. Mentres estea a usar o ambiente de proba XAMPP, coloque *test.php* no directorio XAMPP baixo ***htdocs\*** ( *C:\xampp\htdocs* ).
 
-Pódese acceder ao ficheiro de exemplo introducindo o seguinte URL no seu navegador web: *http:// localhost/ test.php* . Se está a usar outro servidor web ou configuración personalizada do software XAMPP, **seleccione o URL da ruta do ficheiro correspondente** .
+Pódese acceder ao arquivo de exemplo introducindo o seguinte URL no seu navegador web: *http:// localhost/ test.php* . Se está a usar outro servidor web ou configuración personalizada do software XAMPP, **seleccione o URL da ruta do arquivo correspondente** .
 
  Atención
 
 Mentres os enderezos de Internet usan a barra inclinada (/) como símbolo delimitador de directorios, o Explorador de Windows usa a barra invertida (\). Os navegadores web modernos, con todo, transforman a barra invertida nunha barra inclinada na barra de navegación automaticamente.
 
-Ao introducir o URL *http:// localhost/ test.php* estás dicindo ao navegador web que solicite o ficheiro *test.php* do servidor web. O servidor HTTP Apache ou outro software do servidor web abre o ficheiro no directorio correspondente. A terminación *.php* informa que o ficheiro contén código PHP. Agora iníciase o intérprete PHP integrado no servidor web, que percorre o documento ata que atopa a etiqueta PHP de apertura *<?php,* que marca o inicio do código PHP. Despois diso, o intérprete agora ten a capacidade de executar o código PHP e xerar saída HTML que se envía ao navegador desde o servidor web. 
+Ao introducir o URL *http:// localhost/ test.php* estás dicindo ao navegador web que solicite o arquivo *test.php* do servidor web. O servidor HTTP Apache ou outro software do servidor web abre o arquivo no directorio correspondente. A terminación *.php* informa que o arquivo contén código PHP. Agora iníciase o intérprete PHP integrado no servidor web, que percorre o documento ata que atopa a etiqueta PHP de apertura *<?php,* que marca o inicio do código PHP. Despois diso, o intérprete agora ten a capacidade de executar o código PHP e xerar saída HTML que se envía ao navegador desde o servidor web. 
 
 Se executas un script coa función phpinfo(), o navegador mostrará información sobre a configuración de PHP
 
@@ -72,7 +72,7 @@ Se a instalación de PHP se realiza sen erros, agora pode escribir os seus prime
 
 As palabras reservadas son instrucións utilizadas en PHP para controlar a execución de programas. [As palabras reservadas](http://php.net/manual/es/reserved.keywords.php) inclúen , ademais de *eco,* declaracións como *if, for, do, include, return, exit* ou *die* . A diferenza das funcións, neste caso non se necesitan parénteses.
 
-Crea un novo ficheiro PHP para o teu primeiro script e escribe o seguinte código:
+Crea un novo arquivo PHP para o teu primeiro script e escribe o seguinte código:
 
 ```none
 <?php
@@ -86,7 +86,7 @@ A etiqueta de apertura `<?php` inicia un ambiente de guión. A continuación seg
 
 En informática, enténdese por cadea unha secuencia de caracteres de lonxitude variable ou, noutras palabras, unha cadea de consoantes, números e símbolos. No campo da programación, as cadeas considéranse tipos de datos independentes e son diferentes doutros tipos de datos como os enteiros (números enteiros) ou os flotantes (números de coma flotante).
 
-Garda o script co nome *hello.php* no cartafol *htdocs* do teu servidor web e accede ao ficheiro a través do URL *http://localhost/hello.php* no navegador. Se o código se transmitiu correctamente, a secuencia de caracteres que utilizou agora debería mostrarse na xanela do navegador:
+Garda o script co nome *hello.php* no cartafol *htdocs* do teu servidor web e accede ao arquivo a través do URL *http://localhost/hello.php* no navegador. Se o código se transmitiu correctamente, a secuencia de caracteres que utilizou agora debería mostrarse na xanela do navegador:
 
 [![Emisión de texto coa construción da linguaxe eco](https://www.ionos.es/digitalguide/fileadmin/DigitalGuide/Screenshots/DE-php-textausgabe.png)](https://www.ionos.es/digitalguide/fileadmin/DigitalGuide/Screenshots/DE-php-textausgabe.png)A construción da linguaxe echo indica ao servidor web que emita a secuencia de caracteres Hello World!
 
@@ -352,7 +352,7 @@ O intérprete de PHP só está interesado, en principio, no código colocado ent
 
 copiar
 
-Ignora o resto dos fragmentos do documento e transmíteos ao servidor web a medida que aparecen. Deste xeito, o código PHP pódese integrar en **calquera** **documento HTML** para, por exemplo, crear un modelo para un sistema de xestión de contidos. Neste caso, hai que ter en conta que os documentos HTML que conteñan código PHP deben gardarse como ficheiros PHP. En caso contrario, o intérprete PHP non podería procesar o documento, senón que se entregaría directamente ao navegador, o que provocaría que o código do programa aparecese como texto plano na páxina web.
+Ignora o resto dos fragmentos do documento e transmíteos ao servidor web a medida que aparecen. Deste xeito, o código PHP pódese integrar en **calquera** **documento HTML** para, por exemplo, crear un modelo para un sistema de xestión de contidos. Neste caso, hai que ter en conta que os documentos HTML que conteñan código PHP deben gardarse como arquivos PHP. En caso contrario, o intérprete PHP non podería procesar o documento, senón que se entregaría directamente ao navegador, o que provocaría que o código do programa aparecese como texto plano na páxina web.
 
 Podes pensar no intérprete PHP como o colega preguiceiro do servidor web que só funciona cando se lle solicita expresamente, por exemplo, unha etiqueta de apertura de PHP.
 
@@ -400,7 +400,7 @@ copiar
 
 *dmY H:i:s = día.mes.ano hora:minuto:segundo*
 
-Se o navegador web solicita tal ficheiro, o intérprete PHP executa o script e escribe a **hora actual en forma de texto** no documento HTML, que será entregado polo servidor web e representado como unha páxina web.
+Se o navegador web solicita tal arquivo, o intérprete PHP executa o script e escribe a **hora actual en forma de texto** no documento HTML, que será entregado polo servidor web e representado como unha páxina web.
 
 [![Integración de PHP en HTML](https://www.ionos.es/digitalguide/fileadmin/DigitalGuide/Screenshots/DE-php-integration-von-php.png)](https://www.ionos.es/digitalguide/fileadmin/DigitalGuide/Screenshots/DE-php-integration-von-php.png)O documento HTML contén un script PHP incorporado, que mostra a data e hora actual.
 
@@ -620,7 +620,7 @@ Nun blog, o esquema pode verse así:
 
 *http://www.ejemplo-blog.es/index.php?id=1*
 
-Un URL deste tipo pódese desglosar de xeito moi sinxelo: nun servidor web co dominio *example-blog.es* hai un ficheiro co nome *index.php,* que serve para crear unha páxina web dinámica. Normalmente, isto contén código HTML e PHP, así como ligazóns a ficheiros de modelos e follas de estilo externas, todo o necesario para renderizar unha páxina web. O indicador que revela que se trata dunha páxina web dinámica é o código que segue ao signo de interrogación ( *?* ): *id=1.* Isto chámase **cadea de consulta HTTP** e está formado por unha variable ( *id )* e un valor ( *1* ), ambos unidos polo signo igual. Os parámetros URL deste tipo utilízanse, por exemplo, para xerar páxinas web dinámicas, para cargar contido das bases de datos ou para solicitar o modelo adecuado.
+Un URL deste tipo pódese desglosar de xeito moi sinxelo: nun servidor web co dominio *example-blog.es* hai un arquivo co nome *index.php,* que serve para crear unha páxina web dinámica. Normalmente, isto contén código HTML e PHP, así como ligazóns a arquivos de modelos e follas de estilo externas, todo o necesario para renderizar unha páxina web. O indicador que revela que se trata dunha páxina web dinámica é o código que segue ao signo de interrogación ( *?* ): *id=1.* Isto chámase **cadea de consulta HTTP** e está formado por unha variable ( *id )* e un valor ( *1* ), ambos unidos polo signo igual. Os parámetros URL deste tipo utilízanse, por exemplo, para xerar páxinas web dinámicas, para cargar contido das bases de datos ou para solicitar o modelo adecuado.
 
 As páxinas web dinámicas permiten **a separación entre contido e presentación** . O elemento *index.php* contén practicamente toda a información sobre a estrutura da páxina web, pero non alberga os contidos. Estes normalmente almacénanse nunha **base de datos** e pódense acceder mediante parámetros na cadea de consulta HTTP. No noso exemplo, o URL dá a *index.php* o parámetro *id=1,* que determina que contidos da base de datos se deben ler e cargar en *index.php.* No caso dos weblogs, este é xeralmente o identificador dun artigo específico. Nos foros isto permite visitar unha entrada ou, nas tendas en liña, ver un produto específico.
 
@@ -658,7 +658,7 @@ Mentres os datos transferidos a través do método GET entréganse como parámet
 
 Un campo esencial de aplicación do método HTTP-POST é a **transmisión de datos desde formularios HTML** **.** Vémolo co exemplo dunha subscrición a un boletín.
 
-Para iso, crea un novo ficheiro PHP co nome *page1.php* e inclúe o seguinte bloque de código en español (para ver o código en inglés, consulta a captura de pantalla a continuación):
+Para iso, crea un novo arquivo PHP co nome *page1.php* e inclúe o seguinte bloque de código en español (para ver o código en inglés, consulta a captura de pantalla a continuación):
 
 ```none
 <form method="post" action="page2.php" >
@@ -672,9 +672,9 @@ Tu correo electrónico: <input type="text" name="email" /><br />
 
 copiar
 
-Ao crear formularios entra en xogo o elemento HTML *<form>* . Isto inclúe dous atributos na etiqueta de inicio: *método* e *acción.* Co primeiro pódese definir os métodos de transmisión, neste caso o método HTTP POST. O URL dun script que recibe todos os datos rexistrados a través dos seguintes campos de entrada gárdase no atributo *action .* O exemplo mostra un **formulario HTML con tres** **elementos de entrada** ( *input type="text"* ) e un **botón de envío** ( *input type="submit"* ). Como destinatario dos datos, defínese o ficheiro *page2.php* .
+Ao crear formularios entra en xogo o elemento HTML *<form>* . Isto inclúe dous atributos na etiqueta de inicio: *método* e *acción.* Co primeiro pódese definir os métodos de transmisión, neste caso o método HTTP POST. O URL dun script que recibe todos os datos rexistrados a través dos seguintes campos de entrada gárdase no atributo *action .* O exemplo mostra un **formulario HTML con tres** **elementos de entrada** ( *input type="text"* ) e un **botón de envío** ( *input type="submit"* ). Como destinatario dos datos, defínese o arquivo *page2.php* .
 
-Para comprender a transferencia de datos a través de *$_POST* , usamos un script sinxelo para analizar datos do formulario que almacena os valores introducidos como variables PHP en formato de texto. Para iso, cree un ficheiro *page2.php* e insira o seguinte código de programación:
+Para comprender a transferencia de datos a través de *$_POST* , usamos un script sinxelo para analizar datos do formulario que almacena os valores introducidos como variables PHP en formato de texto. Para iso, cree un arquivo *page2.php* e insira o seguinte código de programación:
 
 ```none
 <?php
@@ -688,7 +688,7 @@ Te has registrado con el siguiente correo electrónico: " . $email . ".";
 
 copiar
 
-Garda os dous ficheiros PHP no cartafol *htdocs* do teu servidor de proba e abre *page1.php* co seguinte URL no teu navegador web: *http:// localhost/ page1.php* . A continuación, o navegador mostra a interface web interactiva do formulario HTML.
+Garda os dous arquivos PHP no cartafol *htdocs* do teu servidor de proba e abre *page1.php* co seguinte URL no teu navegador web: *http:// localhost/ page1.php* . A continuación, o navegador mostra a interface web interactiva do formulario HTML.
 
 [![Introdución de datos a través dun formulario HTML](https://www.ionos.es/digitalguide/fileadmin/DigitalGuide/Screenshots/EN-php-tut8.png)](https://www.ionos.es/digitalguide/fileadmin/DigitalGuide/Screenshots/EN-php-tut8.png)O formulario HTML page1.php inclúe datos do usuario e envíaos ao script co enderezo page2.php
 
@@ -843,9 +843,9 @@ copiar
 
 O exemplo mostra a condición *$número1 == $número2* e a súa negación. *!($número1 == $número2)* é equivalente a *($número1 != $número2)* .
 
-Unha aplicación práctica de *if* e *else* é, por exemplo, a **solicitude de contrasinal** nun formulario HTML. A continuación, vexamos unha simulación coa axuda dos ficheiros PHP *page1.php* e *page2.php* .
+Unha aplicación práctica de *if* e *else* é, por exemplo, a **solicitude de contrasinal** nun formulario HTML. A continuación, vexamos unha simulación coa axuda dos arquivos PHP *page1.php* e *page2.php* .
 
-Abre o ficheiro *page1.php* e introduce o seguinte código de formulario:
+Abre o arquivo *page1.php* e introduce o seguinte código de formulario:
 
 ```none
 <form action="page2.php" method="post">
@@ -1090,15 +1090,15 @@ En lugar do número 5, PHP ofrece a cadea textual definida en *se* *O 5 se omite
 
 ## Operacións de arquivo
 
-As páxinas web dinámicas baséanse na separación entre contido e presentación, polo que linguaxes de programación como PHP ofrecen diferentes funcionalidades que permiten cargar contidos de fontes de datos externas en ficheiros de modelos centrais. Na práctica, estas fontes de datos son bases de datos que se xestionan coa axuda de sistemas de xestión de contidos como MySQL. Para saber como funciona, visita o noso tutorial de MySQL para principiantes.
+As páxinas web dinámicas baséanse na separación entre contido e presentación, polo que linguaxes de programación como PHP ofrecen diferentes funcionalidades que permiten cargar contidos de fontes de datos externas en arquivos de modelos centrais. Na práctica, estas fontes de datos son bases de datos que se xestionan coa axuda de sistemas de xestión de contidos como MySQL. Para saber como funciona, visita o noso tutorial de MySQL para principiantes.
 
-Ademais, existe a posibilidade de integrar **datos de ficheiros** . A continuación mostrámosche como podes ler ficheiros como cadea nun script PHP e como podes gardar os textos dos teus scripts en ficheiros.
+Ademais, existe a posibilidade de integrar **datos de arquivos** . A continuación mostrámosche como podes ler arquivos como cadea nun script PHP e como podes gardar os textos dos teus scripts en arquivos.
 
 ### Lectura de arquivos
 
-Para ler o contido dun ficheiro, PHP ofrece diferentes funcións, das cales ***file()\*** e ***file_get_contents()\*** son as máis adecuadas para os nosos propósitos. Mentres que a función *file_get_contents()* úsase para ler todo o contido dun ficheiro nunha cadea, a función *file()* garda o contido en forma de matriz. Cada elemento da matriz corresponde a unha liña do ficheiro. Usando *file()* é máis fácil sacar cada liña por separado.
+Para ler o contido dun arquivo, PHP ofrece diferentes funcións, das cales ***file()\*** e ***file_get_contents()\*** son as máis adecuadas para os nosos propósitos. Mentres que a función *file_get_contents()* úsase para ler todo o contido dun arquivo nunha cadea, a función *file()* garda o contido en forma de matriz. Cada elemento da matriz corresponde a unha liña do arquivo. Usando *file()* é máis fácil sacar cada liña por separado.
 
-A continuación, demostramos as operacións do ficheiro PHP co ficheiro example.txt que aloxamos no directorio *htdocs* do noso servidor de proba. O contido do ficheiro está formado por catro liñas de texto "Lorem ipsum":
+A continuación, demostramos as operacións do arquivo PHP co arquivo example.txt que aloxamos no directorio *htdocs* do noso servidor de proba. O contido do arquivo está formado por catro liñas de texto "Lorem ipsum":
 
 *Lorem ipsum dolor sit amet, consectetuer adipiscing elit.*
 
@@ -1108,7 +1108,7 @@ A continuación, demostramos as operacións do ficheiro PHP co ficheiro example.
 
 *Donec* *quam* *felis,* *ultricies* *nec, pellentesque eu, pretium quis, sem.*
 
-O primeiro paso é ler todo o ficheiro como unha cadea. Para iso, debes asignar o nome do ficheiro correspondente como parámetro á función *file_get_contents()* . Isto faise en base ao seguinte esquema:
+O primeiro paso é ler todo o arquivo como unha cadea. Para iso, debes asignar o nome do arquivo correspondente como parámetro á función *file_get_contents()* . Isto faise en base ao seguinte esquema:
 
 *file_get_contents('example.txt')*
 
@@ -1123,11 +1123,11 @@ echo $example;
 
 copiar
 
-[![O script le o ficheiro example.txt.](https://www.ionos.es/digitalguide/fileadmin/DigitalGuide/Screenshots/EN-php-tut16_2.png)](https://www.ionos.es/digitalguide/fileadmin/DigitalGuide/Screenshots/EN-php-tut16_2.png)O ficheiro lido sae como texto no navegador.
+[![O script le o arquivo example.txt.](https://www.ionos.es/digitalguide/fileadmin/DigitalGuide/Screenshots/EN-php-tut16_2.png)](https://www.ionos.es/digitalguide/fileadmin/DigitalGuide/Screenshots/EN-php-tut16_2.png)O arquivo lido sae como texto no navegador.
 
-Na vista do navegador podes ver o texto devolto sen parágrafos. Non se poden mostrar saltos de liña no ficheiro orixinal, o que está relacionado co feito de que o navegador web interpreta o texto do script como código HTML, polo que pérdense a configuración definida nos editores de texto.
+Na vista do navegador podes ver o texto devolto sen parágrafos. Non se poden mostrar saltos de liña no arquivo orixinal, o que está relacionado co feito de que o navegador web interpreta o texto do script como código HTML, polo que pérdense a configuración definida nos editores de texto.
 
-Se queres manter a estrutura orixinal, podes recorrer a diferentes posibilidades. Podes engadir manualmente a codificación HTML para o salto de liña ( *br* ) no ficheiro fonte, etiquetar o contido do ficheiro con *<pre> e asignar a propiedade* *de espazo en branco CSS: pre-envolver* a esta sección, ou podes usar a *función nl2br ( )* para indicarlle a PHP que *as liñas novas* deberían transformarse automaticamente en saltos de liña HTML ( *saltos* ) *.* A función debe utilizarse seguindo o seguinte esquema:
+Se queres manter a estrutura orixinal, podes recorrer a diferentes posibilidades. Podes engadir manualmente a codificación HTML para o salto de liña ( *br* ) no arquivo fonte, etiquetar o contido do arquivo con *<pre> e asignar a propiedade* *de espazo en branco CSS: pre-envolver* a esta sección, ou podes usar a *función nl2br ( )* para indicarlle a PHP que *as liñas novas* deberían transformarse automaticamente en saltos de liña HTML ( *saltos* ) *.* A función debe utilizarse seguindo o seguinte esquema:
 
 ```none
 <?php
@@ -1142,7 +1142,7 @@ copiar
 
 [![Aplicación da función nl2br().](https://www.ionos.es/digitalguide/fileadmin/DigitalGuide/Screenshots/EN-php-tut16_3.png)](https://www.ionos.es/digitalguide/fileadmin/DigitalGuide/Screenshots/EN-php-tut16_3.png)A función nl2br() axuda a estruturar os datos lidos.
 
-Para **mostrar as liñas dun ficheiro por separado,** pode usar a función *file()* , que le o ficheiro, numera todas as liñas que comezan por 0 e garda o seu contido como elementos dunha matriz. Trasladado ao noso exemplo, obtense a seguinte clasificación:
+Para **mostrar as liñas dun arquivo por separado,** pode usar a función *file()* , que le o arquivo, numera todas as liñas que comezan por 0 e garda o seu contido como elementos dunha matriz. Trasladado ao noso exemplo, obtense a seguinte clasificación:
 
 [0] = *Lorem ipsum dolor sit amet, consectetuer adipiscing elit.*
 
@@ -1152,7 +1152,7 @@ Para **mostrar as liñas dun ficheiro por separado,** pode usar a función *file
 
 [3] = *Donec* *quam* *felis,* *ultricies* *nec, pellentesque eu, pretium quis, sem.*
 
-Para emitir o contido correspondente usando o construtor da linguaxe *echo* , é necesario indicar o número de liña desexado. Así, o seguinte script de exemplo entrega a primeira liña do ficheiro *example.txt* ao navegador :
+Para emitir o contido correspondente usando o construtor da linguaxe *echo* , é necesario indicar o número de liña desexado. Así, o seguinte script de exemplo entrega a primeira liña do arquivo *example.txt* ao navegador :
 
 ```none
 <?php
@@ -1167,11 +1167,11 @@ copiar
 
 ### Redacción de arquivos
 
-Con PHP non só se poden ler ficheiros, senón que a linguaxe de programación tamén dá a posibilidade de crealos e describilos con contido.
+Con PHP non só se poden ler arquivos, senón que a linguaxe de programación tamén dá a posibilidade de crealos e describilos con contido.
 
-Para iso utilízase a función PHP ***file_put_contents()*** *, que espera **dous parámetros:** o nome do ficheiro que se debe crear ou actualizar e os datos en forma de cadea ou matriz.*
+Para iso utilízase a función PHP ***file_put_contents()*** *, que espera **dous parámetros:** o nome do arquivo que se debe crear ou actualizar e os datos en forma de cadea ou matriz.*
 
-*O seguinte script crea o ficheiro test.txt e escribe a cadea This is a test! (Esta é unha proba!) na primeira liña. O suplemento \r\n produce un salto de liña no ficheiro de destino.* *Imos velo:*
+*O seguinte script crea o arquivo test.txt e escribe a cadea This is a test! (Esta é unha proba!) na primeira liña. O suplemento \r\n produce un salto de liña no arquivo de destino.* *Imos velo:*
 
 ```none
 <?php
@@ -1182,11 +1182,11 @@ echo "test.txt was created!";
 
 copiar
 
-[![Operacións de ficheiros: escritura de ficheiros](https://www.ionos.es/digitalguide/fileadmin/DigitalGuide/Screenshots/EN-php-tut17.png)](https://www.ionos.es/digitalguide/fileadmin/DigitalGuide/Screenshots/EN-php-tut17.png)O script PHP escribe a cadea Esta é unha proba! no ficheiro test.txt.
+[![Operacións de arquivos: escritura de arquivos](https://www.ionos.es/digitalguide/fileadmin/DigitalGuide/Screenshots/EN-php-tut17.png)](https://www.ionos.es/digitalguide/fileadmin/DigitalGuide/Screenshots/EN-php-tut17.png)O script PHP escribe a cadea Esta é unha proba! no arquivo test.txt.
 
 Dado que a **función file_put_contents non proporciona ningunha saída ao navegador, engadimos unha instrución de eco que nos indica que acción se vai levar a cabo.**
 
-Se o *cartafol de destino xa contén un ficheiro co mesmo nome, sobrescribirase, o que se evita establecendo o parámetro* *FILE_APPEND* *. Vexamos a tradución da captura de pantalla correspondente ao castelán:*
+Se o *cartafol de destino xa contén un arquivo co mesmo nome, sobrescribirase, o que se evita establecendo o parámetro* *FILE_APPEND* *. Vexamos a tradución da captura de pantalla correspondente ao castelán:*
 
 ```none
 <?php
@@ -1199,9 +1199,9 @@ copiar
 
 *Se se usa file_put_contents() co parámetro* *FILE_APPEND* , engadiranse novos contidos aos existentes.
 
-[![Operacións de ficheiros: actualización de ficheiros](https://www.ionos.es/digitalguide/fileadmin/DigitalGuide/Screenshots/EN-php-tut18.png)](https://www.ionos.es/digitalguide/fileadmin/DigitalGuide/Screenshots/EN-php-tut18.png)O script PHP engade a cadea A proba foi exitosa! ao ficheiro test.txt.
+[![Operacións de arquivos: actualización de arquivos](https://www.ionos.es/digitalguide/fileadmin/DigitalGuide/Screenshots/EN-php-tut18.png)](https://www.ionos.es/digitalguide/fileadmin/DigitalGuide/Screenshots/EN-php-tut18.png)O script PHP engade a cadea A proba foi exitosa! ao arquivo test.txt.
 
-*O que PHP escribe no ficheiro de destino non ten que estar definido no script. Alternativamente, tamén existe a posibilidade de **transmitir o contido dun ficheiro a outro** . O seguinte script le o contido do ficheiro example.txt e insíreo no ficheiro test.txt:*
+*O que PHP escribe no arquivo de destino non ten que estar definido no script. Alternativamente, tamén existe a posibilidade de **transmitir o contido dun arquivo a outro** . O seguinte script le o contido do arquivo example.txt e insíreo no arquivo test.txt:*
 
 ```none
 <?php
@@ -1213,4 +1213,4 @@ echo "test.txt was updated!";
 
 copiar
 
-[![Operacións de ficheiros: transmisión do contido dun ficheiro a outro](https://www.ionos.es/digitalguide/fileadmin/DigitalGuide/Screenshots/EN-php-tut19.png)](https://www.ionos.es/digitalguide/fileadmin/DigitalGuide/Screenshots/EN-php-tut19.png)O script PHP le os datos do ficheiro example.txt e engádeos ao ficheiro test.txt.
+[![Operacións de arquivos: transmisión do contido dun arquivo a outro](https://www.ionos.es/digitalguide/fileadmin/DigitalGuide/Screenshots/EN-php-tut19.png)](https://www.ionos.es/digitalguide/fileadmin/DigitalGuide/Screenshots/EN-php-tut19.png)O script PHP le os datos do arquivo example.txt e engádeos ao arquivo test.txt.
