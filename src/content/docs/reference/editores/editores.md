@@ -36,3 +36,6 @@ As características desexables dun editor de código poden variar segundo as pre
 15. **Pregado de código, autogardado, historial, integración coa terminal ou servidor interno de previsualización** son tamén características que aumentan a utilidade dun editor de código.
 
 Estas características son algunhas das máis comúns e valoradas polos desenvolvedores á hora de elixir un editor de código, aínda que as preferencias poden variar segundo as necesidades específicas de cada un e as tecnoloxías coas que se traballe.
+
+Lectura recomendada:
+- [Web development tools](https://www.hostinger.com/tutorials/web-development-tools)

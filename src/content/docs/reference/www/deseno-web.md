@@ -33,7 +33,7 @@ O deseño web e o desenvolvemento web son dúas etapas distintas na creación du
 
 Mentres que o deseño web se encarga de darlle forma á imaxe total dun sitio web, o desenvolvemento web é o proceso de converter ese deseño nun sitio web utilizable mediante o acceso a través da rede.
 
-![img](./assets/marketplace-website-summary-1.png)
+![img](../assets/marketplace-website-summary-1.png)
 
 ## Por que é importante o deseño web?
 
@@ -53,7 +53,7 @@ Pero que significan estes termos en relación ao deseño web?
 - Unha [maqueta web](https://uizard.io/blog/4-ways-to-create-a-website-design-mock-up-even-if-you-have-no-design-experience/) usa máis detalles que un wireframe e inclúe cores, texto e imaxes, así como compoñentes máis definidos. E de novo, as maquetas pasarán por varias fases de iteración antes de chegar á fase de prototipo.
 - [A creación de prototipos de deseño web](https://uizard.io/blog/how-to-design-a-website-prototype/) é o paso final antes de completar un deseño web. O prototipo céntrase en presentar como sería un sitio web contando tamén cos cambios ou resultados da interacción dun usuario co deseño.
 
-![wireframe web a maqueta web a prototipo web](./assets/Screenshot-2023-07-31-at-16.44.56.png)
+![wireframe web a maqueta web a prototipo web](../assets/Screenshot-2023-07-31-at-16.44.56.png)
 
 <center><small>Do wireframe dun sitio web á maqueta e ao prototipo</small></center>
 
@@ -65,7 +65,7 @@ Que podes facer para diferenciar o teu deseño web dos millóns de persoas en li
 
 A maioría dos deseños de sitios web seguen unha estrutura moi similar. A cabeceira está, por suposto, na parte superior coa barra de navegación, o pé de páxina está na parte inferior e todas as seccións intermedias son de xogo libre. O problema con isto xorde cando se pretende engadir demasiada información de golpe ou se desordena o deseño. **O deseño dun sitio web debe ser sinxelo de entender e lóxico.** E o sinxelo non é sempre fácil.
 
-![Modelo web médico](./assets/2.-medical-website-search-1.png)
+![Modelo web médico](../assets/2.-medical-website-search-1.png)
 
 <center><small>Modelo de sitio web médico de Uizard que demostra un deseño sen desorden</small></center>
 
@@ -77,7 +77,7 @@ Destacar áreas de texto, como títulos, para garantir que a atención do usuari
 
 Por exemplo, un título debe ser notablemente máis grande que outras áreas de texto, pode estar en negriña, ter letras en maiúscula ou empregar un tipo de letra diferente. 
 
-![edición de tipografía uizard](./assets/ezgif.com-gif-maker--4-.gif)
+![edición de tipografía uizard](../assets/ezgif.com-gif-maker--4-.gif)
 
 <center><small>A tipografía é esencial no deseño web</small></center>
 
@@ -85,7 +85,7 @@ Por exemplo, un título debe ser notablemente máis grande que outras áreas de 
 
 O aliñamento é un aspecto clave do deseño web. Ter títulos non aliñados, ou un formulario nó que non coincide o aliñamento dos elementos ou hai diferenzas nas marxes esquerda e dereita, non só fará que o teu deseño web pareza pouco profesional, senón que tamén afectará á UX. Usando un aliñamento coherente axuda a guiar aos usuarios polas páxinas do sitio web de forma lóxica e a facerlles fáciles as cousas.
 
-![directrices de captura de uizard](./assets/ezgif.com-optimize--13-.gif)
+![directrices de captura de uizard](../assets/ezgif.com-optimize--13-.gif)
 
 <center><small>Aliñar elementos usando fundamentos de composición visual</small></center>
 
@@ -95,7 +95,7 @@ A cor é unha parte esencial de case todos os deseños, e é especialmente impor
 
 De aí que sexa moi habitual delimitar a paleta ou cantidade de cores a empregar nun sitio web, reflexionando sobre para que imos a empregar cada un deles, o nivel de contraste, o significado psicolóxico ou cultural da cor,...
 
-![xerador de cores uizard](./assets/Screenshot-2023-07-27-at-13.05.29.png)
+![xerador de cores uizard](../assets/Screenshot-2023-07-27-at-13.05.29.png)
 
 <center><small>A cor é un elemento expresivo decisivo no deseño web</small></center>
 
@@ -103,7 +103,7 @@ De aí que sexa moi habitual delimitar a paleta ou cantidade de cores a empregar
 
 As compoñentes IU que elixas afectarán a navegación do usuario ao longo do teu deseño web, polo que é importante facelo ben. Por exemplo, a maioría dos deseños de sitios web usan unha combinación de compoñentes de cabeceira e elementos como botóns para ofrecer aos usuarios varias formas de moverse entre páxinas web ou interactuar co contido. As imaxes son outro complemento esencial para o deseño web, só asegúrate de que as túas imaxes sexan de alta calidade e relevantes.
 
-![biblioteca de compoñentes ui en uizard](./assets/ezgif.com-gif-maker--3-.gif)
+![biblioteca de compoñentes ui en uizard](../assets/ezgif.com-gif-maker--3-.gif)
 
 <center><small>Dispor de modelos ou compoñentes asegura a coherencia do deseño do sitio web</small></center>
 
@@ -119,7 +119,7 @@ Crear deseños web efectivos require algo de práctica. Non obstante, hai algún
 - **Practica coas ferramentas:** o uso de distintas ferramentas de deseño web é un excelente punto de partida para os novizos. Podes xogar coa tipografía, o aliñamento e a estética sen sentir a presión de deseñar para un cliente.
 - **Adquirir experiencia:** a experiencia en deseño web é valiosa en calquera fase, pero especialmente ao comezo. Crea os teus sitios autónomos xa que son unha boa forma de aumentar o teu currículo e tamén de practicar co deseño.
 
-![Modelo de sitio web do mercado en uizard](./assets/marketplace-website-shirts.png)
+![Modelo de sitio web do mercado en uizard](../assets/marketplace-website-shirts.png)
 
 ---
 

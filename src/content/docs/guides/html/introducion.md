@@ -5,43 +5,57 @@ description: Linguaxe de marcado de hipertexto...
 
 ![Introdución ao HTML](./assets/intro-html.png)
 
-A finais dos anos 80, Tim Berners-Lee desenvolveu as bases de Internet mentres traballaba nun proxecto interno da Organización Europea para a Investigación Nuclear (CERN) que ía permitir o intercambio transnacional de información na súa rede de laboratorios, distribuídos entre Francia e Suíza. Como base daquela infraestrutura, Berners-Lee utilizou unha linguaxe de hipertexto, un tipo de escritura baseado nunha linguaxe de marcado que buscaba transmitir información a través de documentos entrelazados por hipervínculos ao que denominou Hypertext Markup Language ou HTML.
+A finais dos anos 80, Tim Berners-Lee traballaba nun proxecto interno da Organización Europea para a Investigación Nuclear (CERN) que ía permitir o intercambio transnacional de información na súa rede de laboratorios, distribuídos entre Francia e Suíza. Aquel proxecto interno acabaría por converterse nas bases do que pronto acabaría por coñecerse como Internet ou World Wide Web. 
+
+Como base daquela infraestrutura de intercambio de datos a traves das redes de comunicación, Berners-Lee utilizou unha linguaxe de hipertexto, un tipo de escritura baseado nunha linguaxe de marcado que buscaba transmitir información a través de documentos entrelazados por hipervínculos ao que denominou Hypertext Markup Language ou HTML.
 
 Esta linguaxe, xunto a outros compoñentes como o protocolo de transferencia HTTP, o localizador de URL, ou os navegadores e servidores web, pronto se converterían na pedra angular da interconexión dixital global. 
 
-Aprender a usar esta linguaxe de marcado é pois unha das primeiras tarefas para os aprendices de desenvolvedor web. Esta titoría repasa os principios básicos desta linguaxe de marcado, e apunta algúns consellos para novizos, co fin de encetar con coñecementos sólidos e que os teus primeiros pasos no desenvolvemento web sexan o máis firmes posible.
+Agora, trinta e poucos anos máis tarde, aprender a usar esta linguaxe de marcado é unha das primeiras tarefas que acometer se queres converterte nun desenvolvedor web.
+
+Esta introdución repasa os principios básicos desta linguaxe de marcado, e apunta algúns consellos para novizos, co fin de que poidas encetar con coñecementos sólidos e que os teus primeiros pasos no desenvolvemento web sexan o máis firmes posible.
 
 ## HTML non é unha linguaxe de programación
 
-En principio, HTML non é unha linguaxe de programación. Mentres HTML describe e estrutura unha páxina web cunha sintaxe baseada en texto estática, as linguaxes de programación crean contido dinámico, tarefas lóxicas complexas, comandos e algoritmos. A diferenza das linguaxes de programación e scripts como PHP, JavaScript ou Python, HTML non se pode usar para crear algoritmos, tarefas, condicións ou bucles debido á súa falta de estrutura de comandos. Polo tanto, HTML pertence ás que se coñecen como **[linguaxes de marcado](https://www.bibliopos.es/Biblion-A2-Biblioteconomia/10Lenguajes-de-marcado.pdf)** [+](https://universidadeuropea.com/blog/que-es-lenguaje-marca/). 
+En principio, HTML non é unha linguaxe de programación. Alo menos non no sentido de que a HTML non se lle pode pedir que resolva funcionalidades operacionais ou algoritmos de resolución de problemas.
+
+HTML describe a estrutura dos contidos dunha páxina web cunha sintaxe estática baseada en texto, mentras as linguaxes de programación crean contido dinámico, resolven tarefas lóxicas complexas, e empregan de xeito funcional comandos e algoritmos. 
+
+A diferenza das linguaxes de programación e scripts como PHP, JavaScript ou Python, HTML non se pode usar para crear algoritmos, tarefas, condicións ou bucles debido á súa falta de estrutura de comandos. Polo tanto, HTML pertence ás que se coñecen como **[linguaxes de marcado](https://www.bibliopos.es/Biblion-A2-Biblioteconomia/10Lenguajes-de-marcado.pdf)** [+](https://universidadeuropea.com/blog/que-es-lenguaje-marca/). 
 
 ## *Hyper Text Markup Language*
 
-HTML significa "*Hyper Text Markup Language*" e,  é unha das [linguaxes de marcado](https://www.wikiwand.com/es/Lenguaje_de_marcado) baseada en texto máis utilizadas no mundo. Tim Berners-Lee, inventor da World Wide Web, sentou as súas bases en 1992 coa primeira especificación HTML. O World Wide Web Consortium (W3C) declarou HTML 4.0 estándar oficial en decembro de 1999.
+HTML é o acrónimo de "*Hyper Text Markup Language*" e, é unha das [linguaxes de marcado](https://www.wikiwand.com/es/Lenguaje_de_marcado) baseada en texto máis utilizadas no mundo. 
+
+Tim Berners-Lee, inventor da World Wide Web, sentou as súas bases en 1992 coa primeira especificación HTML. O World Wide Web Consortium (W3C) declarou HTML 4.0 como estándar oficial en decembro de 1999.
 
 A linguaxe HTML ten, entre outras, as seguintes características:
 
-- Para crear páxinas web: describir e estruturar os elementos da páxina, utilízanse [etiquetas HTML](https://developer.mozilla.org/en-US/docs/Web/HTML/Element).
-- A sintaxe de HTML é textual e uniforme, e estrutura un documento en secciones lógicas que sempre constan dunha etiqueta de apertura ao inicio e unha etiqueta de peche ao final.
-- HTML é unha *linguaxe* de marcado que transporta a información ao tempo que as instrucións para a súa presentación na pantalla e os enlaces que permiten relacionar distintos documentos entre eles.
+- HTML utiliza [etiquetas](https://developer.mozilla.org/en-US/docs/Web/HTML/Element) para describir e estruturar os elementos dun documento é convertelo nunha paxina web.
+- A sintaxe de HTML é textual e uniforme, e estrutura un documento en seccións lóxicas. Estas seccións constan dunha etiqueta de apertura, ao inicio, e unha etiqueta de peche, ao final.
+- HTML é unha *linguaxe de marcado* que transporta, a un tempo, a información e as instrucións para a súa presentación na pantalla, e incluindo enlaces que permiten relacionar distintos documentos entre eles.
 
 ## Marcado HTML
 
-A linguaxe de marcado de hipertexto forma parte desas linguaxes informáticas que as máquinas poden comprender e que facilitan a interacción cos humanos. O marcado [HTML](https://www.ionos.es/digitalguide/paginas-web/desarrollo-web/que-es-html/) permite definir e articular **títulos, parágrafos, listas, táboas ou gráficos** nunha paxina, documento ou sitio web, de tal xeito que calquera navegador que poida interpretar o código poida mostrar visualmente cada elemento. 
+A **linguaxe de marcado de hipertexto** forma parte desas linguaxes informáticas que as máquinas poden comprender e que facilitan a interacción cos humanos. 
 
-HTML tamén pode proporcionar información adicional sobre o documento, o autor, a codificación de caracteres,... usando **metadatos**. Ao contrario do que acontecía nos seus inicios, HTML se emprega só para estruturar internamente a páxina e non para definir o seu aspecto visual, algo do que se ocupan linguaxes como [CSS (Cascading Style Sheets)](https://developer.mozilla.org/es/docs/Learn/CSS) .
+O marcado [HTML](https://www.ionos.es/digitalguide/paginas-web/desarrollo-web/que-es-html/) permite definir e articular **títulos, parágrafos, listas, táboas ou gráficos** nunha paxina, documento ou sitio web, de tal xeito que calquera navegador que poida interpretar ese código pode tamén mostrar visualmente cada elemento que conforma dito documento. 
 
-O HTML foi desenvolvido a partir da metanlinguaxe **SGML** (Standard Generalized Markup Language), un recoñecido estándar ISO (8879:1986) do que herdou a súa forma de escribir. Esta escritura baséase en definir cada elemento cun par de etiquetas ou etiquetas rodeadas de corchetes angulares, compostas polo principio `< >` e o peche ``</>``. Outras caracteristicas de HTML tamén lembran ao seu predecesor:
+HTML tamén pode proporcionar información adicional sobre o documento, o autor, a codificación de caracteres,... usando **metadatos**. 
 
-- **[Declaración do tipo de documento](https://www.freecodecamp.org/espanol/news/que-es-la-declaracion-en-html/)**: proporciona información sobre a versión de HTML utilizada: 
+Nos seus inicios HTML chegou a plantexarse como unha liguaxe completa de presentación. Máis agora, ao contrario do que acontecía nos seus inicios, HTML se emprega só para estruturar internamente a páxina e non para definir o seu aspecto visual, algo do que se ocupan linguaxes como [CSS (Cascading Style Sheets)](https://developer.mozilla.org/es/docs/Learn/CSS) .
+
+HTML foi desenvolvido a partir da metanlinguaxe **SGML** (Standard Generalized Markup Language), un recoñecido estándar ISO (8879:1986) do que herdou a súa forma de escribir. Esta escritura baséase en definir cada elemento cun par de etiquetas ou etiquetas rodeadas de corchetes angulares, compostas por unha apertura `< >` e un peche ``</ >``. Ademáis tamén herdaría outras caracteristicas que lembran ao seu predecesor:
+
+- **[Declaración do tipo de documento](https://www.freecodecamp.org/espanol/news/que-es-la-declaracion-en-html/)**: esta declaración, ao inicio do documento, proporciona información sobre o tipo de documento e a versión de HTML que se emprega para darlle forma: 
 
   ```html
   <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
   ```
   
--  **Uso de entidades**: os signos de puntuación, os caracteres acentuados ou os símbolos especiais tradúcense a [entidades HTML](https://developer.mozilla.org/es/docs/Glossary/Entity) para que se poidan mostrar no navegador (por exemplo, `&ntilde;` *para* "ñ" ou `&eacute;` para "é").
+-  **Uso de entidades**: para que poidan ser interpretadas correctamente e ser mostradas no navegador, os signos de puntuación, os caracteres acentuados ou os símbolos especiais tradúcense a [entidades HTML](https://developer.mozilla.org/es/docs/Glossary/Entity) (por exemplo, `&ntilde;` *para* "ñ" ou `&eacute;` para "é").
 
-- **Comentarios**: os comentarios ocultos do navegador pero visibles para os desenvolvedores están integrados coa etiqueta 
+- **Comentarios**: usando determinado marcado integrado no mesmo documento, os desenvolvedores poden incluir comentarios que quedarán ocultos para as persoas que visualizan o documento nun navegador, pero que serán visibles e útiles para outros desenvolvedores que accedan ao código dese mesmo documento.
 
   ```html
   <!-- o navegador non representa os comentarios, aínda que o programador si pode velos cando edita o seu código -->
