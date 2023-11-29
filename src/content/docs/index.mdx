@@ -7,27 +7,39 @@ hero:
   image:
     file: ../../assets/Brick_Magenta.png
   actions:
-    - text: Guías básicas
-      link: /guides/indice/
-      icon: right-arrow
-      variant: primary
-    - text: Referencia
-      link: /reference/indice/
+    - text: MD
+      link: /guides/markdown/introducion/
       icon: right-arrow
       variant: secondary
-    - text: Read the Starlight docs
-      link: https://starlight.astro.build
-      icon: external
+    - text: HTML
+      link: /guides/html/introducion/
+      icon: right-arrow
+      variant: secondary	
+    - text: CSS
+      link: /guides/css/introducion/
+      icon: right-arrow
+      variant: secondary    
+    - text: JS
+      link: /guides/javascript/introducion/
+      icon: right-arrow
+      variant: secondary
+    - text: PHP
+      link: /guides/php/introducion/
+      icon: right-arrow
+      variant: secondary
 ---
 
 import { Card, CardGrid } from '@astrojs/starlight/components';
 
 <CardGrid stagger>
 	<Card title="Guías básicas" icon="pencil">
-		[Guías de introducción](./guides/indice/) ás linguaxes de programación web.
+		Guías de introducción ás linguaxes de programación web.
 	</Card>
 	<Card title="Referenzas" icon="add-document">
-		Editores, compiladores, empaquetadores, recursos,... [e máis](./reference/)
+		Editores, compiladores, empaquetadores, recursos,... e máis!
+	</Card>
+  	<Card title="Exercicios" icon="information">
+		Exemplos que podes revisar e empregar para practicar.
 	</Card>
 </CardGrid>
 

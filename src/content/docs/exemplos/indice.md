@@ -1,6 +1,6 @@
 ---
-title: Guías básicas
-description: Guías introductorias aos linguaxes da web
+title: Exercicios
+description: Exemplos que podes revisar e empregar para practicar.
 template: splash
 hero:
   tagline: Desenvolvemento de aplicacións con tecnoloxías web
@@ -8,7 +8,7 @@ hero:
     file: ../../../assets/houston.webp
   actions:
     - text: MD
-      link: /guides/markdown/introducion/
+      link: /exercicios/
       icon: right-arrow
       variant: secondary
     - text: HTML

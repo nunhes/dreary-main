@@ -114,7 +114,7 @@ Para engadir un título principal e un título secundario a esta primeira páxin
 
 ### Resaltar palabras ou fragmentos de texto: `<i>`, `<em>`, `<b>` e `<strong>`
 
-Entre os elementos básicos do formato HTML tamén se atopan aquelas etiquetas que permiten destacar dalgún xeito palabras, frases ou fragmentos de texto, coa finalidade de dirixir a atención do lector sobre contidos clave ou elementos funcionais e axudalos a percibilos. Para **destacar** frases, expresións técnicas, comiñas ou reflexións **en cursiva** podemos utilizar as etiquetas `<i>` (italica) ou `<em>` (énfase). Para destacar en negriña elementos sobre os que se debe chamar a atención do usuario podemos empregar os elementos `<b>` (negriña) e `<strong>`(forte énfase).
+Entre os elementos básicos do formato HTML tamén se atopan aquelas etiquetas que permiten destacar dalgún xeito palabras, frases ou fragmentos de texto, coa finalidade de dirixir a atención do lector sobre contidos clave ou elementos funcionais e axudalos a percibilos. Para **destacar** frases, expresións técnicas, comiñas ou reflexións **en cursiva** podemos utilizar as etiquetas `<i>` (itálica) ou `<em>` (énfase). Para destacar en negriña elementos sobre os que se debe chamar a atención do usuario podemos empregar os elementos `<b>` (negriña) e `<strong>`(forte énfase).
 
 ```html
 <h1>Cabeceira principal da <i>miña primeira paxina web</i>.</h1>
@@ -337,7 +337,7 @@ Por último, deberás subir os documentos HTML que compoñen a túa web ao espaz
 
 ## CSS e JavaScript: por que HTML é só o comezo
 
-Aínda que HTML constitúe a base de toda páxina web, o seu papel no desenvolvemento web moderno non actua só. HTML xa non inclúe indicacións de deseño visual. Esta tarefa recae na linguaxe de follas de estilo CSS ou as follas de estilo en cascada. CSS permite definir a **cor** dos distintos elementos da páxina, a súa **composición** básica ou o **formato** de pasaxes de texto, títulos ou outros elementos de contido, dándolle ás páxinas un aspecto visual atractivo e contemporáneo. Esta estrita separación entre contido e deseño facilita moito a análise e o mantemento dos proxectos máis complexos. Todo isto fai que sexa necesario tratar con esta linguaxe web unha vez que xa estea familiarizado co HTML.
+Aínda que HTML constitúe a base de toda páxina web, o seu papel no desenvolvemento web moderno non actúa só. HTML xa non inclúe indicacións de deseño visual. Esta tarefa recae na linguaxe de follas de estilo CSS ou as follas de estilo en cascada. CSS permite definir a **cor** dos distintos elementos da páxina, a súa **composición** básica ou o **formato** de pasaxes de texto, títulos ou outros elementos de contido, dándolle ás páxinas un aspecto visual atractivo e contemporáneo. Esta estrita separación entre contido e deseño facilita moito a análise e o mantemento dos proxectos máis complexos. Todo isto fai que sexa necesario tratar con esta linguaxe web unha vez que xa estea familiarizado co HTML.
 
 Outro compoñente básico do deseño web moderno é JavaScript, coa axuda do cal se inclúen **elementos dinámicos** nas páxinas HTML que permiten aos usuarios interactuar coa páxina.
 
