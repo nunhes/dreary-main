@@ -7,23 +7,23 @@ hero:
   image:
     file: ../../../assets/houston.webp
   actions:
-    - text: MD
+    - text: Exemplo1
       link: /exercicios/
       icon: right-arrow
       variant: secondary
-    - text: HTML
+    - text: Exemplo2
       link: /guides/html/introducion/
       icon: right-arrow
       variant: secondary	
-    - text: CSS
+    - text: Exemplo3
       link: /guides/css/introducion/
       icon: right-arrow
       variant: secondary    
-    - text: JS
+    - text: Exemplo4
       link: /guides/javascript/introducion/
       icon: right-arrow
       variant: secondary
-    - text: PHP
+    - text: Exemplo5
       link: /guides/php/introducion/
       icon: right-arrow
       variant: secondary
