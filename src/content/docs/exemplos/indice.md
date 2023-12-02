@@ -8,23 +8,23 @@ hero:
     file: ../../../assets/houston.webp
   actions:
     - text: Exemplo1
-      link: /exercicios/
+      link: https://bitsolto.com/mega2324/exercicios/primeiro.zip
       icon: right-arrow
       variant: secondary
     - text: Exemplo2
-      link: /guides/html/introducion/
+      link: https://bitsolto.com/mega2324/exercicios/proxecto-01.zip
       icon: right-arrow
       variant: secondary	
     - text: Exemplo3
-      link: /guides/css/introducion/
+      link: https://bitsolto.com/mega2324/exercicios/formulario-01.zip
       icon: right-arrow
       variant: secondary    
     - text: Exemplo4
-      link: /guides/javascript/introducion/
+      link: https://bitsolto.com/mega2324/exercicios/formulario-02.zip
       icon: right-arrow
       variant: secondary
     - text: Exemplo5
-      link: /guides/php/introducion/
+      link: https://bitsolto.com/mega2324/exercicios/formulario-03.zip
       icon: right-arrow
       variant: secondary
 ---

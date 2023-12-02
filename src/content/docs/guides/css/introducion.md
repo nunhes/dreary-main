@@ -8,31 +8,42 @@ CSS (Cascading Style Sheets) é unha linguaxe de estilos utilizada para describi
 
 ### Principais conceptos de CSS:
 
-1. **Seletores:** Permiten apuntar a elementos HTML específicos que desexa estilizar. Pódese seleccionar por etiquetas HTML, clases, identificadores, atributos ou relacións entre elementos.
+1. **[Selectores](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors):** Permiten apuntar elementos HTML específicos e aplicarlles estilos. Pódese seleccionar por **[etiquetas HTML](https://developer.mozilla.org/en-US/docs/Web/CSS/Type_selectors)**, **[clases](https://developer.mozilla.org/es/docs/Web/CSS/Class_selectors)**, **[identificadores](https://developer.mozilla.org/es/docs/Web/CSS/ID_selectors)**, **[atributos](https://developer.mozilla.org/es/docs/Web/CSS/Attribute_selectors)** ou **[relacións entre elementos](https://developer.mozilla.org/en-US/docs/Web/CSS/Child_combinator)**.
 
    Exemplo:
    ```css
-   /* Selector de etiqueta */
+   /* selector de etiqueta */
    p {
        color: blue;
    }
-
-   /* Selector de clase */
+   
+   /* selector de clase */
    .destacado {
        font-weight: bold;
    }
-
-   /* Selector de identificador */
+   
+   /* selector de identificador */
    #encabezado {
        font-size: 24px;
    }
+   
+   /* selector de elementos <a> co atributo title */
+   a[title] {
+     color: purple;
+   }
+   
+   /* selector de elementos <a> cun href que coincida con "https://example.org" */
+   a[href="https://example.org"]
+   {
+     color: green;
+   }
    ```
 
-2. **Propiedades:** Son os atributos que se lles aplican aos elementos seleccionados. Controlan a aparencia, o formato e o posicionamento dos elementos na páxina.
+2. **[Propiedades](https://developer.mozilla.org/es/docs/Web/CSS/Reference):** Son os atributos que se lles aplican aos elementos seleccionados. Controlan a aparencia, o formato e a posición dos elementos na páxina.
 
    Exemplo:
    ```css
-   /* Propiedades */
+   /* propiedades */
    p {
        color: blue; /* cor do texto */
        font-size: 16px; /* tamaño da letra */
@@ -40,15 +51,15 @@ CSS (Cascading Style Sheets) é unha linguaxe de estilos utilizada para describi
    }
    ```
 
-3. **Valores:** Son os valores asignados a cada propiedade e poden ser medidas (px, em, %), cores, texto ou outros valores predefinidos.
+3. **[Valores](https://developer.mozilla.org/es/docs/Learn/CSS/Building_blocks/Values_and_units):** Son os valores asignados a cada propiedade e poden ser medidas (px, em, %), cores, texto ou outros valores predefinidos.
 
-4. **Modelo de caixas:** Cada elemento HTML é representado como unha caixa (box) que inclúe o contido, o marxe, o preenchido (padding) e os bordos.
+4. **[Modelo de caixa](https://developer.mozilla.org/es/docs/Learn/CSS/Building_blocks/The_box_model):** Cada elemento HTML é representado como unha caixa (box) que inclúe o contido, o marxe, o preenchido (padding) e os bordos.
 
-5. **Herencia:** Algúns estilos aplicados a un elemento poden ser herdados por elementos fillos.
+5. **[Herdanza](https://developer.mozilla.org/es/docs/Learn/CSS/Building_blocks/Cascade_and_inheritance):** Algúns estilos aplicados a un elemento poden ser herdados por elementos fillos.
 
 ### Sintaxe básica de CSS:
 
-Unha rexla CSS consta dun selector e un conxunto de propiedades e valores separados por dous puntos (:). O conxunto de propiedade-valor pode ir seguido por un punto e coma (;). As rexlas CSS normalmente son escritas nun arquivo separado coa extensión `.css` ou tamén poden ser incluídas internamente nun documento HTML.
+Unha regra CSS consta dun selector e un conxunto de propiedades e valores separados por dous puntos (:). O conxunto de propiedade-valor vai seguido por un punto e coma (;). As regras CSS normalmente son escritas nun arquivo separado coa extensión `.css` ou tamén poden ser incluídas internamente nun documento HTML.
 
 Exemplo de uso interno:
 ```html
@@ -56,7 +67,7 @@ Exemplo de uso interno:
 <html>
 <head>
     <style>
-        /* Rexion CSS interna */
+        /* rexión CSS interna */
         body {
             font-family: Arial, sans-serif;
             background-color: #f4f4f4;

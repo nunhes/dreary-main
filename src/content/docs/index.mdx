@@ -32,13 +32,18 @@ hero:
 import { Card, CardGrid } from '@astrojs/starlight/components';
 
 <CardGrid stagger>
-	<Card title="Guías básicas" icon="pencil">
+	<Card title="Guías básicas" icon="pencil" href="/guides/"
+        target="_blank">
 		Guías de introducción ás linguaxes de programación web.
 	</Card>
 	<Card title="Referenzas" icon="add-document">
 		Editores, compiladores, empaquetadores, recursos,... e máis!
 	</Card>
-  	<Card title="Exercicios" icon="information">
+  <Card title="Unidades" icon="document" href="/unidades/UF1841.html"
+        target="_blank">
+		Índices das unidades formativas.
+	</Card>
+  <Card title="Exercicios" icon="codePen">
 		Exemplos que podes revisar e empregar para practicar.
 	</Card>
 </CardGrid>
