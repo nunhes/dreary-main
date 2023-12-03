@@ -1,6 +1,6 @@
 ---
 title: Introdución a Markdown
-description: Linguaxe de marcado
+description: Markdown é unha linguaxe de marcado sinxelo e poderoso
 ---
 
 Markdown é unha linguaxe de marcado con sintaxis en texto plano deseñada para xerar textos con formato.

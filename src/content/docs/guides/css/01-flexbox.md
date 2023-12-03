@@ -15,11 +15,11 @@ Lembrar que, ante todo, hai que dispoñer de versións actualizados dos navegado
 
 [Flexbox](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_flexible_box_layout/Basic_concepts_of_flexbox), ou "*caixa flexible* ", ofrece unha solución para os desenvolvementos "responsivos". Permitindo crear un conxunto de elementos flexibles que se adaptan automaticamente ao contedor e cos que podemos controlar parámetros como a aliñación, a dirección (horizontal/vertical), o axuste da fila segundo tamaños,… que imos ver a continuación.
 
-Flexbox é **compatible cos navegadores web máis importantes** desde xa fai bastantes versións atrás, aínda que nalgúns debamos utilizar prefixos CSS para o seu correcto funcionamento (ver [caniuse.com](https://caniuse.com/?search=flexbox) ). É pois unha tecnoloxía xa madura da que tamén dispoñemos de ferramentas de compilación como "[Autoprefixer](https://github.com/postcss/autoprefixer) " que podemos integrar no desenvolvementos que se poden integrar nos fluxos de traballo con manexadores de paquetes como Webpack, Parcel, Grunt, Gulp e outros… 
+Flexbox é **compatible cos navegadores web máis importantes** desde xa fai bastantes versións atrás, aínda que nalgúns debamos utilizar prefixos CSS para o seu correcto funcionamento (ver [caniuse.com](https://caniuse.com/?search=flexbox) ). É pois unha tecnoloxía xa madura da que tamén dispoñemos de ferramentas de compilación como "[Autoprefixer](https://github.com/postcss/autoprefixer) " que podemos integrar no desenvolvementos que se poden integrar nos fluxos de traballo con manexadores de paquetes como [Webpack](https://webpack.js.org/), [Parcel](https://parceljs.org/), [Grunt](https://gruntjs.com/), [Gulp](https://gulpjs.com/) e outros… 
 
 No momento de redactar este artigo, a [última definición de Flexbox publicada polo W3C](https://www.w3.org/TR/css-flexbox-1/) é do 19 de novembro de 2018.
 
-Ata a aparición de Flexbox se empregaban catro formas de ordenar os elementos, tres de presentación (con variantes alternativas) e outra de posición:
+Ata a aparición de [Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) se empregaban catro formas de ordenar os elementos, tres de presentación (con variantes alternativas) e outra de posición:
 
 - Elementos en liña (`display:inline`)
 - Elementos de bloque (`display:block`)
@@ -38,7 +38,7 @@ Imos logo a ver algúns exemplos.
 
 ## Exemplos de deseño usando Flexbox.
 
-***IMPORTANTE:** Se non ves correctamente os seguintes exemplos, o máis probable é que o teu navegador non admita esta propiedade CSS. Tenta actualizalo ou velo noutro navegador.*
+***IMPORTANTE:** Mantén o teu navegador actualizado.*
 
 Para probar todas as posibilidades que ofrece Flexbox CSS, imos crear unha capa **`class="container"`** que actuará como a capa principal e sete **`class="element"`** numeradas . E por que sete? Aínda que pódese probar a colocar calquera número de elementos, para os exemplos, convénnos ter un número impar para ver tanto a ordenación como a adaptación e o seu resultado, e tamén para ter unha lista de elementos non moi curta. 
 
