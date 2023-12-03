@@ -1946,15 +1946,6 @@ packages:
       '@expressive-code/plugin-text-markers': 0.29.2
     dev: false
 
-  /expressive-code@0.29.2:
-    resolution: {integrity: sha512-UwC+GjYSUbonH8gYlHS4fmh0TSdyrdDry88GdVYVUiN2EI1nh7Duu8s2cpYvFsObPIeUXsbHLWTygBO1XhXtEQ==}
-    dependencies:
-      '@expressive-code/core': 0.29.2
-      '@expressive-code/plugin-frames': 0.29.2
-      '@expressive-code/plugin-shiki': 0.29.2
-      '@expressive-code/plugin-text-markers': 0.29.2
-    dev: false
-
   /extend-shallow@2.0.1:
     resolution: {integrity: sha512-zCnTtlxNoAiDc3gqY2aYAWFx7XWWiasuF2K8Me5WbN8otHKTUKBwjPtNpRs/rbUZm7KxWAaNj7P1a/p52GbVug==}
     engines: {node: '>=0.10.0'}
@@ -4530,10 +4521,6 @@ packages:
   /yocto-queue@1.0.0:
     resolution: {integrity: sha512-9bnSc/HEW2uRy67wc+T8UwauLuPJVn28jb+GtJY16iiKWyvmYJRXVT4UamsAEGQfPohgr2q4Tq0sQbQlxTfi1g==}
     engines: {node: '>=12.20'}
-    dev: false
-
-  /zod@3.22.4:
-    resolution: {integrity: sha512-iC+8Io04lddc+mVqQ9AZ7OQ2MrUKGN+oIQyq1vemgt46jwCwLfhq7/pwnBnNXXXZb8VTVLKwp9EDkx+ryxIWmg==}
     dev: false
 
   /zod@3.22.4:
