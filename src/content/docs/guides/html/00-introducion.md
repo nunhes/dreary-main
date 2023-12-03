@@ -3,7 +3,7 @@ title: Introdución HTML
 description: Linguaxe de marcado de hipertexto...
 ---
 
-![Introdución ao HTML](./assets/intro-html.png)
+
 
 A finais dos anos 80, Tim Berners-Lee traballaba nun proxecto interno da Organización Europea para a Investigación Nuclear (CERN) que ía permitir o intercambio transnacional de información na súa rede de laboratorios, distribuídos entre Francia e Suíza. Aquel proxecto interno acabaría por converterse nas bases do que pronto acabaría por coñecerse como Internet ou World Wide Web. 
 
