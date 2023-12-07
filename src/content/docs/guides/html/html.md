@@ -1,5 +1,5 @@
 ---
-title: HTML (Linguaxe de marcado de hipertexto)
+title: HTML a linguaxe de marcado de hipertexto
 description: A lingua franca que o teu navegador web entende
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: Que é PHP?
+title: Que é PHP
 description: Nocións básicas sobre esta linguaxe de guión
 ---
 
