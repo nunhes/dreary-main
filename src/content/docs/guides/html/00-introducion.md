@@ -146,7 +146,7 @@ Na edición de textos as listas son un medio moi útil para **desconxestionar pa
 
 Se queres crear unha lista numerada, só tes que cambiar a etiqueta que define o tipo de lista e marcala como lista ordenada con `<ol>`:
 
-```none
+```html
 <ol>
   <li>primeiro elemento da lista ordenada</li>
   <li>segundo elemento da lista ordenada</li>

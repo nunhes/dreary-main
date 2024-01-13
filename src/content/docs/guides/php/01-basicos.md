@@ -1,13 +1,13 @@
 ---
-title: Que é PHP
-description: Nocións básicas sobre esta linguaxe de guión
+title: Que é PHP?
+description: Nocións básicas sobre a linguaxe de guión
 ---
 
-PHP é unha [linguaxe de programación](https://www.ionos.es/digitalguide/paginas-web/desarrollo-web/que-son-los-lenguajes-de-scripting/) do lado servidor de código aberto que se usa principalmente para **crear páxinas web dinámicas** . A abreviatura naceu orixinalmente de “Personal Home Page Tools”, para logo converterse no acrónimo de “**Hypertext Preprocessor** ”.
+PHP é unha [linguaxe de programación](https://www.ionos.es/digitalguide/paginas-web/desarrollo-web/que-son-los-lenguajes-de-scripting/) do lado servidor de código aberto que se usa principalmente para **crear páxinas web dinámicas**. A abreviatura naceu orixinalmente de “Personal Home Page Tools”, para logo converterse no acrónimo de  **Hypertext Preprocessor**.
 
-Mentres que as linguaxes do lado do cliente como HTML, CSS ou JavaScript son interpretadas polo navegador web no momento de abrir unha páxina, o código PHP **execútase no servidor web** . Alí, os scripts PHP xeran o código HTML que despois se envía ao navegador. Daquela o navegador, ou cliente, non recibe o código real (o script PHP), senón o resultado da súa execución.
+Mentres que as linguaxes do lado do cliente como HTML, CSS ou JavaScript son interpretadas polo navegador web no momento de abrir unha páxina, o código PHP **execútase no servidor web**. Alí, os scripts PHP xeran o código HTML que despois se envía ao navegador. Daquela o navegador, ou cliente, non recibe o código real (o script PHP), senón o resultado da súa execución.
 
-O ámbito principal de PHP é **a programación do servidor,** o que o fai moi axeitado para páxinas e aplicacións dinámicas. Outras áreas de implantación son a creación de aplicacións de escritorio ou a programación de liña de comandos. A pesar de ter unha sintaxe sinxela, PHP ofrece un número notable de capacidades. PFP distínguese polo seu amplo soporte de bases de datos, pódese utilizar en todo tipo de plataformas e está cuberta por unha licenza **especial** **[PHP](http://www.php.net/license/3_01.txt)** que permite o seu uso gratuíto e a modificación do código fonte, o que a converte nunha linguaxe moi apreciada polos programadores.
+O ámbito principal de PHP é **a programación do servidor**, o que o fai moi axeitado para páxinas e aplicacións dinámicas. Outras áreas de implantación son a creación de aplicacións de escritorio ou a programación de liña de comandos. A pesar de ter unha sintaxe sinxela, PHP ofrece un número notable de capacidades. PHP distínguese polo seu amplo soporte de bases de datos, pódese utilizar en todo tipo de plataformas e está cuberta por unha licenza ***especial***: **[PHP](http://www.php.net/license/3_01.txt)**, que permite o seu uso gratuíto e a modificación do código fonte, o que a converte nunha linguaxe moi apreciada polos programadores.
 
 Algúns dos **sistemas de xestión de contidos** - CMS- máis populares, como WordPress, TYPO3, Joomla ou Drupal, están baseados en PHP. Unha análise de mercado realizada por [W3Techs](https://w3techs.com/technologies/overview/programming_language/all) establece que esta linguaxe de secuencias de comandos utilízase no 76,8% das páxinas da World Wide Web (datos do outubro de 2023), o que indica que PHP é, con diferenza, a linguaxe de programación do lado servidor máis popular en todo o mundo. Isto é motivo máis que suficiente para que, se queres dedicarte ao desenvolvemento web, te interese familiarizarte coas posibilidades de PHP.
 
@@ -19,33 +19,35 @@ A forma máis rápida de **aprender PHP** é comprendendo os exemplos e adaptán
 
 Para executar scripts PHP, primeiro necesitas un servidor web que sexa capaz de interpretar esta linguaxe de programación. Para iso, ten que ser complementado cun **intérprete PHP.** Trátase, neste sentido, dun compoñente de software que pode identificar as pasaxes dun arquivo que contén código PHP. En principio, PHP pode executarse en calquera servidor web e o intérprete forma parte do paquete de descarga de PHP. A versión actual pódese descargar gratuitamente dende o **sitio web oficial do proxecto** **[php.net](http://www.php.net/downloads.php)** .
 
-Como regra xeral, o intérprete PHP está integrado a través dun **módulo de servidor** ou como o protocolo FastCGI **.** Por razóns de rendemento, non se recomenda utilizar o intérprete como programa CGI. Na práctica, PHP úsase a miúdo en combinación co **[servidor HTTP Apache](https://www.ionos.es/digitalguide/servidores/configuracion/instala-apache-en-tu-pc/)** . Se esta conexión se completa coa base de datos **[MySQL](https://www.ionos.es/digitalguide/servidores/know-how/guia-para-aprender-a-utilizar-mysql/)** ou **MariaDB** , dependendo do sistema operativo, pódese denominar **[LAMP](https://www.ionos.es/digitalguide/servidores/know-how/servidor-lamp-la-solucion-para-webs-dinamicas/)** (Linux), **WAMP** (Windows) ou **[MAMP](https://www.ionos.es/digitalguide/servidores/know-how/mamp-programas-practicos-para-mac-os-x/)** (macOS).
+Como regra xeral, o intérprete PHP está integrado a través dun **módulo de servidor** ou co protocolo FastCGI. Por razóns de rendemento, non se recomenda utilizar o intérprete como programa CGI. Na práctica, PHP úsase a miúdo en combinación co **[servidor HTTP Apache](https://www.ionos.es/digitalguide/servidores/configuracion/instala-apache-en-tu-pc/)**. Esta conexión se completa co sistema de xestión de base de datos **[MySQL](https://www.ionos.es/digitalguide/servidores/know-how/guia-para-aprender-a-utilizar-mysql/)** ou **MariaDB**. 
+Para obter unha integración efectiva de todos estes servizos se soe instalar un paquete software que os descarga á vez. Dependendo do sistema operativo, este paquete pódese denominar **[LAMP](https://www.ionos.es/digitalguide/servidores/know-how/servidor-lamp-la-solucion-para-webs-dinamicas/)** (Linux), **WAMP** (Windows) ou **[MAMP](https://www.ionos.es/digitalguide/servidores/know-how/mamp-programas-practicos-para-mac-os-x/)** (macOS).
 
-**[As pilas web](https://www.ionos.es/digitalguide/servidores/know-how/desarrollo-web-con-stacks-de-software/)** deste tipo ofrécense como pilas de software preconfiguradas. Para aprender PHP é recomendable utilizar o paquete completo **XAMPP** , que contén a instalación local do servidor web Apache, o sistema de base de datos MariaDB e as linguaxes de programación Perl e PHP. No **tutorial** **[de XAMPP](https://www.ionos.es/digitalguide/servidores/herramientas/instala-tu-servidor-local-xampp-en-unos-pocos-pasos/)** da nosa Guía dixital atoparás un manual de instalación detallado.
+**[As pilas web](https://www.ionos.es/digitalguide/servidores/know-how/desarrollo-web-con-stacks-de-software/)** deste tipo ofrécense como pilas de software preconfiguradas. Para aprender PHP é recomendable utilizar algún paquete completo que conteña a instalación local dun servidor web Apache, un sistema de base de datos - MariaDB, MySQL,...- e as linguaxes de programación PHP, e outras coma Perl ou Python. 
 
-Atención
+Existen distintos paquetes que cumpren este cometido, entre eles: [XAMPP](https://www.apachefriends.org/download.html), [MAMP](https://www.mamp.info/en/mac/), [LAMP](https://help.ubuntu.com/community/ApacheMySQLPHP),... Algúns destes paquetes veñen acompañados de algún instalador de aplicacións web como [Bitnami](https://bitnami.com/) ou [Softaculous](https://www.softaculous.com/), que permiten a instalación e posta en marcha de distintos CMS cun só clic.
 
-XAMPP está pensado exclusivamente como un servidor de proba. Esta pila de software ofrece aos desenvolvedores web a posibilidade de engadir un ambiente de proba completo para scripts, páxinas HTML e follas de estilo nun tempo récord. Non obstante, non se pode garantir o funcionamento seguro como servidor web en Internet. Polo tanto, XAMPP debe usarse localmente, o que significa que os servizos XAMPP non teñen que estar dispoñibles desde Internet.
+:warning: Atención
+Estes paquetes *AMP están pensados exclusivamente como servidores de proba. Son pilas de software que ofrecen aos desenvolvedores web a posibilidade de engadir un ambiente de proba completo para linguaxes de script, páxinas HTML e follas de estilo nun tempo récord, pero só para uso local. Estes servizos *AMP non son recomendables para estar dispoñibles desde Internet, debido a súa fraxil capa de seguridade.
 
 ## PHP básico: sintaxe da linguaxe
 
 Unha vez configurado o seu servidor web local (por exemplo, coa axuda de XAMPP), cómpre comprobar que **PHP está instalado correctamente** e pode executar scripts.
 
-Definición
+**Definición**
 
 Un script é un programa informático xeralmente pequeno que non se compila previamente en código binario. Os scripts están escritos nunha linguaxe de programación como PHP, Perl ou JavaScript e son executados por un intérprete no servidor web (lado servidor) ou por un motor de renderizado no navegador web (lado cliente).
 
 Abre o teu **editor de texto** favorito e introduce o seguinte script PHP:
 
 ```php
-<?php
-phpinfo();
-?>
+   <?php
+     phpinfo();
+   ?>
 ```
 
-Os scripts PHP baséanse sempre no mesmo esquema. A **etiqueta PHP que se abre** _<?php_ indica que está a piques de comezar un **ambiente de scripts** . Isto é seguido polo propio código PHP en forma de comandos ou instrucións. No exemplo é a chamada á **función** _phpinfo()_ . A maioría das funcións requiren un ou máis parámetros entre parénteses. No caso de _phpinfo(),_ estes son opcionais: _phpinfo(INFO_ALL )_ . Cada función remata cun **punto e coma** ( _;_ ) e para pechar o script entra en xogo a **etiqueta PHP de peche** , é dicir, _?>_ .
+Os scripts PHP baséanse sempre no mesmo esquema. A **etiqueta PHP que se abre** -`<?php`- indica que está a piques de comezar un **ambiente de scripts** . Isto é seguido polo propio código PHP en forma de comandos ou instrucións. No exemplo é a chamada á **función** `phpinfo()` . A maioría das funcións requiren un ou máis parámetros entre parénteses. No caso de `phpinfo()`, estes son opcionais: `phpinfo(INFO_ALL )`. Cada función remata cun **punto e coma** ( `;` ) e para pechar o script entra en xogo a **etiqueta PHP de peche** , é dicir, `?>`.
 
-Definición
+**Definición**
 
 As funcións son miniaplicativos que permiten externalizar partes do código do programa. Para evitar a redundancia, as tarefas recorrentes defínense como funcións e chámanse mediante un nome de función. Os desenvolvedores usan [funcións PHP predefinidas](http://php.net/manual/es/funcref.php) ou crean os seus propios applets.
 
@@ -67,7 +69,7 @@ A función _phpinfo()_ é a abreviatura do valor estándar _phpinfo(INFO_ALL)_ ,
 
 Se a instalación de PHP se realiza sen erros, agora pode escribir os seus primeiros scripts. _A instrución echo_ é adecuada para iso . A diferenza _de phpinfo(),_ _echo_ non representa unha función, senón unha **construción de linguaxe** que permite que a seguinte cadea sexa distribuída como texto.
 
-Definición
+**Definición**
 
 As palabras reservadas son instrucións utilizadas en PHP para controlar a execución de programas. [As palabras reservadas](http://php.net/manual/es/reserved.keywords.php) inclúen , ademais de _eco,_ declaracións como _if, for, do, include, return, exit_ ou _die_ . A diferenza das funcións, neste caso non se necesitan parénteses.
 
@@ -81,24 +83,22 @@ echo 'Ola mundo!';
 
 A etiqueta de apertura `<?php` inicia un ambiente de guión. A continuación segue a palabra reservada **\*eco\*** e a cadea \*[Hello World! ](https://www.ionos.es/digitalguide/paginas-web/desarrollo-web/hello-world/)**\*entre** comiñas simples. Coa etiqueta _?>_ péchase o script. Neste sentido, debes prestar atención ao punto e coma que segue á instrución. En lugar de _Ola mundo!_ Pódese utilizar calquera outro texto.
 
-Definición
+**Definición**
 
 En informática, enténdese por cadea unha secuencia de caracteres de lonxitude variable ou, noutras palabras, unha cadea de consoantes, números e símbolos. No campo da programación, as cadeas considéranse tipos de datos independentes e son diferentes doutros tipos de datos como os enteiros (números enteiros) ou os flotantes (números de coma flotante).
 
-Garda o script co nome _hello.php_ no cartafol _htdocs_ do teu servidor web e accede ao arquivo a través do URL _http://localhost/hello.php_ no navegador. Se o código se transmitiu correctamente, a secuencia de caracteres que utilizou agora debería mostrarse na xanela do navegador:
+Garda o script co nome `hello.php` no cartafol `htdocs` do teu servidor web e accede ao arquivo a través do URL `http://localhost/hello.php` no navegador. Se o código se transmitiu correctamente, a secuencia de caracteres que utilizou agora debería mostrarse na xanela do navegador:
 
-[![Emisión de texto coa construción da linguaxe eco](https://www.ionos.es/digitalguide/fileadmin/DigitalGuide/Screenshots/DE-php-textausgabe.png)](https://www.ionos.es/digitalguide/fileadmin/DigitalGuide/Screenshots/DE-php-textausgabe.png)A construción da linguaxe echo indica ao servidor web que emita a secuencia de caracteres Hello World!
+[![Emisión de texto coa construción da linguaxe ``echo``](https://www.ionos.es/digitalguide/fileadmin/DigitalGuide/Screenshots/DE-php-textausgabe.png)](https://www.ionos.es/digitalguide/fileadmin/DigitalGuide/Screenshots/DE-php-textausgabe.png)A construción ``echo`` da linguaxe PHP indica ao servidor web que emita a secuencia de caracteres `Hello World!`.
 
-Cada texto que sae con _eco_ pode estar formado por **etiquetas HTML** se é necesario, que son interpretadas polo navegador web despois da especificación HTML correspondente. Podes comprobalo ti mesmo, por exemplo, co seguinte script:
+Cada texto que sae con `echo` pode estar formado por **etiquetas HTML** se é necesario, que son interpretadas polo navegador web despois da especificación HTML correspondente. Podes comprobalo ti mesmo, por exemplo, co seguinte script:
 
 ```php
-<?php
-echo '<h1>Hello World!</h1>
-<p>This is my first PHP page.</p>';
-?>
+  <?php
+  echo '<h1>Hello World!</h1>
+  <p>This is my first PHP page.</p>';
+  ?>
 ```
-
-copiar
 
 Ao facer a solicitude ao navegador web, podes ver o **resultado da execución do script** do seguinte xeito:
 
@@ -106,11 +106,11 @@ Ao facer a solicitude ao navegador web, podes ver o **resultado da execución do
 
 A secuencia de caracteres incluídas nas etiquetas `<h1>` , é dicir, `Ola mundo!`, é interpretado polo navegador como o título de primeiro nivel e vai seguido dun salto de liña automático e da etiqueta de parágrafo `<p>`.
 
-Dependendo das necesidades,`o eco` pódese usar tanto con **comiñas simples ( \*'\* )** como **con comiñas dobres ( \*"\* )** . Se queres sacar texto, non hai diferenzas no tipo de comiñas que elixes, pero isto cambia en canto aparecen as **variables** . en acción.
+Dependendo das necesidades,`echo` pódese usar tanto con **comiñas simples ( \*'\* )** como **con comiñas dobres ( \*"\* )** . Se queres sacar texto, non hai diferenzas no tipo de comiñas que elixes, pero isto cambia en canto aparecen as **variables** . en acción.
 
 ### Variables
 
-A palabra _eco_ reservada é máis útil que a propia saída de texto, que tamén se pode implementar sen PHP e usando HTML como base. O verdadeiro valor engadido do _eco_ baséase no feito de que a instrución permite **xerar textos de forma dinámica coa axuda de variables** .
+A palabra `echo` reservada é máis útil que a propia saída de texto, que tamén se pode implementar sen PHP e usando HTML como base. O verdadeiro valor engadido do `echo` baséase no feito de que a instrución permite **xerar textos de forma dinámica coa axuda de variables** .
 
 Os usuarios de PHP poden atopar variables que teñen, por exemplo, a seguinte forma:
 
@@ -156,7 +156,7 @@ PHP dáche a liberdade de designar variables como queiras, pero aquí xorden alg
 
 Vémolo nun exemplo:
 
-```none
+```php
 <?php
 $author = "John Doe";
 echo "<h1>Hello World!</h1>
@@ -164,9 +164,7 @@ echo "<h1>Hello World!</h1>
 ?>
 ```
 
-copiar
-
-A etiqueta de apertura de PHP vai seguida da **definición da variable** : no caso de _$author_ empregaríase o valor _John Doe_ . Cando se executa o script, a variable _$author_ substitúese polo valor _John Doe_ cada vez que se menciona no contorno do script. O seguinte gráfico mostra como isto se reflicte no navegador web.
+A etiqueta de apertura de PHP vai seguida da **definición da variable**: no caso de _$author_ empregaríase o valor _John Doe_ . Cando se executa o script, a variable _$author_ substitúese polo valor _John Doe_ cada vez que se menciona no contorno do script. O seguinte gráfico mostra como isto se reflicte no navegador web.
 
 [![Xeración dinámica de texto con variables](https://www.ionos.es/digitalguide/fileadmin/DigitalGuide/Screenshots/DE-php-dynamische-texterstellung.png)](https://www.ionos.es/digitalguide/fileadmin/DigitalGuide/Screenshots/DE-php-dynamische-texterstellung.png)No resultado da execución do script, á variable $author asígnaselle o valor John Doe
 
@@ -180,9 +178,9 @@ Aquí o punto forte de PHP é evidente: **o contido** **pódese integrar como va
 
 As vantaxes deste concepto de deseño son evidentes: se se corrixen os elementos da páxina web (por exemplo, no pé de páxina), non é necesario facer axustes manualmente en cada unha das subpáxinas do proxecto web. Pola contra, abonda con **actualizar a entrada na base de datos.** Deste xeito, asúmese automaticamente a revisión para todas as páxinas web que vinculen os datos correspondentes como variables.
 
-Se **unha variable se define varias veces nun script** , a nova definición anula a anterior. O seguinte _eco_ sempre dá o valor actual dunha variable.
+Se **unha variable se define varias veces nun script** , a nova definición anula a anterior. O seguinte `echo` sempre dá o valor actual dunha variable.
 
-```none
+```php
 <?php
 $author = "John Doe";
 echo "<h1>Hello World!</h1>
@@ -192,34 +190,28 @@ echo " <p>Supported by $author.</p>";
 ?>
 ```
 
-copiar
-
 [![Proceso de sobreescritura de variables](https://www.ionos.es/digitalguide/fileadmin/DigitalGuide/Screenshots/DE-php-das-uberschreiben.png)](https://www.ionos.es/digitalguide/fileadmin/DigitalGuide/Screenshots/DE-php-das-uberschreiben.png)O valor de John Doe sobrescríbese polo valor de Max Mustermann
 
 O exemplo de código dálle á variable _$author o valor_ _John Doe_ e despois substitúeo polo valor _Max Mustermann_ .
 
 En canto ao **uso de comiñas** , a diferenza das cadeas de caracteres, non é necesario que as variables estean encerradas entre comiñas:
 
-```none
+```php
 <?php
 $author = "John Doe";
 echo $author;
 ?>
 ```
 
-copiar
-
 A non ser que a variable teña que usarse dentro dunha cadea, nese caso terás que utilizar comiñas dobres ( _"_ ). Estas indican ao intérprete de PHP que ten que buscar variables na cadea para substituílas polos valores asociados. con As secuencias de caracteres expresadas entre comiñas simples ( _'_ ) interpretaranse e reproduciranse como información puramente textual aínda que sexan variables. Podes comprobalo ti mesmo coa seguinte secuencia de código:
 
-```none
+```php
 <?php
 $author = "John Doe";
 echo '<h1>Hello World!</h1>
 <p>This dynamic web page was created by $author.</p>';
 ?>
 ```
-
-copiar
 
 [![Texto simple entre comiñas simples](https://www.ionos.es/digitalguide/fileadmin/DigitalGuide/Screenshots/DE-php-reine-textausgabe.png)](https://www.ionos.es/digitalguide/fileadmin/DigitalGuide/Screenshots/DE-php-reine-textausgabe.png)As comiñas simples dan lugar a texto plano. Non se interpretan as variables
 
@@ -229,13 +221,11 @@ A este respecto pode xurdir a pregunta de que pasaría se se eliminasen completa
 
 No caso de que haxa **erros de sintaxe** , o código PHP non é válido e o intérprete de PHP emite unha mensaxe de erro. Tamén pode ocorrer o mesmo cando, por exemplo, a instrución _echo_ se usa cunha cadea sen comiñas:
 
-```none
+```php
 <?php
 echo Hello World!;
 ?>
 ```
-
-copiar
 
 As mensaxes de erro conteñen, na maioría dos casos, información sobre a localización dos erros, ofrecendo así datos importantes para a súa erradicación.
 
@@ -245,35 +235,29 @@ Neste exemplo, suponse que hai un erro na liña 2 do código do programa, xa que
 
 **Os erros sintácticos** tamén xorden cando se quere utilizar caracteres como texto e estes están asociados a unha determinada tarefa. Un exemplo sería a comiña simple ( _'_ ). Símbolos como este só aparecen en PHP como texto cando o intérprete entende que o símbolo non estaría relacionado co seu verdadeiro propósito. No caso das comiñas simples, hai dúas posibilidades: por unha banda, unha cadea con comiñas simples pode estar rodeada de comiñas dobres ou, por outra banda, as comiñas pódense enmascarar mediante unha barra invertida (\ _)_ :
 
-```none
+```php
 <?php
 echo '\'Hello World!\' ';
 ?>
 ```
 
-copiar
-
 [![A barra invertida como símbolo de máscara](https://www.ionos.es/digitalguide/fileadmin/DigitalGuide/Screenshots/DE-php-der-backslash.png)](https://www.ionos.es/digitalguide/fileadmin/DigitalGuide/Screenshots/DE-php-der-backslash.png)Se hai símbolos enmascarados cunha barra invertida, estarán exentos da súa función na sintaxe PHP.
 
 Tamén é posible a combinación de comiñas simples e dobres:
 
-```none
+```php
 <?php
 echo " 'Hello World!' ";
 ?>
 ```
 
-copiar
-
 Non obstante, esta ortografía sería incorrecta:
 
-```none
+```php
 <?php
 echo ' 'Hello World!' ';
 ?>
 ```
-
-copiar
 
 Nos exemplos aparecen espazos entre as comiñas para mellorar a súa lexibilidade.
 
@@ -281,7 +265,7 @@ Nos exemplos aparecen espazos entre as comiñas para mellorar a súa lexibilidad
 
 Se queres incluír máis dunha variable nun script PHP simultáneamente, podes usar o que aprendiches ata agora:
 
-```none
+```php
 <?php
 $author1 = "John Doe";
 $author2 = "Max Mustermann";
@@ -290,11 +274,9 @@ echo "<h1>Hello World!</h1>
 ?>
 ```
 
-copiar
+Ambas variables escríbense co resto do texto que se mostrará na cadea indicada coas comiñas dobres. PHP recoñece automaticamente as variables usando o símbolo do dólar (`$`) e coloca os valores correspondentes despois delas.
 
-Ambas variables escríbense co resto do texto que se mostrará na cadea indicada coas comiñas dobres. PHP recoñece automaticamente as variables usando o símbolo do dólar ( _$_ ) e coloca os valores correspondentes despois delas.
-
-[![Texto resultante con dúas variables](https://www.ionos.es/digitalguide/fileadmin/DigitalGuide/Screenshots/DE-php-textausgaben-mit-zwei-variablen.png)](https://www.ionos.es/digitalguide/fileadmin/DigitalGuide/Screenshots/DE-php-textausgaben-mit-zwei-variablen.png)PHP só acepta variables na cadea cando o script non inclúe ningunha función
+[![Texto resultante con dúas variables](https://www.ionos.es/digitalguide/fileadmin/DigitalGuide/Screenshots/DE-php-textausgaben-mit-zwei-variablen.png)](https://www.ionos.es/digitalguide/fileadmin/DigitalGuide/Screenshots/DE-php-textausgaben-mit-zwei-variablen.png) PHP só acepta variables na cadea -`string`- cando o script non inclúe ningunha función
 
 Entre os programadores, seguir este procedemento considérase traballo sucio. Neste sentido, existe o dogma de que **as variables non deben formar parte da cadea** e unha das razóns para iso é que moitas linguaxes de programación requiren tal separación. O máis importante é que PHP tamén solicita a separación de cadea e variable cando se traballa con chamadas a funcións ou variables complexas. Neste caso, convén realizar esta separación incluso no caso de texto plano, aínda que non sexa estritamente necesario.
 
@@ -302,7 +284,7 @@ Cando se traballa con variables, sempre entran en xogo varios elementos que debe
 
 Se se programa un código "limpo", debería verse así para o exemplo mencionado anteriormente:
 
-```none
+```php
 <?php
 $author1 = "John Doe";
 $author2 = "Max Mustermann";
@@ -310,8 +292,6 @@ echo '<h1>Hello World!</h1>
 <p>This dynamic web page was created by ' . $author1 . ' and ' . $author2 . '.</p>';
 ?>
 ```
-
-copiar
 
 [![Conectando cadeas e variables con operadores de concatenación](https://www.ionos.es/digitalguide/fileadmin/DigitalGuide/Screenshots/DE-php-verbindung-von-strings.png)](https://www.ionos.es/digitalguide/fileadmin/DigitalGuide/Screenshots/DE-php-verbindung-von-strings.png)Os operadores de concatenación conectan cadeas e variables
 
@@ -325,15 +305,13 @@ Aquí estamos ante tres cadeas e dúas variables que están encadeadas formando 
 
 Os programadores non só usan operadores de concatenación para vincular cadeas e variables, senón tamén para estender variables. Vexamos como funciona co seguinte exemplo:
 
-```none
+```php
 <?php
 $example = 'Hello ';
 $example .= 'World';
 echo $example;
 ?>
 ```
-
-copiar
 
 Para ampliar o valor dunha variable é necesario definila de novo, pero colocando o _punto do operador de concatenación_ _(.)_ diante do signo de igualdade. Esta sería a abreviatura habitual de _$example = $example . 'Mundo'_ ( _$exemplo = $exemplo . 'Mundo')_ .
 
@@ -345,11 +323,9 @@ PHP engade o novo valor ao definido anteriormente. Se queres incluír un espazo 
 
 O intérprete de PHP só está interesado, en principio, no código colocado entre unha etiqueta PHP de apertura e de peche:
 
-```none
+```php
 <?php [Esta área será analizada por el intérprete de PHP] ?>
 ```
-
-copiar
 
 Ignora o resto dos fragmentos do documento e transmíteos ao servidor web a medida que aparecen. Deste xeito, o código PHP pódese integrar en **calquera** **documento HTML** para, por exemplo, crear un modelo para un sistema de xestión de contidos. Neste caso, hai que ter en conta que os documentos HTML que conteñan código PHP deben gardarse como arquivos PHP. En caso contrario, o intérprete PHP non podería procesar o documento, senón que se entregaría directamente ao navegador, o que provocaría que o código do programa aparecese como texto plano na páxina web.
 
@@ -357,7 +333,7 @@ Podes pensar no intérprete PHP como o colega preguiceiro do servidor web que s�
 
 Se queres **combinar** **HTML e PHP** , escribe a páxina HTML na súa forma habitual segundo a estrutura do documento clásica e gárdaa coa terminación _.php._
 
-```none
+```php
 <!DOCTYPE html>
 <html lang="es">
   <head>
@@ -371,11 +347,9 @@ Se queres **combinar** **HTML e PHP** , escribe a páxina HTML na súa forma hab
 </html>
 ```
 
-copiar
-
 Complementa o teu documento HTML para o script PHP, pero lembre que todo o código do programa debe aparecer entre as etiquetas PHP.
 
-```none
+```php
 <!DOCTYPE html>
 <html lang="es">
   <head>
@@ -393,8 +367,6 @@ Complementa o teu documento HTML para o script PHP, pero lembre que todo o códi
 </html>
 ```
 
-copiar
-
 _No exemplo, a construción da linguaxe echo_ combinouse coa **función** **\*date()\*** para mostrar a data e a hora actual como texto no lado do servidor. O parámetro da función mostra o formato desexado en forma de cadea:
 
 _dmY H:i:s = día.mes.ano hora:minuto:segundo_
@@ -409,7 +381,7 @@ Do mesmo xeito que o código HTML, PHP tamén ofrece a posibilidade de incluír 
 
 Se queres resaltar unha liña enteira como comentario e excluíla da interpretación, empregarás o **hash ( \*#\* )** ou as **dúas barras** **( \*//\* )** . O seguinte exemplo de código usa ambas posibilidades:
 
-```none
+```php
 <?php
 #This is a single-line comment!
 echo '<h1>Hello World!</h1>
@@ -418,15 +390,13 @@ echo '<h1>Hello World!</h1>
 ?>
 ```
 
-copiar
-
 O editor de texto Notepad++ destaca os comentarios en verde. As pasaxes de texto marcadas como comentarios no entorno de script nin sequera chegan ao navegador web, a diferenza dos comentarios en HTML, xa que o intérprete PHP os ignora ao executar o script.
 
 [![Comentarios dunha soa liña con PHP](https://www.ionos.es/digitalguide/fileadmin/DigitalGuide/Screenshots/DE-php-einzeilige-kommentare.png)](https://www.ionos.es/digitalguide/fileadmin/DigitalGuide/Screenshots/DE-php-einzeilige-kommentare.png)As liñas marcadas como comentarios non se mostran na pantalla onde se mostra o texto resultante
 
 Así mesmo, tamén se poden inserir comentarios que comprendan varias liñas. Para iso, pode marcar o inicio dunha sección cos comentarios cunha **barra seguida dun asterisco** **( \*/\*\* )** e o final cun **asterisco seguido dunha barra ( \*\*/\* ).**
 
-```none
+```php
 <?php
 /*
 This is a multiple-lines comment block
@@ -437,8 +407,6 @@ echo '<h1>Hello World!</h1>
 <p>This is my first PHP page.</p>';
 ?>
 ```
-
-copiar
 
 Este tipo de comentarios destacados non se analizan e, polo tanto, non aparecen no sitio web.
 
@@ -454,7 +422,7 @@ No noso tutorial para aprender a usar PHP xa te familiarizaches coas variables, 
 
 Se as variables almacenan valores numéricos, PHP ofrece a posibilidade de realizar cálculos con elas. Vexamos a continuación a tradución dunha suma simple de dous números enteiros:
 
-```none
+```php
 <?php
 $numero1 = 237;
 $numero2 = 148;
@@ -462,8 +430,6 @@ $resultado = $numero1 + $numero2;
 echo "Resultado: " . $resultado;
 ?>
 ```
-
-copiar
 
 En primeiro lugar, as variables _$número1_ e _$número2_ asígnaselles os enteiros 237 e 148, e despois defínese unha variable de tipo _$resultado_ , que contén a suma das variables _$número1_ e _$número2_ . Para iso utilízase o **operador aritmético \*+\*** (máis) . Finalmente, o resultado da suma sae coa axuda do construtor _de eco_ como texto. Hai que ter en conta neste sentido que á hora de asignar valores numéricos ás variables non son necesarias as comiñas.
 
@@ -479,7 +445,7 @@ O seguinte exemplo de código, do que mostramos a versión española na seguinte
 | $número1/$número2      | División       | Cociente de $número1 e $número2                  |
 | $número1 \*\* $número2 | Exponenciación | Resultado de elevar $número2 á potencia $número1 |
 
-```none
+```php
 <?php
 $numero1 = 10;
 $numero2 = 5;
@@ -499,13 +465,11 @@ echo "Raíz de 81: " . sqrt(81) . "<br />";
 ?>
 ```
 
-copiar
-
 [![Cálculos con variables en inglés](https://www.ionos.es/digitalguide/fileadmin/DigitalGuide/Screenshots/EN-php-tut3.png)](https://www.ionos.es/digitalguide/fileadmin/DigitalGuide/Screenshots/EN-php-tut3.png)Resumo de operacións matemáticas en inglés
 
 Para cálculos máis complexos, as diferentes operacións aritméticas pódense combinar nun mesmo script. Vexamos como se expresaría isto en castelán:
 
-```none
+```php
 <?php
 $numero1 = 10;
 $numero2 = 5;
@@ -513,8 +477,6 @@ $resultado = 2 * $numero1 + 5 * $numero2 - 3 * sqrt(81);
 echo "Resultado: " . $resultado;
 ?>
 ```
-
-copiar
 
 O intérprete PHP determina os valores das variables e calcula:
 
@@ -526,7 +488,7 @@ A función _sqrt()_ calcula a raíz cadrada do parámetro entre parénteses. Nes
 
 **Os termos entre parénteses** son os que se avalían primeiro en PHP. Agora centrarémonos nos números de coma flotante:
 
-```none
+```php
 <?php
 $numero1 = 2.5;
 $numero2 = 3.7;
@@ -534,8 +496,6 @@ $resultado = 2 * ($numero1 + 5) * ($numero2 - 3) * sqrt(81);
 echo "Resultado: " . $resultado;
 ?>
 ```
-
-copiar
 
 [![Alt-Text: Cálculo con números de coma flotante e termos entre parénteses](https://www.ionos.es/digitalguide/fileadmin/DigitalGuide/Screenshots/EN-php-tut5.png)](https://www.ionos.es/digitalguide/fileadmin/DigitalGuide/Screenshots/EN-php-tut5.png)PHP calcula 2*(2,5+5)*(3,7-3)\*√81 e dá como resultado 94,5
 
@@ -549,7 +509,7 @@ Como as linguaxes de programación máis comúns, PHP tamén admite os operadore
 
 O exemplo de preincremento mostra operacións aritméticas con operadores de incremento e decremento. O seguinte script en castelán incrementa o valor da variable _$numero_ en 1, garda o novo valor na variable _$resultado_ e mostra o seu valor como cadea:
 
-```none
+```php
 <?php
 $numero = 0;
 $resultado = ++$numero;
@@ -557,15 +517,13 @@ echo "Resultado: " . $resultado;
 ?>
 ```
 
-copiar
-
 Erhöht man den Wert 0 um 1, erhält man das Ergebnis 1.
 
 [![Preincremento do número 0](https://www.ionos.es/digitalguide/fileadmin/DigitalGuide/Screenshots/EN-php-tut5_2.png)](https://www.ionos.es/digitalguide/fileadmin/DigitalGuide/Screenshots/EN-php-tut5_2.png)O operador ++ incrementa 0 en 1
 
 Para calcular o preincremento da variable _$número ($número)_ utilízanse os mesmos scripts, pero cambiando o operador de preincremento I ( _++_ ) para o operador de decremento ( _--_ ):
 
-```none
+```php
 <?php
 $numero = 0;
 $resultado = --$numero;
@@ -573,15 +531,13 @@ echo "Resultado: " . $resultado;
 ?>
 ```
 
-copiar
-
 Reducir o valor da variable _$número ($número)_ a 0 produce o resultado -1.
 
 [![Predecremento do número 0](https://www.ionos.es/digitalguide/fileadmin/DigitalGuide/Screenshots/EN-php-tut6.png)](https://www.ionos.es/digitalguide/fileadmin/DigitalGuide/Screenshots/EN-php-tut6.png)O operador -- decrementa o número 0 en 1
 
 O incremento anterior ou seguinte (pre ou post) dun valor pódese resaltar no seguinte script. Vexémolo máis claramente na tradución da captura de pantalla en cuestión:
 
-```none
+```php
 <?php
 $x = 0;
 echo '<p>Resultado: ' . ++$x;
@@ -590,8 +546,6 @@ echo '<p>Resultado: ' . $x++;
 echo '<br>x tiene el valor ' . $x, '</p>';
 ?>
 ```
-
-copiar
 
 En ambos casos obtense o mesmo resultado. _No pre-incremento o valor de x_ increméntase antes de editar na liña 3 e no post-incremento isto ocorre na liña 5.
 
@@ -629,7 +583,7 @@ Se un URL contén máis dun parámetro, únense co **símbolo et (&)** .
 
 Non precisa usar unha base de datos para comprender como se usa _$\_GET_ nun exemplo de código. O seguinte script usa o superglobal _$\_GET_ para interpretar os valores das variables de nome e apelido _dunha_ cadea de consulta _HTTP_ e para escribilos nas variables PHP _$variable1_ e _$variable2_ :
 
-```none
+```php
 <?php
 $variable1 = $_GET['forename'];
 $variable2 = $_GET['surname'];
@@ -637,13 +591,11 @@ echo "Hello " . $variable1 . " " . $variable2 . "!";
 ?>
 ```
 
-copiar
-
 Para abrir o script usamos o seguinte URL:
 
 _localhost/hello.php?forename=John&surname=Doe_
 
-Isto proporciona os parámetros _forename=John_ e _apelidos=Doe_ . A emisión dos valores realízase, como antes, coa axuda da construción da linguaxe _eco_ .
+Isto proporciona os parámetros _forename=John_ e _apelidos=Doe_ . A emisión dos valores realízase, como antes, coa axuda da construción da linguaxe `echo` .
 
 [![Transmisión de datos a través de $_GET](https://www.ionos.es/digitalguide/fileadmin/DigitalGuide/Screenshots/EN-php-tut7_2.png)](https://www.ionos.es/digitalguide/fileadmin/DigitalGuide/Screenshots/EN-php-tut7_2.png)Os parámetros URL proporcionan ao script PHP o par de valores das variables forename=John e apelidos=Doe.
 
@@ -659,7 +611,7 @@ Un campo esencial de aplicación do método HTTP-POST é a **transmisión de dat
 
 Para iso, crea un novo arquivo PHP co nome _page1.php_ e inclúe o seguinte bloque de código en español (para ver o código en inglés, consulta a captura de pantalla a continuación):
 
-```none
+```php
 <form method="post" action="page2.php" >
 Por favor, envía la newsletter a: <br />
 Tu nombre: <input type="text" name="nombre" /><br />
@@ -669,13 +621,11 @@ Tu correo electrónico: <input type="text" name="email" /><br />
 </form>
 ```
 
-copiar
-
 Ao crear formularios entra en xogo o elemento HTML _<form>_ . Isto inclúe dous atributos na etiqueta de inicio: _método_ e _acción._ Co primeiro pódese definir os métodos de transmisión, neste caso o método HTTP POST. O URL dun script que recibe todos os datos rexistrados a través dos seguintes campos de entrada gárdase no atributo _action ._ O exemplo mostra un **formulario HTML con tres** **elementos de entrada** ( _input type="text"_ ) e un **botón de envío** ( _input type="submit"_ ). Como destinatario dos datos, defínese o arquivo _page2.php_ .
 
 Para comprender a transferencia de datos a través de _$\_POST_ , usamos un script sinxelo para analizar datos do formulario que almacena os valores introducidos como variables PHP en formato de texto. Para iso, cree un arquivo _page2.php_ e insira o seguinte código de programación:
 
-```none
+```php
 <?php
 $nombre = $_POST["nombre"];
 $apellido = $_POST["apellido"];
@@ -684,8 +634,6 @@ echo "Hola " . $nombre . " " . $apellido . ", <br />
 Te has registrado con el siguiente correo electrónico: " . $email . ".";
 ?>
 ```
-
-copiar
 
 Garda os dous arquivos PHP no cartafol _htdocs_ do teu servidor de proba e abre _page1.php_ co seguinte URL no teu navegador web: _http:// localhost/ page1.php_ . A continuación, o navegador mostra a interface web interactiva do formulario HTML.
 
@@ -697,11 +645,9 @@ Introduza os datos de rexistro e prema no botón enviar para transferir variable
 
 Page2.php solicita os datos do usuario rexistrado a través dos campos de entrada de _page1.php_ _usando_ o seguinte esquema:
 
-```none
+```php
 $_POST["Nombre del campo de entrada"]
 ```
-
-copiar
 
 Así é como a liña _$forename = $\_POST["forename"]_ solicita o primeiro _nome_ no campo de entrada e gárdao na variable _$forename, que_ _,_ á súa vez, sae como cadea grazas a _echo._
 
@@ -713,7 +659,7 @@ O **construtor \*if\*** proporciona a capacidade de escribir scripts de tal xeit
 
 As condicións poden definirse en PHP segundo a seguinte estrutura básica:
 
-```none
+```php
 <?php
 if(expression)
    {
@@ -721,8 +667,6 @@ if(expression)
    }
 ?>
 ```
-
-copiar
 
 _Isto di o seguinte: só se pode executar_ a instrución naqueles casos nos que se cumpra a condición en _expresión ._ Cumpriuse unha condición cando o _construtor_ if devolve _TRUE_ _._ En caso contrario, isto interprétase como _FALSE_ , nese caso ignorarase a instrución.
 
@@ -732,14 +676,12 @@ Como regra xeral, o construtor _if_ verifica se o valor dunha variable correspon
 
 Os operadores de comparación utilízanse cando se formulan condicións, co obxectivo de poñer dous argumentos nunha **relación lóxica** que poida avaliarse como verdadeiro ( _VERDADEIRO_ ) ou falso ( _FALSO_ ). Se se usan operadores de comparación nas estruturas de control PHP, pódense implementar con dúas variables na _expresión_ dun constructor _if :_
 
-```none
+```php
 if ($a == $b)
    {
    statement;
    }
 ```
-
-copiar
 
 Imos expresar a estrutura de control en palabras: as condicións definidas realízanse no caso de que a variable _$a_ sexa equivalente á variable _$b_ .
 
@@ -758,7 +700,7 @@ Imos expresar a estrutura de control en palabras: as condicións definidas real�
 
 O seguinte script debería arroxar luz sobre esta estrutura de control, na que se comparan dous números enteiros. O operador de comparación usado é _<_ (menos que):
 
-```none
+```php
 <?php
 $numero1 = 10;
 $numero2 = 20;
@@ -766,8 +708,6 @@ if($numero1 < $numero2) {
     echo "Se cumple la condición";
 }
 ```
-
-copiar
 
 Neste caso, defínense as variables _$número1_ e _$número2_ e asígnaselles os valores _10_ e _20_ . Establécese entón unha condición: se _$número1_ é menor que _$número2_ , sairá a cadea mencionada na condición _de eco_ .
 
@@ -777,7 +717,7 @@ O resultado da execución do script contén a resposta: 10 é menor que 20. O co
 
 Se queres definir instrucións que se executan no caso de que non se cumpra unha condición, podes complementar o construtor _if_ coa **instrución \*else\*** segundo o seguinte esquema:
 
-```none
+```php
 <?php
 if(condición a)
     {
@@ -790,13 +730,11 @@ else
 ?>
 ```
 
-copiar
-
 Este script tamén verifica se _a condición a_ devolve _TRUE_ ou _FALSE_ . Se se cumpre _a condición a_ ( _TRUE_ ), executarase _a instrución b_ . Se non se cumpre a condición _a_ _(FALSO)_ , omitirase _a instrución b_ e executarase _a instrución c_ no seu lugar .
 
 A continuación ampliamos o noso script co construtor _else_ e cambiamos o operador de comparación _<_ (menor que) a _==_ (igual):
 
-```none
+```php
 <?php
 $numero1 = 10;
 $numero2 = 20;
@@ -811,8 +749,6 @@ else
 ?>
 ```
 
-copiar
-
 Neste caso, o construtor _if_ devolve _FALSE como resultado._ O valor da variable _$número1_ non é o mesmo que o da variable _$número2_ . Non se cumpre a _condición_ . Polo tanto, non se executa baixo a _instrución if,_ senón baixo a definida por _else_ .
 
 [![O construtor else da aplicación](https://www.ionos.es/digitalguide/fileadmin/DigitalGuide/Screenshots/EN-php-tut11.png)](https://www.ionos.es/digitalguide/fileadmin/DigitalGuide/Screenshots/EN-php-tut11.png)Se non se cumpre a condición, execútase a instrución definida por else.
@@ -823,7 +759,7 @@ Se a execución dun fragmento de código está suxeita á igualdade de dous valo
 
 A **negación das condicións** prodúcese mediante un signo de admiración ( _!_ ) dentro da _expresión_ .
 
-```none
+```php
 <?php
 $numero1 = 10;
 $numero2 = 20;
@@ -838,26 +774,22 @@ if (!($numero1 == $numero2))
 ?>
 ```
 
-copiar
-
 O exemplo mostra a condición _$número1 == $número2_ e a súa negación. _!($número1 == $número2)_ é equivalente a _($número1 != $número2)_ .
 
 Unha aplicación práctica de _if_ e _else_ é, por exemplo, a **solicitude de contrasinal** nun formulario HTML. A continuación, vexamos unha simulación coa axuda dos arquivos PHP _page1.php_ e _page2.php_ .
 
 Abre o arquivo _page1.php_ e introduce o seguinte código de formulario:
 
-```none
+```php
 <form action="page2.php" method="post">
 Por favor, introduce tu contraseña: <input type="password" name="contraseña" />
 <input type="submit" value="Enviar" />
 </form>
 ```
 
-copiar
-
 A estrutura corresponde ao formulario xa creado. Neste caso, só é necesario un campo de entrada: a solicitude de contrasinal. Como se describe anteriormente, a entrada do usuario comunícase ao script _page2.php_ . Pódese adaptar co seguinte código para que a entrada do contrasinal **se compare cun contrasinal xa proporcionado** :
 
-```none
+```php
 <?php
 $contrasena = $_POST["contrasena"];
 if($contrasena=="qwertz123")
@@ -870,8 +802,6 @@ else
    }
 ?>
 ```
-
-copiar
 
 O código pódese ler do seguinte xeito: primeiro asignamos un valor á variable _$contrasinal_ na liña 2, á que se accede a través do método HTTP POST. A continuación, defínese a seguinte estrutura de control: o construtor _if_ na liña 3 debe comprobar se o valor da variable _$contrasinal_ coincide coa cadea _qwertz123_ . Se é así, obtense a cadea O contrasinal _era correcto_ _._ Se o construtor _if_ devolve _FALSE, o construtor_ _else_ entra en xogo na liña 7 e sae a cadea O contrasinal _era_ _incorrecto_ .
 
@@ -904,7 +834,7 @@ Un exemplo práctico disto é o **indicador de contrasinal** . Os datos de rexis
 
 Neste caso, volvemos abrir o formulario de solicitude de contrasinal en _page1.php_ e engadimos un campo de entrada para o nome de usuario:
 
-```none
+```php
 <form action="page2.php" method="post">
 Nombre de usuario: <input type="text" name="username" /><br />
 Contraseña: <input type="password" name="password" /><br />
@@ -912,11 +842,9 @@ Contraseña: <input type="password" name="password" /><br />
 </form>
 ```
 
-copiar
-
 No seguinte paso tes que adaptar a estrutura de control do construtor _if_ . Para iso, é necesario utilizar o operador lóxico AND e así vincular a condición para a solicitude de contrasinal cunha condición para a solicitude de nome de usuario.
 
-```none
+```php
 <?php
 $username = $_POST["username"];
 $password = $_POST["password"];
@@ -931,8 +859,6 @@ else
    }
 ?>
 ```
-
-copiar
 
 O script _page2.php_ recibe os valores para _o nome de usuario_ e _o contrasinal_ e gárdaos nas variables _$username_ e _$password._ A _expresión_ do construtor _if_ contén **dúas condicións** **que están ligadas co operador \*AND\*** lóxico . Só cando se cumpran ambas condicións ( _username=="John Doe"_ e _$password=="qwertz123"_ ) o construtor _if_ devolverá _TRUE_ .
 
@@ -954,20 +880,18 @@ Os operadores lóxicos pódense combinar libremente. _Neste sentido ,_ pódese c
 
 _Mentres que_ os bucles son os bucles máis sinxelos de PHP. A súa **estrutura base** obedece ao seguinte esquema:
 
-```none
+```php
 while (condición)
     {
     Paso del bucle y otras instrucciones
     }
 ```
 
-copiar
-
 Os bucles _while_ solicitan a PHP que execute instrucións subordinadas sempre que se cumpra a **condición while .** Para iso, o intérprete PHP verifica a condición ao comezo de cada volta do bucle. A execución do código subordinado detense cando xa non se cumpre a condición _while ._
 
 Podes visualizar este principio cun guión sinxelo con números. Abaixo está a versión en castelán:
 
-```none
+```php
 <?php
 $numero = 1;
 while ($numero <= 10) {
@@ -975,8 +899,6 @@ while ($numero <= 10) {
     }
   ?>
 ```
-
-copiar
 
 No apartado anterior “Realización de cálculos con variables” xa se introduciu o principio de incremento. No seguinte script usamos este principio, pero usamos un operador posterior ao incremento para aumentar o valor do número enteiro da variable _$número ($número)_ en 1 cada vez que o bucle dá un xiro despois de publicar o texto a través de _echo_ . Como condición para o bucle _while_ definimos que _$número_ é menor/igual a 10. A instrución _echo_ repetirase tantas veces como sexa necesario para que _$número_ reciba un valor maior que 10.
 
@@ -988,18 +910,16 @@ O resultado da execución do script é unha cadea que, cada vez que o bucle dá 
 
 A construción dos bucles _do-while_ é semellante á dos bucles _while_ . A única diferenza é que a condición non se verifica ao principio de cada ciclo, senón ao final. O **esquema básico dun bucle** **\*do-while\*** corresponde ao seguinte exemplo:
 
-```none
+```php
 do {
     Paso del bucle y otras instrucciones
     }
    while (Condición)
 ```
 
-copiar
-
 Cando programas un bucle _do-while_ , o script resultante ten o seguinte aspecto:
 
-```none
+```php
 <?php
 $numero = 1;
 do {
@@ -1008,8 +928,6 @@ do {
 while ($numero <= 10);
   ?>
 ```
-
-copiar
 
 Neste caso, o resultado é o mesmo. O peculiar do bucle _do-while_ é que se executa polo menos unha vez, aínda que non se cumpra a condición en ningunha execución do bucle.
 
@@ -1025,15 +943,13 @@ _instrucións_
 
 Este exemplo en castelán pódese entender como un bucle _for_ dun xeito compacto:
 
-```none
+```php
 <?php
 for($numero = 1; $numero <= 10; $numero++) {
    echo $numero . "<br /> ";
 }
 ?>
 ```
-
-copiar
 
 En primeiro lugar, defínese o valor 1 para a variable _$numero_ . PHP verifica entón se se cumpre a condición _$número <= 10._ Se é correcto, o bucle continúa e execútanse as instrucións debaixo do bucle (neste caso, a instrución _echo_ ). Só entón execútase o bucle, caso en que non importa se se escolleu pre-incremento ou post-incremento, xa que esta instrución realízase antes da emisión. Se o paso do bucle completouse, comezará o seguinte bucle.
 
@@ -1047,7 +963,7 @@ No caso de que o bucle teña que funcionar polo menos unha vez independentemente
 
 Podes influír no transcurso dun _tempo_ -, _do-while_ ou _for_ loop usando as instrucións **\*break\*** e **\*continue\*** . Usas _break_ para romper un bucle en calquera lugar e _continúas_ saltando un xiro no bucle. Tanto unha instrución como a outra están conectadas a unha condición mediante o construtor _if_ . No seguinte exemplo, tanto o orixinal como a tradución mostran un script numérico cunha _ruptura_ :
 
-```none
+```php
 <?php
 for ($numero = 1; $numero <= 10; $numero++) {
     if ($numero== 5) {
@@ -1059,15 +975,13 @@ echo $numero . "<br /> ";
 ?>
 ```
 
-copiar
-
 No bucle _for_ definimos que o valor da variable _$número ($número)_ increméntase en 1 en cada quenda ata que a variable alcance o valor 10. Agora, coa _instrución break,_ **o bucle pódese romper de antemán** en canto _$número ($número)_ alcanzou o valor 5 _._ O construtor _de eco_ só devolve números entre 1 e 4.
 
 [![para bucle con ruptura](https://www.ionos.es/digitalguide/fileadmin/DigitalGuide/Screenshots/EN-php-tut15.png)](https://www.ionos.es/digitalguide/fileadmin/DigitalGuide/Screenshots/EN-php-tut15.png)A instrución break rompe o bucle en canto se cumpre a condición if.
 
 Para **omitir a edición da quinta rolda** , pero non interromper todo o curso do bucle, substitúa a instrución _break_ por _continue_ :
 
-```none
+```php
 <?php
 for ($numero=1; $numero <= 10; $numero++) {
     if ($numero == 5) {
@@ -1078,8 +992,6 @@ echo $numero . "<br /> ";
 }
 ?>
 ```
-
-copiar
 
 En lugar do número 5, PHP ofrece a cadea textual definida en _se_ _O 5 se omite!_ ( _Saltamos o número 5!_ )
 
@@ -1111,14 +1023,12 @@ _file_get_contents('example.txt')_
 
 Agora podemos traballar con esta cadea xa lida, á que podemos, por exemplo, asignarlle unha variable e saíla como texto no navegador web:
 
-```none
+```php
 <?php
 $example = file_get_contents('example.txt');
 echo $example;
 ?>
 ```
-
-copiar
 
 [![O script le o arquivo example.txt.](https://www.ionos.es/digitalguide/fileadmin/DigitalGuide/Screenshots/EN-php-tut16_2.png)](https://www.ionos.es/digitalguide/fileadmin/DigitalGuide/Screenshots/EN-php-tut16_2.png)O arquivo lido sae como texto no navegador.
 
@@ -1126,14 +1036,12 @@ Na vista do navegador podes ver o texto devolto sen parágrafos. Non se poden mo
 
 Se queres manter a estrutura orixinal, podes recorrer a diferentes posibilidades. Podes engadir manualmente a codificación HTML para o salto de liña ( _br_ ) no arquivo fonte, etiquetar o contido do arquivo con _<pre> e asignar a propiedade_ _de espazo en branco CSS: pre-envolver_ a esta sección, ou podes usar a _función nl2br ( )_ para indicarlle a PHP que _as liñas novas_ deberían transformarse automaticamente en saltos de liña HTML ( _saltos_ ) _._ A función debe utilizarse seguindo o seguinte esquema:
 
-```none
+```php
 <?php
 $example = file_get_contents('example.txt');
 echo nl2br($example);
 ?>
 ```
-
-copiar
 
 _Se o construtor da linguaxe echo_ se usa en combinación con _nl2br()_ , PHP insire un salto de liña HTML antes de cada liña.
 
@@ -1151,14 +1059,12 @@ Para **mostrar as liñas dun arquivo por separado,** pode usar a función _file(
 
 Para emitir o contido correspondente usando o construtor da linguaxe _echo_ , é necesario indicar o número de liña desexado. Así, o seguinte script de exemplo entrega a primeira liña do arquivo _example.txt_ ao navegador :
 
-```none
+```php
 <?php
 $example = file("example.txt");
 echo $example [0];
 ?>
 ```
-
-copiar
 
 [![Aplicación da función file().](https://www.ionos.es/digitalguide/fileadmin/DigitalGuide/Screenshots/EN-php-tut16_4.png)](https://www.ionos.es/digitalguide/fileadmin/DigitalGuide/Screenshots/EN-php-tut16_4.png)Escolla o elemento da matriz que quere publicar.
 
@@ -1170,14 +1076,12 @@ Para iso utilízase a función PHP **_file_put_contents()_** _, que espera **dou
 
 _O seguinte script crea o arquivo test.txt e escribe a cadea This is a test! (Esta é unha proba!) na primeira liña. O suplemento \r\n produce un salto de liña no arquivo de destino._ _Imos velo:_
 
-```none
+```php
 <?php
 file_put_contents("test.txt", "This is a test! \r\n");
 echo "test.txt was created!";
 ?>
 ```
-
-copiar
 
 [![Operacións de arquivos: escritura de arquivos](https://www.ionos.es/digitalguide/fileadmin/DigitalGuide/Screenshots/EN-php-tut17.png)](https://www.ionos.es/digitalguide/fileadmin/DigitalGuide/Screenshots/EN-php-tut17.png)O script PHP escribe a cadea Esta é unha proba! no arquivo test.txt.
 
@@ -1185,14 +1089,12 @@ Dado que a **función file_put_contents non proporciona ningunha saída ao naveg
 
 Se o _cartafol de destino xa contén un arquivo co mesmo nome, sobrescribirase, o que se evita establecendo o parámetro_ _FILE_APPEND_ _. Vexamos a tradución da captura de pantalla correspondente ao castelán:_
 
-```none
+```php
 <?php
 file_put_contents("test.txt","The test was successful! \r\n", FILE_APPEND);
 echo "test.txt was updated!";
 ?>
 ```
-
-copiar
 
 _Se se usa file_put_contents() co parámetro_ _FILE_APPEND_ , engadiranse novos contidos aos existentes.
 
@@ -1200,14 +1102,12 @@ _Se se usa file_put_contents() co parámetro_ _FILE_APPEND_ , engadiranse novos 
 
 _O que PHP escribe no arquivo de destino non ten que estar definido no script. Alternativamente, tamén existe a posibilidade de **transmitir o contido dun arquivo a outro** . O seguinte script le o contido do arquivo example.txt e insíreo no arquivo test.txt:_
 
-```none
+```php
 <?php
 $example= file_get_contents("example.txt");
 file_put_contents("test.txt", $example, FILE_APPEND);
 echo "test.txt was updated!";
 ?>
 ```
-
-copiar
 
 [![Operacións de arquivos: transmisión do contido dun arquivo a outro](https://www.ionos.es/digitalguide/fileadmin/DigitalGuide/Screenshots/EN-php-tut19.png)](https://www.ionos.es/digitalguide/fileadmin/DigitalGuide/Screenshots/EN-php-tut19.png)O script PHP le os datos do arquivo example.txt e engádeos ao arquivo test.txt.
