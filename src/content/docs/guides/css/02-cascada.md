@@ -50,9 +50,9 @@ Cando dúas instrucións coa regra  `!important` chocan, a declaración coa maio
 
 ![img](./assets/cascade-cascade-layers.png)
 
-## **Cales son as capas en cascada CSS e como implementalas?**
+## **Cales son as capas en cascada CSS e como usalas?**
 
-Unha `@layer` en cascada pódese crear de [**3 formas diferentes**](https://translate.google.com/website?sl=auto&tl=gl&hl=es&u=https://developer.mozilla.org/en-US/docs/Web/CSS/@layer) . 
+Unha `@layer` en cascada pódese crear de [**3 formas diferentes**](https://developer.mozilla.org/en-US/docs/Web/CSS/@layer) . 
 
 A primeira forma de especificalo é poñendo as regras CSS para esa capa **dentro dunha @layer at-rule** : 
 
@@ -99,7 +99,7 @@ As capas pódense **agrupar, aniñar e organizar** como queiras:
 
 ### **@layer explicado cun exemplo**
 
-A partir de aí, tes a posibilidade de crear **varias capas** e organizalas do xeito que queiras: 
+A partir de aí, tes a posibilidade de crear **[varias capas](https://css-tricks.com/css-cascade-layers/)** e organizalas do xeito que queiras: 
 
 ```css
 @layer base { 
@@ -132,7 +132,7 @@ Digamos que temos a seguinte pila de capas **na parte superior** do arquivo CSS:
 
 Fará que todas as ligazóns aparezan en verde, excepto a *.orange* que será laranxa: 
 
-![img](https://positivethinking.tech/wp-content/uploads/2022/03/Hello-PTC-example-css-cascade-layers-numero-1.png)
+![img](./assets/Hello-PTC-example-css-cascade-layers-numero-1.png)
 
 Digamos agora que queres **inverter a orde** deste xeito: 
 
@@ -142,7 +142,7 @@ Digamos agora que queres **inverter a orde** deste xeito:
 
 Como xa adiviñaches, todas as ligazóns serán vermellas e azuis, como podes ver na seguinte captura de pantalla: 
 
-![img](https://positivethinking.tech/wp-content/uploads/2022/03/Hello-PTC-example-css-cascade-layers-numero-2.png)
+![img](./assets/Hello-PTC-example-css-cascade-layers-numero-2.png)
 
 A precedencia da capa supera a especificidade do elemento.
 
@@ -170,7 +170,7 @@ Debido a que os estilos en capas teñen unha prioridade máis baixa que os estil
 
 [É cedo para usalas?](https://caniuse.com/css-cascade-layers) As capas en cascada son unha das novas caracteristicas de CSS 2022. Encetaron empregandose nas versións máis recentes de Firefox, pero tamén Chrome e Edge, engadiron o soporte completo para a partires da versión 99.
 
-![img](./assets\cascade_css-tableau.png)
+![img](./assets/cascade_css-tableau.png)
 
 Xoga coas capas en cascada para entender mellor como usalas.
 Todos os navegadores principais parecen estar integrados nesta especificación, polo que se espera un soporte máis amplo nun futuro próximo.

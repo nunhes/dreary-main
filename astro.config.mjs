@@ -28,6 +28,11 @@ export default defineConfig({
 					autogenerate: { directory: 'reference' },
 				},
 				{
+					label: 'Unidades',
+					collapsed: true,
+					autogenerate: { directory: 'unidades' },
+				},
+				{
 					label: 'Exemplos',
 					collapsed: true,
 					autogenerate: { directory: 'exemplos' },

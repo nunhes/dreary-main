@@ -1,16 +1,16 @@
 ---
 title: Introdución a Markdown
-description: Linguaxe de marcado
+description: Markdown é unha linguaxe de marcado sinxelo e poderoso
 ---
 
-Markdown é unha linguaxe de marcado con sintaxis en texto plano para xerar textos con formato.
+Markdown é unha linguaxe de marcado con sintaxis en texto plano deseñada para xerar textos con formato.
 
 A denominación se refire tanto a
 
 1. unha maneira de formatar arquivos de texto, como a 
 2. unha utilidade da linguaxe de programación Perl para converter arquivos Markdown en HTML.
 
-Nesta lección nos centraremos na primeira acepción e aprenderemos a escribir arquivos utilizando a sintaxis Markdown.
+Nesta lección centrarémonos na primeira acepción e aprenderemos a escribir arquivos utilizando a sintaxis Markdown.
 
 Os arquivos de texto plano teñen moitas vantaxes sobre outros formatos. Por unha banda, pódense ler practicamente en tódolos dispositivos. Tamén resisten o paso do tempo mellor que outro tipo de arquivos -p.ex. é fácil atopar problemas para abrir documentos gardados nun formato de procesador de textos herdado, ou incluso entre distintos procesadores-.
 
