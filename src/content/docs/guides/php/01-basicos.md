@@ -1,5 +1,5 @@
 ---
-title: Que é PHP\?
+title: Que é PHP?
 description: Nocións básicas sobre esta linguaxe de guión
 ---
 
@@ -37,7 +37,7 @@ Un script é un programa informático xeralmente pequeno que non se compila prev
 
 Abre o teu **editor de texto** favorito e introduce o seguinte script PHP:
 
-```none
+```php
 <?php
 phpinfo();
 ?>
@@ -73,7 +73,7 @@ As palabras reservadas son instrucións utilizadas en PHP para controlar a execu
 
 Crea un novo arquivo PHP para o teu primeiro script e escribe o seguinte código:
 
-```none
+```php
 <?php
 echo 'Ola mundo!';
 ?>
@@ -91,7 +91,7 @@ Garda o script co nome _hello.php_ no cartafol _htdocs_ do teu servidor web e ac
 
 Cada texto que sae con _eco_ pode estar formado por **etiquetas HTML** se é necesario, que son interpretadas polo navegador web despois da especificación HTML correspondente. Podes comprobalo ti mesmo, por exemplo, co seguinte script:
 
-```none
+```php
 <?php
 echo '<h1>Hello World!</h1>
 <p>This is my first PHP page.</p>';
@@ -104,9 +104,9 @@ Ao facer a solicitude ao navegador web, podes ver o **resultado da execución do
 
 [![Resultado da execución dun script con etiquetas HTML](https://www.ionos.es/digitalguide/fileadmin/DigitalGuide/Screenshots/DE-php-ergebnis-hello-world.png)](https://www.ionos.es/digitalguide/fileadmin/DigitalGuide/Screenshots/DE-php-ergebnis-hello-world.png)Se o resultado da execución do script inclúe etiquetas HTML, o navegador interprétaas automaticamente
 
-A secuencia de caracteres incluídas nas etiquetas _<h1>_ , é dicir, _Ola mundo!_ , é interpretado polo navegador como o título de primeiro nivel e vai seguido dun salto de liña automático e da etiqueta de parágrafo _<p>_ .
+A secuencia de caracteres incluídas nas etiquetas `<h1>` , é dicir, `Ola mundo!`, é interpretado polo navegador como o título de primeiro nivel e vai seguido dun salto de liña automático e da etiqueta de parágrafo `<p>`.
 
-Dependendo das necesidades, _o eco_ pódese usar tanto con **comiñas** **simples** **( \*'\* )** como **con comiñas dobres** **( \*"\* )** . Se queres sacar texto, non hai diferenzas no tipo de comiñas que elixes, pero isto cambia en canto aparecen as **variables** . en acción.
+Dependendo das necesidades,`o eco` pódese usar tanto con **comiñas simples ( \*'\* )** como **con comiñas dobres ( \*"\* )** . Se queres sacar texto, non hai diferenzas no tipo de comiñas que elixes, pero isto cambia en canto aparecen as **variables** . en acción.
 
 ### Variables
 
@@ -114,27 +114,27 @@ A palabra _eco_ reservada é máis útil que a propia saída de texto, que tamé
 
 Os usuarios de PHP poden atopar variables que teñen, por exemplo, a seguinte forma:
 
-_$exemplo_
+`$exemplo`
 
-Cada variable consta do **signo de dólar** **( \*$\* ),** seguido do **nome da variable** . As variables úsanse nos scripts PHP para integrar datos externos en páxinas web. Neste sentido podemos falar de valores moi variados que van desde simples números e cadeas de caracteres ata textos completos ou estruturas de documentos HTML.
+Cada variable consta do **signo de dólar ( `$` ),** seguido do **nome da variable**. As variables úsanse nos scripts PHP para integrar datos externos en páxinas web. Neste sentido podemos falar de valores moi variados que van desde simples números e cadeas de caracteres ata textos completos ou estruturas de documentos HTML.
 
 PHP diferencia entre sete tipos de variables:
 
 | Tipos variables | Descrición                                                                                                                                                                                                     |
 | :-------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Corda           | Unha cadea é unha secuencia de caracteres, que pode ser unha palabra, unha frase, un texto ou o código HTML completo dunha páxina web.                                                                         |
+| String           | Unha cadea é unha secuencia de caracteres, que pode ser unha palabra, unha frase, un texto ou o código HTML completo dunha páxina web.                                                                         |
 | Número enteiro  | Un enteiro é un número enteiro sen decimais que pode ser positivo ou negativo.                                                                                                                                 |
-| flotar          | Un flotante é un número de coma flotante, é dicir, un valor numérico con decimais. Nas linguaxes de programación, a coma escríbese cun punto (.). PHP permite colocar ata 14 caracteres despois da coma.       |
+| Número flotante         | Un flotante é un número de coma flotante, é dicir, un valor numérico con decimais. Nas linguaxes de programación, a coma escríbese cun punto (.). PHP permite colocar ata 14 caracteres despois da coma.       |
 | Booleano        | As variables booleanas son o resultado dunha operación lóxica e só comprenden dúas constantes: VERDADERO e FALSO. Este tipo de variables aplícase cando se traballa con condicións.                            |
-| matriz          | Unha matriz é unha variable que pode albergar varios elementos. É unha agrupación de varios datos estruturados formando unha matriz.                                                                           |
-| obxecto         | A variable obxecto permite aos programadores definir os seus propios tipos de datos e aplícase na programación orientada a obxectos. As variables do tipo obxecto non están incluídas no noso tutorial de PHP. |
+| Array          | Unha matriz é unha variable que pode albergar varios elementos. É unha agrupación de varios datos estruturados formando unha matriz.                                                                           |
+| Obxecto         | A variable obxecto permite aos programadores definir os seus propios tipos de datos e aplícase na programación orientada a obxectos. As variables do tipo obxecto non están incluídas no noso tutorial de PHP. |
 | NULL            | NULL representa unha variable sen valor. Para variables de tipo NULL, este é o único valor.                                                                                                                    |
 
 A xestión central do contido xeralmente realízase coa axuda de **sistemas de bases de datos** . Os valores das variables pódense definir directamente no script. Este tipo de clasificación realízase segundo o seguinte esquema:
 
-_$example = "Valor";_
+`$example = "valor";`
 
-O símbolo característico do dólar vai seguido do nome da variable (neste caso _exemplo_ ), que se une ao valor entre comiñas co **símbolo de igualdade** **( \*=\* )** .
+O símbolo característico do dólar vai seguido do nome da variable (neste caso _exemplo_ ), que se une ao valor entre comiñas co **símbolo de igualdade ( \*=\* )** .
 
 Atención
 
