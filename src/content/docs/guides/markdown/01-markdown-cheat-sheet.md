@@ -52,7 +52,7 @@ Estes son os elementos descritos no documento de deseño orixinal de John Gruber
 2. Second item
 3. Third item
 
-### Unordered List
+### Lista desordeada
 
 ```md
 - First item
@@ -184,22 +184,22 @@ Isto pode ser divertido! :joy:
 (Ver tamén [Copiar e Pegar Emoji](https://www.markdownguide.org/extended-syntax/#copying-and-pasting-emoji))
 
 ### Highlight
-```md4
+```md
 Se necesitas destacar algunhas ==palabras moi importantes==.
 ```
-Se necesitas destacar algunhas ==palabras moi importantes==.
+Se necesitas destacar algunhas <mark>palabras moi importantes</mark>.
 
 ### Subscript
 ```md
 H~2~O
 ```
-H~2~O
+H<sub>2</sub>O
 
 ### Superscript
 ```md
 X^2^
 ```
-X^2^
+X<sup>2</sup>
 
 ### HTML
 
