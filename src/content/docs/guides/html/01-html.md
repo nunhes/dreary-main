@@ -1,11 +1,10 @@
 ---
-title: HTML, a Linguaxe de marcado de hipertexto
+title: HTML a linguaxe de marcado de hipertexto   
 description: A lingua franca que o teu navegador web entende
 ---
 
-HTML é unha linguaxe de marcado que define a estrutura dunha páxina web. É unha linguaxe que o teu navegador web (Safari, Google Chrome, Firefox, etc.) interpreta para mostrar contido na pantalla.
-
-- Un arquivo HTML sinxelo!
+HTML é unha linguaxe de marcado que define a estrutura dunha páxina web. É unha linguaxe que o teu navegador web (Brave, Safari, Chrome, Firefox, etc.) interpreta para mostrar contido na pantalla.
+- Un arquivo HTML sinxelo:
 
 ```html
 <!DOCTYPE html>
@@ -16,25 +15,23 @@ HTML é unha linguaxe de marcado que define a estrutura dunha páxina web. É un
   <body>
     Bos días mundo!
   </body>
-  <html></html>
-</html>
+<html>
 ```
 
 - Cando abrimos este arquivo no noso navegador, obtemos:
 
-![Ola Páxina](./assets/hello0.png)
+![Ola páxina](./assets/hello0.png)
 
-Agora, falemos do arquivo que acabamos de crear:
-
+Analizamos o arquivo que acabamos de crear:
 - Na primeira liña, declaramos (ao navegador web) que estamos fronte a un documento escrito na última versión de HTML: [HTML5](https://html.spec.whatwg.org/multipage/).
 
-- Despois diso, a páxina consta de algúns **[elementos HTML](https://developer.mozilla.org/es/docs/Web/HTML/Element)** aniñados (como `html`, `head` ou `body`), cada un cunha **etiqueta de apertura e outra de peche** marcada coma `<element>` para a apertura e `</element>` para o peche.
+- Despois diso, a páxina consta de algúns **[elementos HTML](https://developer.mozilla.org/es/docs/Web/HTML/Element)** aniñados (como `html`, `head` ou `body`), cada un cunha **etiqueta de apertura e outra de peche** marcada coma `<elemento>` para a apertura e `</elemento>` para o peche.
 
-  <img src="./assets/esquema_html-01.png" alt="Esquema do documento HTML. Estrutura" />
+  <img src="./assets/esquemahtml.webp" alt="Esquema do documento HTML. Estrutura" />
 
-- Os elementos HTML poden incluír **atributos** , que proporcionan ao navegador información adicional sobre o elemento. Por exemplo, cando incluímos `lang="gl"`na etiqueta `html` inicial, estamos indicándolle ao navegador cal vai ser o idioma principal dos contidos e axudaremos aos buscadores a indexalos mellor.
+- Os elementos HTML poden incluír **atributos** , que proporcionan ao navegador información adicional sobre dito elemento. Por exemplo, cando incluímos `lang="gl"` na etiqueta `html` inicial, estamos indicándolle ao navegador cal vai ser o idioma principal dos contidos e axudaremos aos buscadores a indexalos mellor.
 
-- Dentro do elemento HTML, por norma, incluiremos unha etiqueta `head` e outra `body`. O elemento `head` incluirá información sobre a páxina - aínda que dita información non se destine a ser amosada necesariamente - e o elemento `body` conterá o que é realmente resultará visible para as persoas que visitan o sitio.
+- Dentro do elemento HTML, por norma, incluiremos unha etiqueta `head` e outra `body`. O elemento `head` incluirá información sobre a páxina - aínda que dita información non se destine a ser amosada necesariamente - e o elemento `body` conterá o que finalmente resultará visible para as persoas que visitan o sitio.
 
 - Dentro do elemento `head`, se inclúe un elemento `title` que contén o título da páxina web. Verás que ese título é o que aparece na pestana da xanela que amosa a páxina no navegador web.
 
@@ -54,7 +51,7 @@ Hai moitos elementos HTML que podes querer usar para personalizar a túa páxina
 
 Como tamén se poden engadir comentarios empregando o marcado `<!-- -->` , usarémolos a continuación para explicar algúns dos elementos.
 
-```HTML
+```html
 <!DOCTYPE html>
 <html lang="gl">
     <head>
@@ -118,11 +115,11 @@ Como tamén se poden engadir comentarios empregando o marcado `<!-- -->` , usar�
 <html>
 ```
 
-Esta páxina, cando se _renderiza_, ten un aspecto así:
+Esta páxina, cando se *renderiza*, ten un aspecto así:
 
 ![Elementos](./assets/html_ex_02.png)
 
-No caso de que te preocupen tantas etiquetas, debes saber que non terás que memorizar estes elementos. É moi sinxelo buscar simplemente algo como _"imaxe en HTML"_ para atopar documentación sobre a etiqueta `img`. Un recurso que te pode resultar útil para coñecer estes elementos é a paxina da [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element) ou a [W3 Schools](https://www.w3schools.com/tags/default.asp) .
+No caso de que te preocupen tantas etiquetas, debes saber que non terás que memorizar estes elementos. É moi sinxelo buscar simplemente algo como *"imaxe en HTML"* para atopar documentación sobre a etiqueta `img`. Un recurso que te pode resultar útil para coñecer estes elementos é a paxina da [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element) ou a [W3 Schools](https://www.w3schools.com/tags/default.asp) .
 
 ### Formularios
 
@@ -140,16 +137,16 @@ Do mesmo xeito que con outros elementos HTML, non hai necesidade de memorizalos.
   </head>
   <body>
     <form>
-      <input type="text" placeholder="Nome" name="nome" />
-      <input type="password" placeholder="Contrasinal" name="contrasinal" />
+      <input type="text" placeholder="Nome" name="nome">
+      <input type="password" placeholder="Contrasinal" name="contrasinal">
       <div>
         Cor favorito:
-        <input name="color" type="radio" value="azul" /> Azul
-        <input name="color" type="radio" value="verde" /> Verde
-        <input name="color" type="radio" value="amarelo" /> Amarelo
-        <input name="color" type="radio" value="vermello" /> Vermello
+        <input name="color" type="radio" value="azul"> Azul
+        <input name="color" type="radio" value="verde"> Verde
+        <input name="color" type="radio" value="amarelo"> Amarelo
+        <input name="color" type="radio" value="vermello"> Vermello
       </div>
-      <input type="submit" />
+      <input type="submit">
     </form>
   </body>
 </html>
@@ -174,8 +171,7 @@ Do mesmo xeito que con outros elementos HTML, non hai necesidade de memorizalos.
     <h1 style="color: blue; text-align: center;">Un títular coloreado!</h1>
     Bos días mundo!
   </body>
-  <html></html>
-</html>
+<html>
 ```
 
 ![Usar CSS para crear un título azul](./assets/style0.png)
@@ -192,8 +188,7 @@ Do mesmo xeito que con outros elementos HTML, non hai necesidade de memorizalos.
     <h1>Un títular coloreado!</h1>
     Bos días mundo!
   </body>
-  <html></html>
-</html>
+<html>
 ```
 
 ![Aplicar estilo a tódolos elementos aproveitando á herdanza de estilos](./assets/style1.png)
@@ -228,7 +223,7 @@ Do mesmo xeito que con outros elementos HTML, non hai necesidade de memorizalos.
     <!DOCTYPE html>
     <head>
       <title>Saúdo!</title>
-      <link rel="stylesheet" href="styles.css" />
+        <link rel="stylesheet" href="styles.css">
     </head>
     <body>
       <h1>Un títular coloreado!</h1>
@@ -246,7 +241,7 @@ Do mesmo xeito que con outros elementos HTML, non hai necesidade de memorizalos.
   }
   ```
 
-- Hai demasiadas [propiedades CSS](https://carontestudio.com/blog/listado-de-propiedades-css/) para enumeralas agora aquí, pero do mesmo xeito que cos elementos HTML, é fácil buscar algo en Internet como _"cambiar a cor do texto con CSS"_ para obter resultados orientadores. Aínda así, enumeramos aquí algunhas das máis comúns:
+- Hai demasiadas [propiedades CSS](https://carontestudio.com/blog/listado-de-propiedades-css/) para enumeralas agora aquí, pero do mesmo xeito que cos elementos HTML, é fácil buscar algo en Internet como *"cambiar a cor do texto con CSS"* para obter resultados orientadores. Aínda así, enumeramos aquí algunhas das máis comúns:
 
   - `color`: a [cor](https://developer.mozilla.org/es/docs/Web/CSS/color) do texto
   - `text-align`: [aliñado](https://developer.mozilla.org/es/docs/Web/CSS/text-align) dos elementos na páxina
@@ -303,16 +298,15 @@ Usemos algo do que acabamos de aprender para mellorar a nosa táboa de océanos 
         </tr>
       </tbody>
     </table>
-  </body>
-  <html></html>
-</html>
+</body>
+<html>
 ```
 
 O que nos deixa unha táboa con mellor aspecto:
 
 ![Táboa con estilo](./assets/table1.png)
 
-- Quizais notes que hai algunha repetición innecesaria neste CSS, xa que `td` e `th` teñen o mesmo estilo. Podemos (e debemos) condensar isto ata obter un _código máis limpo_, por exemplo uníndoos nunha soa declaración e usando unha coma entre eles para mostrar que o estilo debería aplicarse a máis dun tipo de elemento.
+- Quizais notes que hai algunha repetición innecesaria neste CSS, xa que `td` e `th` teñen o mesmo estilo. Podemos (e debemos) condensar isto ata obter un *código máis limpo*, por exemplo uníndoos nunha soa declaración e usando unha coma entre eles para mostrar que o estilo debería aplicarse a máis dun tipo de elemento.
 
 ```css
 table {
@@ -320,8 +314,7 @@ table {
   border-collapse: collapse;
 }
 
-td,
-th {
+td, th {
   border: 1px solid black;
   padding: 2px;
 }
@@ -343,7 +336,7 @@ Hai moitas formas de determinar cales son os elementos HTML aos que vamos a dar 
 
 ### [Depurar CSS](https://developer.mozilla.org/es/docs/Learn/CSS/Building_blocks/Debugging_CSS)
 
-_Que ocorre cando un encabezado debe ser vermello segundo a súa clase pero azul segundo o seu ID?_
+*Que ocorre cando un encabezado debe ser vermello segundo a súa clase pero azul segundo o seu ID?*
 
 Moitas veces deberás tratar co problema dos CSS potencialmente conflitivos.
 
@@ -385,8 +378,7 @@ CSS ten a característica da [especificidade](https://developer.mozilla.org/es/d
       <li>baz</li>
     </ol>
   </body>
-  <html></html>
-</html>
+<html>
 ```
 
 ![Empregando selectores CSS](./assets/selectors0.png)
@@ -399,8 +391,7 @@ CSS ten a característica da [especificidade](https://developer.mozilla.org/es/d
   <head>
     <title>Usando Selectores</title>
     <style>
-      a[href="https://www.amazon.com/"]
-      {
+      a[href="https://www.amazon.com/"] {
         color: red;
       }
     </style>
@@ -412,8 +403,7 @@ CSS ten a característica da [especificidade](https://developer.mozilla.org/es/d
       <li><a href="https://www.facebook.com/">Facebook</a></li>
     </ol>
   </body>
-  <html></html>
-</html>
+<html>
 ```
 
 ![Selectores de atributos](./assets/selectors2.png)
@@ -444,13 +434,12 @@ CSS ten a característica da [especificidade](https://developer.mozilla.org/es/d
     <button>Botón 2</button>
     <button>Botón 3</button>
   </body>
-  <html></html>
-</html>
+<html>
 ```
 
-![botóns](./assets/buttons.gif)
+![botóns](https://cs50.harvard.edu/web/2020/notes/0/images/buttons.gif)
 
-### Deseño receptivo ou _responsive_
+### Deseño receptivo ou *responsive*
 
 Hoxe, moitas persoas ven sitios web en dispositivos distintos dos ordenadores, como teléfonos intelixentes e tabletas. É importante asegurarse de que o noso sitio web sexa lexible para as persoas en todos os dispositivos.
 
@@ -459,10 +448,10 @@ Unha forma de conseguir isto é co coñecemento da **ventana gráfica**. A venta
 Unha forma sinxela de mellorar a aparencia dun sitio nun dispositivo móbil é engadir a seguinte liña na cabeceira dos nosos arquivos HTML. Esta liña indica ao dispositivo móbil que utilice unha ventana gráfica que teña a mesma anchura que a do dispositivo que estás a usar en lugar dunha moito maior.
 
 ```html
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 ```
 
-Outra forma de tratar con diferentes dispositivos é mediante [consultas multimedia](https://developer.mozilla.org/es/docs/Web/CSS/CSS_media_queries/Using_media_queries). As consultas multimedia ou _media queries_ son formas de cambiar o estilo dunha páxina en función de que condicións de dispositivo se empregan para ver a páxina.
+Outra forma de tratar con diferentes dispositivos é mediante [consultas multimedia](https://developer.mozilla.org/es/docs/Web/CSS/CSS_media_queries/Using_media_queries). As consultas multimedia ou *media queries* son formas de cambiar o estilo dunha páxina en función de que condicións de dispositivo se empregan para ver a páxina.
 
 Para obter un exemplo dunha consulta multimedia, intentemos simplemente cambiar a cor da pantalla cando se encolle ata un determinado tamaño. Sinalizamos unha consulta multimedia escribindo `@media`seguido do tipo de consulta entre parénteses:
 
@@ -491,9 +480,9 @@ Para obter un exemplo dunha consulta multimedia, intentemos simplemente cambiar 
 </html>
 ```
 
-![tamaño da pantalla](./assets/responsive0.gif)
+![tamaño da pantalla](https://cs50.harvard.edu/web/2020/notes/0/images/responsive0.gif)
 
-Outra forma de tratar con diferentes tamaños de pantalla é usar un novo atributo CSS coñecido como [flexbox](https://developer.mozilla.org/es/docs/Learn/CSS/CSS_layout/Flexbox). Isto permítenos que os elementos se despreguen facilmente á seguinte liña se non encaixan horizontalmente. Facemos isto poñendo todos os nosos elementos nun contedor `div` que, no exemplo, denominaremos `container`. Despois engadimos un estilo a ese `div` especificando que queremos usar unha modelo _flexbox_ para os elementos contidos nel. Tamén engadimos algún estilo adicional aos _divs_ internos para ilustrar mellor o envolvemento que se está a producir aquí.
+Outra forma de tratar con diferentes tamaños de pantalla é usar un novo atributo CSS coñecido como [flexbox](https://developer.mozilla.org/es/docs/Learn/CSS/CSS_layout/Flexbox). Isto permítenos que os elementos se despreguen facilmente á seguinte liña se non encaixan horizontalmente. Facemos isto poñendo todos os nosos elementos nun contedor  `div`  que, no exemplo, denominaremos `container`. Despois engadimos un estilo a ese `div` especificando que queremos usar unha modelo *flexbox* para os elementos contidos nel. Tamén engadimos algún estilo adicional aos *divs* internos para ilustrar mellor o envolvemento que se está a producir aquí.
 
 ```html
 <!DOCTYPE html>
@@ -534,7 +523,7 @@ Outra forma de tratar con diferentes tamaños de pantalla é usar un novo atribu
 </html>
 ```
 
-![caixa flexible](./assets/flexbox.gif)
+![caixa flexible](https://cs50.harvard.edu/web/2020/notes/0/images/flexbox.gif)
 
 Outra forma popular de deseñar unha páxina é usar unha [grella](https://developer.mozilla.org/es/docs/Web/CSS/CSS_grid_layout) HTML. Nesta grade, podemos especificar atributos de estilo como anchos de columnas e ocos entre columnas e filas, como se demostra a continuación. Ter en conta que cando especificamos anchos de columna, dicimos que a terceira é `auto`, o que significa que debería encher o resto da páxina.
 
@@ -543,7 +532,7 @@ Outra forma popular de deseñar unha páxina é usar unha [grella](https://devel
 <html lang="gl">
   <head>
     <title>Miña paxina web</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
       .grid {
         background-color: green;
@@ -581,7 +570,7 @@ Outra forma popular de deseñar unha páxina é usar unha [grella](https://devel
 </html>
 ```
 
-![reixa](https://cs50.harvard.edu/web/2020/notes/0/images/grid.gif)
+![grella](https://cs50.harvard.edu/web/2020/notes/0/images/grid.gif)
 
 ### Bootstrap
 
@@ -590,29 +579,19 @@ Resulta que hai moitas bibliotecas que outras persoas xa escribiron e que poden 
 Podemos incluír Bootstrap no noso código engadindo unha soa liña á cabeceira do noso arquivo HTML:
 
 ```html
-<link
-  href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-  rel="stylesheet"
-  integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
-  crossorigin="anonymous"
-/>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 ```
 
 A continuación, podemos ver algunhas das funcións de Bootstrap navegando ata a parte de [documentación](https://getbootstrap.com/docs/5.3/customize/components/#base-classes) no seu sitio web. Nesta páxina atoparás moitos exemplos de clases que podes engadir aos elementos da túa e dar estilo con Bootstrap.
 
-Unha característica Bootstrap é o seu [sistema de reixa](https://getbootstrap.com/docs/5.3/layout/css-grid/) . Bootstrap divide automaticamente unha páxina en 12 columnas, e podemos decidir cantas columnas ocupa un elemento engadindo a clase `col-x` onde `x` é un número entre 1 e 12. Por exemplo, na páxina seguinte, temos unha fila de columnas de igual ancho, e despois unha fila onde a columna central é maior:
+Unha característica Bootstrap é o seu [sistema de grella](https://getbootstrap.com/docs/5.3/layout/css-grid/). Bootstrap divide automaticamente unha páxina en 12 columnas, e podemos decidir cantas columnas ocupa un elemento engadindo a clase `col-x` onde `x` é un número entre 1 e 12. Por exemplo, na páxina seguinte, temos unha fila de columnas de igual ancho, e despois unha fila onde a columna central é maior:
 
 ```html
 <!DOCTYPE html>
 <html lang="gl">
   <head>
     <title>Miña paxina web!</title>
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
-      crossorigin="anonymous"
-    />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <style>
       .row > div {
         padding: 20px;
@@ -629,7 +608,7 @@ Unha característica Bootstrap é o seu [sistema de reixa](https://getbootstrap.
         <div class="col-4">Esta é a terceira sección.</div>
       </div>
     </div>
-    <br />
+    <br/>
     <div class="container">
       <div class="row">
         <div class="col-3">Esta é unha sección.</div>
@@ -641,7 +620,7 @@ Unha característica Bootstrap é o seu [sistema de reixa](https://getbootstrap.
 </html>
 ```
 
-![columnas](./assets/cols1.gif)
+![columnas](https://cs50.harvard.edu/web/2020/notes/0/images/cols1.gif)
 
 Para mellorar a capacidade de resposta no móbil, Bootstrap tamén nos permite especificar tamaños de columna que varían segundo o tamaño da pantalla. No seguinte exemplo, usamos `col-lg-3` para mostrar que un elemento debe ocupar 3 columnas nunha pantalla grande e `col-sm-6` para mostrar que un elemento debe ocupar 6 columnas cando a pantalla é pequena:
 
@@ -650,12 +629,7 @@ Para mellorar a capacidade de resposta no móbil, Bootstrap tamén nos permite e
 <html lang="gl">
   <head>
     <title>My Web Page!</title>
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
-      crossorigin="anonymous"
-    />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <style>
       .row > div {
         padding: 20px;
@@ -785,3 +759,4 @@ _\_ref:_
 - _https://lenguajehtml.com/html/_
 
 - _https://lenguajecss.com/css/_
+

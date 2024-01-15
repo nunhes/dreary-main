@@ -1,3 +1,5 @@
+// traducir as cadeas de IU predeterminadas
+// https://starlight.astro.build/guides/i18n/
 import { defineCollection } from 'astro:content';
 import { docsSchema, i18nSchema } from '@astrojs/starlight/schema';
 
