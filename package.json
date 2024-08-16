@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "@astrojs/check": "^0.4.1",
-    "@astrojs/starlight": "^0.15.0",
+    "@astrojs/starlight": "^0.26.0",
     "astro": "^4.0.0",
     "sharp": "^0.33.0",
     "typescript": "^5.3.3"
