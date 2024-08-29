@@ -16,29 +16,35 @@ Estes son os elementos descritos no documento de deseño orixinal de John Gruber
 ## H2
 ### H3
 ```
+
 # H1
+
 ## H2
+
 ### H3
 
-### Negriña
+### Enfasé en negriña
 
 ```md
 **texto reslatado en negriña**
 ```
+
 **texto reslatado en negriña**
 
-### Cursiva
+### Enfasé en cursiva
 
 ```md
 *texto en cursiva/italica*
 ```
+
 *texto en cursiva/italica*
 
-### Bloque resaltado
+### Bloque de cita
 
 ```md
 > Un bloque destacado
 ```
+
 > Un bloque destacado
 
 ### Listas ordeadas
@@ -48,6 +54,7 @@ Estes son os elementos descritos no documento de deseño orixinal de John Gruber
 2. Second item
 3. Third item
 ```
+
 1. First item
 2. Second item
 3. Third item
@@ -59,14 +66,17 @@ Estes son os elementos descritos no documento de deseño orixinal de John Gruber
 - Second item
 - Third item
 ```
+
 - First item
 - Second item
 - Third item
 
 ### Citas de código en liña
+
 ```md
 citar `código` en liña
 ```
+
 citar `código` en liña
 
 ### División horizontal
@@ -74,12 +84,13 @@ citar `código` en liña
 ```md
 ---
 ```
+
 ---
 
 ### Ligazón
 
 ```md
-[Markdown Guide](https://www.markdownguide.org)
+[Guía Markdown](https://www.markdownguide.org)
 ```
 
 [Guía Markdown](https://www.markdownguide.org)
@@ -90,7 +101,7 @@ citar `código` en liña
 ![alt text](https://www.markdownguide.org/assets/images/tux.png)
 ```
 
-![alt text](https://www.markdownguide.org/assets/images/tux.png)
+<!--[alt text](https://www.markdownguide.org/assets/images/tux.png)-->
 
 ## Sintaxe extendida
 
@@ -111,6 +122,7 @@ Estes elementos extenden a sintaxe básica engadindo funcións adicionais. Non t
 | Paragraph | Text |
 
 ### Bloque de código cercado
+
 ````md
 ```json
 {
@@ -146,6 +158,7 @@ Esta é unha sentenza con unha nota ao pé. [^1]
 ```md
 ### Un gran titular {#titular-id}
 ```
+
 ### Un gran titular {#titular-id}
 
 ### Lista de definición
@@ -159,6 +172,7 @@ termino
 : definición
 
 ### Riscado
+
 ```md
 ~~Riscar este texto.~~
 ```
@@ -166,39 +180,49 @@ termino
 ~~Riscar este texto.~~
 
 ### Lista de tarefas
+
 ```md
 - [x] Escribir novos artigos
 - [ ] Actualizar website
 - [ ] Contactar co medio
 ```
+
 - [x] Escribir novos artigos
 - [ ] Actualizar website
 - [ ] Contactar co medio
 
 ### Emoji
+
 ```md
 Isto pode ser divertido! :joy:
 ```
+
 Isto pode ser divertido! :joy:
 
 (Ver tamén [Copiar e Pegar Emoji](https://www.markdownguide.org/extended-syntax/#copying-and-pasting-emoji))
 
 ### Highlight
+
 ```md
 Se necesitas destacar algunhas ==palabras moi importantes==.
 ```
+
 Se necesitas destacar algunhas <mark>palabras moi importantes</mark>.
 
 ### Subscript
+
 ```md
 H~2~O
 ```
+
 H<sub>2</sub>O
 
 ### Superscript
+
 ```md
 X^2^
 ```
+
 X<sup>2</sup>
 
 ### HTML
