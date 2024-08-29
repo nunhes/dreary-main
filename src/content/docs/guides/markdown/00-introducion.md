@@ -27,14 +27,15 @@ Ademais, ao empregar a sintaxe Markdown, os arquivos xerados poden ser lidos com
 
 Os arquivos en Markdown gárdanse coa extensión `.md` e pódense abrir nun editor de texto como TextEdit, Notepad, Sublime Text, Vim, VSCode,... Moitos sitios web ou plataformas de publicación tamén ofrecen editores e/ou extensións baseados na web para introducir texto mediante a sintaxe de Markdown.
 
-Tamén se podes practicar a sintaxe de Markdown no navegador usando algún dos moitos editores en liña. p.ex. [StackEdit](https://stackedit.io/). Poderás introducir texto formatado en Markdown á esquerda e ver inmediatamente a versión interpretada ao seu carón, á dereita.
-O editor VSCode tamén dispón desta caracteristica que che permitirá escribir markdown ao tempo que o ves interpretado
+Tamén se pode practicar a sintaxe de Markdown no navegador usando algún dos moitos editores en liña. p.ex. [StackEdit](https://stackedit.io/). Poderás introducir texto formatado en Markdown á esquerda e ver inmediatamente a versión interpretada ao seu carón, á dereita.
 
 Tamén podes descubrir moitos editores de Markdown en liña ou aplicacións de escritorio para o mesmo cometido: escritura documental áxil.
 
 Ademáis hai moitos editores de código que permiten a escrita de documentos **``*.md``** e incluso facilitan a súa previsualización.
 
-![Previsualización do marcado Markdown](./md/preview-md-00.png)
+O editor VSCode tamén dispón desta caracteristica que che permitirá escribir markdown ao tempo que o ves interpretado:
+
+![Previsualización do marcado Markdown](./assets/preview-md-00.png)
 <center><small>Mentres o panel da dereita representa a versión máis elegante do texto,&rarr;<br> &larr; o arquivo/código Markdown da esquerda segue sendo aínda moi lexible.</small></center>
 
 ### Cabeceiras
@@ -240,7 +241,7 @@ As imaxes pódense referenciar usando `!`, seguido de texto alternativo entre co
 
 **Isto aparece como:**
 
-![Logotipo da Wikipedia](./md/Wikipedia-logo-v2.svg "Wikipedia logo")
+![Logotipo da Wikipedia](./assets/Wikipedia-logo-v2.svg "Wikipedia logo")
 
 ### Regras e liñas horizontais
 
