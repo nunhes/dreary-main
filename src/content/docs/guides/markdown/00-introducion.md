@@ -236,12 +236,12 @@ Atoparás varios exemplos de notas ao pé en _[MegaBoot][^1]_
 As imaxes pódense referenciar usando `!`, seguido de texto alternativo entre corchetes, seguido da URL da imaxe e un título opcional entre comiñas. Isto non se mostrará como texto no teu documento, pero permitirache incluír a imaxe na visualización dunha páxina HTML.
 
 ```md
-![Logotipo de Wikipedia](./assets/Wikipedia-logo-v2.svg "Wikipedia logo")
+![Logotipo de Wikipedia](https://en.wikipedia.org/wiki/File:Wikipedia-logo-v2.svg "Wikipedia logo")
 ```
 
 **Isto aparece como:**
 
-![Logotipo da Wikipedia](./assets/Wikipedia-logo-v2.svg "Wikipedia logo")
+![Logotipo da Wikipedia](./assets/Wikipedia-logo-v2.svg.png "Wikipedia logo")
 
 ### Regras e liñas horizontais
 
