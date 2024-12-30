@@ -69,14 +69,14 @@ HTML foi desenvolvido a partir da metanlinguaxe **SGML** (Standard Generalized M
 
 ## Que se necesita para escribir código HTML?
 
-HTML é texto, un tipo especial de texto pero texto ao fin. Isto fai que non exixa grandes requirimentos, abonda con contar cun editor de texto plano ou *bloc de notas*, que se pode atopar en calquera sistema operativo.
+HTML é texto, un tipo especial de texto pero texto ao fin e ao cabo. Isto fai que non exixa grandes requirimentos, abonda con contar cun editor de texto plano ou *bloc de notas*, que se pode atopar en calquera sistema operativo.
 
 Certo é que existen aplicacións especiais que ofrecen facilidades á hora de escribir: os editores de código.  Son aqueles editores con funcionalidades como:
 
 - o **resaltado cromático** das etiquetas, que ofrece unha visión máis clara do código e permite detectar erros sintácticos ou de aniñado. 
 - o **autocompletado**, que propón formas de expander ou completar etiquetas, incluso pechalas automaticamente.
 
-Tamén existen os editores **WYSIWYG** - *"What You See Is What You Get" ("O que ves é o que obtés")*-, que permiten escribir e ver o resultado en tempo real, desenvolvidos co obxectivo de permitir crear código HTML sen *case* coñecementos de linguaxe de marcado. Estes editores funcionan de forma similar a un procesador de textos, o texto articúlase mediante **funcións predeterminadas** dispoñibles nun menú, e sen necesidade de escribir manualmente as etiquetas, que o editor xera en segundo plano.
+Tamén existen os editores **WYSIWYG** - *"What You See Is What You Get" ("O que ves é o que obtés")*-, que permiten escribir e ver o resultado en tempo real. Desenvolvidos co obxectivo de permitir crear código HTML sen *case* coñecementos de linguaxe de marcado. Estes editores funcionan de forma similar a un procesador de textos, o texto articúlase mediante **funcións predeterminadas** dispoñibles nun menú, e sen necesidade de escribir manualmente as etiquetas, que o editor xera en segundo plano.
 
 :eye: Descartados os editores de texto tipo *Office*!! :bomb:
 
