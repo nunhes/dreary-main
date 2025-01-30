@@ -17,7 +17,7 @@ A forma máis rápida de **aprender PHP** é comprendendo os exemplos e adaptán
 
 ## Instalación PHP
 
-Para executar scripts PHP, primeiro necesitas un servidor web que sexa capaz de interpretar esta linguaxe de programación. Para iso, ten que ser complementado cun **intérprete PHP.** Trátase, neste sentido, dun compoñente de software que pode identificar as pasaxes dun arquivo que contén código PHP. En principio, PHP pode executarse en calquera servidor web e o intérprete forma parte do paquete de descarga de PHP. A versión actual pódese descargar gratuitamente dende o **sitio web oficial do proxecto** **[php.net](http://www.php.net/downloads.php)** .
+Para executar scripts PHP, primeiro necesitas un servidor web que sexa capaz de interpretar esta linguaxe de programación. Para iso, ten que ser complementado cun **intérprete PHP.** Trátase, neste sentido, dun compoñente de software que pode identificar as pasaxes dun arquivo que contén código PHP. En principio, PHP pode executarse en calquera servidor web e o intérprete forma parte do paquete de descarga de PHP. A versión actual pódese descargar gratuitamente dende o **sitio web oficial do proxecto** **[php.net](http://www.php.net/downloads.php)**.
 
 Como regra xeral, o intérprete PHP está integrado a través dun **módulo de servidor** ou co protocolo FastCGI. Por razóns de rendemento, non se recomenda utilizar o intérprete como programa CGI. Na práctica, PHP úsase a miúdo en combinación co **[servidor HTTP Apache](https://www.ionos.es/digitalguide/servidores/configuracion/instala-apache-en-tu-pc/)**. Esta conexión se completa co sistema de xestión de base de datos **[MySQL](https://www.ionos.es/digitalguide/servidores/know-how/guia-para-aprender-a-utilizar-mysql/)** ou **MariaDB**. 
 Para obter unha integración efectiva de todos estes servizos se soe instalar un paquete software que os descarga á vez. Dependendo do sistema operativo, este paquete pódese denominar **[LAMP](https://www.ionos.es/digitalguide/servidores/know-how/servidor-lamp-la-solucion-para-webs-dinamicas/)** (Linux), **WAMP** (Windows) ou **[MAMP](https://www.ionos.es/digitalguide/servidores/know-how/mamp-programas-practicos-para-mac-os-x/)** (macOS).
@@ -26,8 +26,9 @@ Para obter unha integración efectiva de todos estes servizos se soe instalar un
 
 Existen distintos paquetes que cumpren este cometido, entre eles: [XAMPP](https://www.apachefriends.org/download.html), [MAMP](https://www.mamp.info/en/mac/), [LAMP](https://help.ubuntu.com/community/ApacheMySQLPHP),... Algúns destes paquetes veñen acompañados de algún instalador de aplicacións web como [Bitnami](https://bitnami.com/) ou [Softaculous](https://www.softaculous.com/), que permiten a instalación e posta en marcha de distintos CMS cun só clic.
 
-:warning: Atención
+:::caution
 Estes paquetes *AMP están pensados exclusivamente como servidores de proba. Son pilas de software que ofrecen aos desenvolvedores web a posibilidade de engadir un ambiente de proba completo para linguaxes de script, páxinas HTML e follas de estilo nun tempo récord, pero só para uso local. Estes servizos *AMP non son recomendables para estar dispoñibles desde Internet, debido a súa fraxil capa de seguridade.
+:::
 
 ## PHP básico: sintaxe da linguaxe
 
@@ -1034,7 +1035,7 @@ echo $example;
 
 Na vista do navegador podes ver o texto devolto sen parágrafos. Non se poden mostrar saltos de liña no arquivo orixinal, o que está relacionado co feito de que o navegador web interpreta o texto do script como código HTML, polo que pérdense a configuración definida nos editores de texto.
 
-Se queres manter a estrutura orixinal, podes recorrer a diferentes posibilidades. Podes engadir manualmente a codificación HTML para o salto de liña ( _br_ ) no arquivo fonte, etiquetar o contido do arquivo con _<pre> e asignar a propiedade_ _de espazo en branco CSS: pre-envolver_ a esta sección, ou podes usar a _función nl2br ( )_ para indicarlle a PHP que _as liñas novas_ deberían transformarse automaticamente en saltos de liña HTML ( _saltos_ ) _._ A función debe utilizarse seguindo o seguinte esquema:
+Se queres manter a estrutura orixinal, podes recorrer a diferentes posibilidades. Podes engadir manualmente a codificación HTML para o salto de liña (``<br>``) no arquivo fonte, etiquetar o contido do arquivo con `<pre>` e asignar a propiedade `white-space: pre-wrap` a esta sección, ou podes usar a función `nl2br()` para indicarlle a PHP que as novas liñas debean transformarse automaticamente en saltos de liña HTML (``<br>``). A función debe utilizarse seguindo o seguinte esquema:
 
 ```php
 <?php
@@ -1043,11 +1044,11 @@ echo nl2br($example);
 ?>
 ```
 
-_Se o construtor da linguaxe echo_ se usa en combinación con _nl2br()_ , PHP insire un salto de liña HTML antes de cada liña.
+Se o construtor da linguaxe `echo` se usa en combinación con `nl2br()`, PHP insire un salto de liña HTML antes de cada liña.
 
-[![Aplicación da función nl2br().](https://www.ionos.es/digitalguide/fileadmin/DigitalGuide/Screenshots/EN-php-tut16_3.png)](https://www.ionos.es/digitalguide/fileadmin/DigitalGuide/Screenshots/EN-php-tut16_3.png)A función nl2br() axuda a estruturar os datos lidos.
+[![Aplicación da función nl2br()](https://www.ionos.es/digitalguide/fileadmin/DigitalGuide/Screenshots/EN-php-tut16_3.png)](https://www.ionos.es/digitalguide/fileadmin/DigitalGuide/Screenshots/EN-php-tut16_3.png)A función ``nl2br()`` axuda a estruturar os datos lidos.
 
-Para **mostrar as liñas dun arquivo por separado,** pode usar a función _file()_ , que le o arquivo, numera todas as liñas que comezan por 0 e garda o seu contido como elementos dunha matriz. Trasladado ao noso exemplo, obtense a seguinte clasificación:
+Para **mostrar as liñas dun arquivo por separado,** pode usar a función `file()` , que le o arquivo, numera todas as liñas que comezan por 0 e garda o seu contido como elementos dunha matriz. Trasladado ao noso exemplo, obtense a seguinte clasificación:
 
 [0] = _Lorem ipsum dolor sit amet, consectetuer adipiscing elit._
 
@@ -1066,15 +1067,15 @@ echo $example [0];
 ?>
 ```
 
-[![Aplicación da función file().](https://www.ionos.es/digitalguide/fileadmin/DigitalGuide/Screenshots/EN-php-tut16_4.png)](https://www.ionos.es/digitalguide/fileadmin/DigitalGuide/Screenshots/EN-php-tut16_4.png)Escolla o elemento da matriz que quere publicar.
+[![Aplicación da función file().](https://www.ionos.es/digitalguide/fileadmin/DigitalGuide/Screenshots/EN-php-tut16_4.png)](https://www.ionos.es/digitalguide/fileadmin/DigitalGuide/Screenshots/EN-php-tut16_4.png)Escoller o elemento da matriz que se quere publicar.
 
 ### Redacción de arquivos
 
 Con PHP non só se poden ler arquivos, senón que a linguaxe de programación tamén dá a posibilidade de crealos e describilos con contido.
 
-Para iso utilízase a función PHP **_file_put_contents()_** _, que espera **dous parámetros:** o nome do arquivo que se debe crear ou actualizar e os datos en forma de cadea ou matriz._
+Para iso utilízase a función PHP **``file_put_contents()``**, que espera **dous parámetros:** o nome do arquivo que se debe crear ou actualizar e os datos en forma de cadea ou matriz.
 
-_O seguinte script crea o arquivo test.txt e escribe a cadea This is a test! (Esta é unha proba!) na primeira liña. O suplemento \r\n produce un salto de liña no arquivo de destino._ _Imos velo:_
+O seguinte script crea o arquivo test.txt e escribe a cadea This is a test! (Esta é unha proba!) na primeira liña. O suplemento \r\n produce un salto de liña no arquivo de destino. Imos velo:
 
 ```php
 <?php
@@ -1111,3 +1112,8 @@ echo "test.txt was updated!";
 ```
 
 [![Operacións de arquivos: transmisión do contido dun arquivo a outro](https://www.ionos.es/digitalguide/fileadmin/DigitalGuide/Screenshots/EN-php-tut19.png)](https://www.ionos.es/digitalguide/fileadmin/DigitalGuide/Screenshots/EN-php-tut19.png)O script PHP le os datos do arquivo example.txt e engádeos ao arquivo test.txt.
+
+
+
+---
+_.ref:_ https://www.ionos.mx/digitalguide/paginas-web/creacion-de-paginas-web/tutorial-de-php-fundamentos-basicos-para-principiantes/

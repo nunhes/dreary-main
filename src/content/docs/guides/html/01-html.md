@@ -28,7 +28,7 @@ Analizamos o arquivo que acabamos de crear:
 
 - Despois diso, a páxina consta de algúns **[elementos HTML](https://developer.mozilla.org/es/docs/Web/HTML/Element)** aniñados (como `html`, `head` ou `body`), cada un cunha **etiqueta de apertura e outra de peche** marcada coma `<elemento>` para a apertura e `</elemento>` para o peche.
 
-  <img src="./assets/esquemahtml.webp" alt="Esquema do documento HTML. Estrutura" />
+![Estrutura do documento HTML](./assets/esquemahtml.png)
 
 - Os elementos HTML poden incluír **atributos** , que proporcionan ao navegador información adicional sobre dito elemento. Por exemplo, cando incluímos `lang="gl"` na etiqueta `html` inicial, estamos indicándolle ao navegador cal vai ser o idioma principal dos contidos e axudaremos aos buscadores a indexalos mellor.
 
@@ -350,7 +350,16 @@ CSS ten a característica da [especificidade](https://developer.mozilla.org/es/d
 
 - Ademais da coma para varios selectores, hai varias outras formas de especificar cales son os elementos aos que se quere aplicar estilo. Esta táboa ofrece algunhas posibilidades máis comúns:
 
-![selectores](./assets/selectors.png)
+
+| selectores | descrición |
+| :--- | :--- |
+| `a`, `b` | Selector de elementos múltiples |
+| `a b` | Selector de descendentes |
+| `a > b` | Selector de fillos |
+| `a + b` | selector de irmáns adxacentes |
+| `[a=b]` | Selector de atributo |
+| `a:b` | Selector de pseudoclase |
+| `a::b` | Selector de pseudoelemento |
 
 - **Selector descendente**: aquí, usamos o selector descendente para aplicar un estilo só aos elementos da lista que se atopan nunha lista sen ordenar:
 
@@ -438,7 +447,7 @@ CSS ten a característica da [especificidade](https://developer.mozilla.org/es/d
 </html>
 ```
 
-![botóns](https://cs50.harvard.edu/web/2020/notes/0/images/buttons.gif)
+![botóns](./assets/buttons.gif)
 
 ### Deseño receptivo ou *responsive*
 
@@ -481,7 +490,8 @@ Para obter un exemplo dunha consulta multimedia, intentemos simplemente cambiar 
 </html>
 ```
 
-![tamaño da pantalla](./assets/responsive0.gif)
+
+![tama&ntilde;o da pantalla](./assets/responsive0.gif)
 
 Outra forma de tratar con diferentes tamaños de pantalla é usar un novo atributo CSS coñecido como [flexbox](https://developer.mozilla.org/es/docs/Learn/CSS/CSS_layout/Flexbox). Isto permítenos que os elementos se despreguen facilmente á seguinte liña se non encaixan horizontalmente. Facemos isto poñendo todos os nosos elementos nun contedor  `div`  que, no exemplo, denominaremos `container`. Despois engadimos un estilo a ese `div` especificando que queremos usar unha modelo *flexbox* para os elementos contidos nel. Tamén engadimos algún estilo adicional aos *divs* internos para ilustrar mellor o envolvemento que se está a producir aquí.
 
@@ -571,7 +581,7 @@ Outra forma popular de deseñar unha páxina é usar unha [grella](https://devel
 </html>
 ```
 
-![grella](https://cs50.harvard.edu/web/2020/notes/0/images/grid.gif)
+![grella](./assets/grid.gif)
 
 ### Bootstrap
 
@@ -667,9 +677,9 @@ Para mellorar a capacidade de resposta no móbil, Bootstrap tamén nos permite e
 </html>
 ```
 
-![envolver columnas](https://cs50.harvard.edu/web/2020/notes/0/images/cols2.gif)
+![envolver columnas](./assets/cols2.gif)
 
-### Sass (follas de estilo sintácticamente impresionantes)
+### Sass (follas de estilo sintacticamente impresionantes)
 
 Ata agora, atopamos algunhas formas de eliminar a redundancia en CSS, como movela a arquivos separados ou usar [librarías como Bootstrap](https://2023.stateofcss.com/es-ES/css-frameworks/), pero inda hai bastantes lugares nos que aínda podemos facer melloras.
 
@@ -732,7 +742,7 @@ div ul {
 }
 ```
 
-- Unha característica máis que nos ofrece Sass é a coñecida como [herdanza](https://sass-lang.com/guide/#inheritance) . Isto permítenos crear un conxunto básico de estilo que pode ser compartido por varios elementos diferentes. Facemos isto engadindo `%` antes do nome dunha clase, engadindo algún estilo e despois engadindo a liña `@extend %classname` ao comezo dalgún estilo. Por exemplo, o seguinte código aplica o estilo dentro da clase `message` a cada unha das diferentes clases a continuación, o que resulta nunha páxina web que se parece á seguinte.
+- Unha característica máis que nos ofrece Sass é a coñecida [herdanza](https://sass-lang.com/guide/#inheritance). Isto permítenos crear un conxunto básico de estilo que pode ser compartido por varios elementos diferentes. Facemos isto engadindo `%` antes do nome dunha clase, engadindo algún estilo e despois engadindo a liña `@extend %classname` ao comezo dalgún estilo. Por exemplo, o seguinte código aplica o estilo dentro da clase `message` a cada unha das diferentes clases a continuación, o que resulta nunha páxina web que se parece á seguinte.
 
 ```css
 %message {

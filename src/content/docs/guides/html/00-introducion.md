@@ -166,12 +166,12 @@ Reducido aos seus mínimos elementos necesarios, o código básico dunha páxina
 
 ```html
 <!DOCTYPE html>
-<html lang="en">
+<html lang="gl">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Aquí podes inserir toda a información sobre o marco básico HTML.">
-  <title>Aprende HTML: o marco básico</title>
+  <meta name="description" content="Aquí podes inserir toda a información sobre o asunto principal do sitio web.">
+  <title>Aprende HTML: a linguaxe de marcado da www</title>
 </head>
 <body>
 	<!-- Aqui iran os contidos da páxina -->

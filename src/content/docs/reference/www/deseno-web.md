@@ -53,7 +53,7 @@ Pero que significan estes termos en relación ao deseño web?
 - Unha [maqueta web](https://uizard.io/blog/4-ways-to-create-a-website-design-mock-up-even-if-you-have-no-design-experience/) usa máis detalles que un wireframe e inclúe cores, texto e imaxes, así como compoñentes máis definidos. E de novo, as maquetas pasarán por varias fases de iteración antes de chegar á fase de prototipo.
 - [A creación de prototipos de deseño web](https://uizard.io/blog/how-to-design-a-website-prototype/) é o paso final antes de completar un deseño web. O prototipo céntrase en presentar como sería un sitio web contando tamén cos cambios ou resultados da interacción dun usuario co deseño.
 
-![wireframe web a maqueta web a prototipo web](../assets/Screenshot-2023-07-31-at-16.44.56.png)
+![wireframe web a maqueta web a prototipo web](../assets/prototipado-1-2-3.png)
 
 <center><small>Do wireframe dun sitio web á maqueta e ao prototipo</small></center>
 
