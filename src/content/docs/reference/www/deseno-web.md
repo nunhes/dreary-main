@@ -95,7 +95,7 @@ A cor é unha parte esencial de case todos os deseños, e é especialmente impor
 
 De aí que sexa moi habitual delimitar a paleta ou cantidade de cores a empregar nun sitio web, reflexionando sobre para que imos a empregar cada un deles, o nivel de contraste, o significado psicolóxico ou cultural da cor,...
 
-![xerador de cores uizard](../assets/Screenshot-2023-07-27-at-13.05.29.png)
+![xerador de cores uizard](../assets/paletas-de-cor.png)
 
 <center><small>A cor é un elemento expresivo decisivo no deseño web</small></center>
 
