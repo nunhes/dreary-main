@@ -13,10 +13,10 @@
     "@astrojs/check": "^0.9.4",
     "@astrojs/markdown-remark": "^6.1.0",
     "@astrojs/starlight": "^0.31.1",
-    "astro": "^5.2.1",
+    "astro": "^5.2.3",
     "rehype-autolink-headings": "^7.1.0",
     "sharp": "^0.33.5",
-    "typescript": "^5.7.2"
+    "typescript": "^5.7.3"
   },
   "packageManager": "pnpm@9.3.0+sha512.ee7b93e0c2bd11409c6424f92b866f31d3ea1bef5fbe47d3c7500cdc3c9668833d2e55681ad66df5b640c61fa9dc25d546efa54d76d7f8bf54b13614ac293631",
   "devDependencies": {
