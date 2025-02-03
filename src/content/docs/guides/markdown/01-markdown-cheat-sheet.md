@@ -3,11 +3,11 @@ title: Atallos Markdown
 description: Trucos de como escribir Markdown e como se visualiza interpretado
 ---
 
-Esta folla de trucos de Markdown ofrece unha visión xeral rápida de todos os elementos de sintaxe de Markdown. Non pode cubrir todos os casos extremos, polo que se precisa máis información sobre algún destes elementos, consulte as guías de referencia para [sintaxe básica](https://www.markdownguide.org/basic-syntax/) e [estendido sintaxe](https://www.markdownguide.org/extended-syntax/).
+Esta folla de trucos de Markdown ofrece unha visión xeral rápida de todos os elementos de sintaxe de Markdown. Non pode cubrir todos os casos extremos, polo que se precisa máis información sobre algún destes elementos, consulte as guías de referencia para [sintaxe básica](https://www.markdownguide.org/basic-syntax/) e [sintaxe estendida](https://www.markdownguide.org/extended-syntax/).
 
 ## Sintaxe básica
 
-Estes son os elementos descritos no documento de deseño orixinal de John Gruber. Todas as aplicacións Markdown admiten estes elementos.
+Estes son os elementos descritos no documento de deseño orixinal de John Gruber. Desde o seu nacemento Markdown adoptou [distintos estilos](https://github.github.com/gfm/) de renderizado vinculados a programas de edición e|ou plataforms de soporte. Todas as aplicacións Markdown admiten estes elementos.
 
 ### Cabeceiras
 
@@ -50,26 +50,26 @@ Estes son os elementos descritos no documento de deseño orixinal de John Gruber
 ### Listas ordeadas
 
 ```md
-1. First item
-2. Second item
-3. Third item
+1. Primeiro item
+2. Segundo item
+3. Terceiro item
 ```
 
-1. First item
-2. Second item
-3. Third item
+1. Primeiro item
+2. Segundo item
+3. Terceiro item
 
 ### Lista desordeada
 
 ```md
-- First item
-- Second item
-- Third item
+- Primeiro item
+- Segundo item
+- Terceiro item
 ```
 
-- First item
-- Second item
-- Third item
+- Primeiro item
+- Segundo item
+- Terceiro item
 
 ### Citas de código en liña
 
@@ -98,10 +98,10 @@ citar `código` en liña
 ### Imaxe
 
 ```md
-![alt text](https://www.markdownguide.org/assets/images/tux.png)
+![alt text](./assets/Wikipedia-logo-v2.svg.png)
 ```
 
-<!--[alt text](https://www.markdownguide.org/assets/images/tux.png)-->
+![alt text](./assets/Wikipedia-logo-v2.svg.png)
 
 ## Sintaxe extendida
 
@@ -164,12 +164,34 @@ Esta é unha sentenza con unha nota ao pé. [^1]
 ### Lista de definición
 
 ```md
-termino
-: definición
+- termo1
+
+  - : Descrición do termo1
+
+- `termo2`
+
+  - : Descrición do termo2
+
+    Pode conter varios parágrafos e tamén bloques de código:
+
+    ```js
+    const thing = 1;
+    ```
 ```
 
-termino
-: definición
+- termo1
+
+  - : Descrición do termo1
+
+- `termo2`
+
+  - : Descrición do termo2
+
+    Pode conter varios parágrafos e tamén bloques de código:
+
+    ```js
+    const thing = 1;
+    ```
 
 ### Riscado
 
@@ -241,10 +263,17 @@ Ou presentar unha información difícil de codificar con markdown:
 
 <center><small>Ou presentar unha información difícil de codificar con markdown.</small></center>
 
+### ...
+
 ---
 
 *_ref:*
 
-*[Daring Fireball: Markdown](https://daringfireball.net/projects/markdown/)*
+- *[Daring Fireball: Markdown](https://daringfireball.net/projects/markdown/)*
+- *[MDN Cómo escribir en Markdown](https://developer.mozilla.org/es/docs/MDN/Writing_guidelines/Howto/Markdown_in_MDN)*
+- *[Markdown Guide](https://www.markdownguide.org/)*
+- *[Markdown and Visual Studio Code](https://code.visualstudio.com/docs/languages/markdown)*
+- *[Markdown style guide](https://docs.gruntwork.io/guides/style/markdown-style-guide/)*
 
-*[Markdown Guide](https://www.markdownguide.org/)*
+---
+##### NOTAS:

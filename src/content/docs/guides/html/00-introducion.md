@@ -3,15 +3,13 @@ title: Introdución HTML
 description: Linguaxe de marcado de hipertexto...
 ---
 
-
-
 A finais dos anos 80, Tim Berners-Lee traballaba nun proxecto interno da Organización Europea para a Investigación Nuclear (CERN) que ía permitir o intercambio transnacional de información na súa rede de laboratorios, distribuídos entre Francia e Suíza. Aquel proxecto interno acabaría por converterse nas bases do que pronto acabaría por coñecerse como Internet ou World Wide Web. 
 
 Como base daquela infraestrutura de intercambio de datos a traves das redes de comunicación, Berners-Lee utilizou unha linguaxe de hipertexto, un tipo de escritura baseado nunha linguaxe de marcado que buscaba transmitir información a través de documentos entrelazados por hipervínculos ao que denominou Hypertext Markup Language ou HTML.
 
-Esta linguaxe, xunto a outros compoñentes como o protocolo de transferencia HTTP, o localizador de URL, ou os navegadores e servidores web, pronto se converterían na pedra angular da interconexión dixital global. 
+**Esta linguaxe, xunto a outras compoñentes coma o protocolo de transferencia HTTP, o localizador de URL, ou os navegadores e servidores web, pronto se converterían na pedra angular da interconexión dixital global**. 
 
-Agora, trinta e poucos anos máis tarde, aprender a usar esta linguaxe de marcado é unha das primeiras tarefas que acometer se queres converterte nun desenvolvedor web.
+Agora, trinta e tantos anos máis tarde, aprender a usar esta linguaxe de marcado é unha das primeiras tarefas que acometer se queres converterte nun desenvolvedor web.
 
 Esta introdución repasa os principios básicos desta linguaxe de marcado, e apunta algúns consellos para novizos, co fin de que poidas encetar con coñecementos sólidos e que os teus primeiros pasos no desenvolvemento web sexan o máis firmes posible.
 
@@ -346,3 +344,5 @@ Outro compoñente básico do deseño web moderno é JavaScript, coa axuda do cal
 ---
 
 OUT 2023
+
+*Podes probar os exemplos nalgún [editor en liña](https://codi.link/).*

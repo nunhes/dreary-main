@@ -5,6 +5,8 @@ description: Markdown é unha linguaxe de marcado sinxelo e poderoso
 
 ## Que é Markdown?
 
+![Markdown é unha linguaxe de marcado con sintaxis en texto plano deseñada para xerar textos con formato.](./assets/markdown.png)
+
 Markdown foi desenvolvido en 2004 por [John Gruber](http://daringfireball.net/projects/markdown/).
 
 Markdown é unha linguaxe de marcado con sintaxis en texto plano deseñada para xerar textos con formato.
@@ -21,7 +23,7 @@ Os arquivos de texto plano teñen moitas vantaxes sobre outros formatos:
 - pódense ler practicamente en tódolos dispositivos.
 - resisten mellor o paso do tempo que outros tipos de arquivos -p.ex. os documentos gardados nun formato de [procesador de textos antigo](https://es.wikipedia.org/wiki/Sistema_heredado), ou incluso entre distintos procesadores poden dar problemas de compatibilidade, que o texto plano normalmente non produce, aínda co paso do tempo-.
 
-Ademais, ao empregar a sintaxe Markdown, os arquivos xerados poden ser lidos como texto plano ao tempo que quedan listos para ser formatados noutros formatos. Moitos xeradores de bitácoras e de sitios estáticos (SSG), así como sitios como GitHub, tamén aceptan Markdown e traducen eses arquivos a HTML para a súa visualización na web. Por outra banda, ferramentas como Pandoc poden converter arquivos a Markdown ou desde Markdown a case calquer formato de documento de texto.
+Ademais, ao empregar a sintaxe Markdown, os arquivos xerados poden ser lidos como texto plano ao tempo que quedan listos para ser formatados noutros formatos (.pdf, .html, .doc,..). Moitos xeradores de bitácoras e de sitios estáticos ([SSG](https://jamstack.org/generators/)), así como sitios como GitHub, tamén aceptan Markdown e traducen eses arquivos a HTML para a súa visualización na web. Por outra banda, ferramentas como Pandoc poden converter arquivos a Markdown ou desde Markdown a case calquer formato de documento de texto.
 
 ## Sintaxe en Markdown
 
@@ -29,7 +31,7 @@ Os arquivos en Markdown gárdanse coa extensión `.md` e pódense abrir nun edit
 
 Tamén se pode practicar a sintaxe de Markdown no navegador usando algún dos moitos editores en liña. p.ex. [StackEdit](https://stackedit.io/). Poderás introducir texto formatado en Markdown á esquerda e ver inmediatamente a versión interpretada ao seu carón, á dereita.
 
-Tamén podes descubrir moitos editores de Markdown en liña ou aplicacións de escritorio para o mesmo cometido: escritura documental áxil.
+Tamén podes descubrir moitos editores de Markdown en liña ou aplicacións de escritorio para o mesmo cometido: **escritura documental áxil**.
 
 Ademáis hai moitos editores de código que permiten a escrita de documentos **``*.md``** e incluso facilitan a súa previsualización.
 
