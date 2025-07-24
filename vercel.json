@@ -8,6 +8,5 @@
   "trailingSlash": false,
   "github": {
     "silent": true
-  },
-  "nodeVersion": "18.20.8"
+  }
 }
