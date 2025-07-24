@@ -3426,11 +3426,13 @@ snapshots:
       ultrahtml: 1.6.0
       unifont: 0.5.2
       unist-util-visit: 5.0.0
+
       unstorage: 1.16.1
       vfile: 6.0.3
       vite: 6.3.5(@types/node@24.1.0)(yaml@2.8.0)
       vitefu: 1.1.1(vite@6.3.5(@types/node@24.1.0)(yaml@2.8.0))
       xxhash-wasm: 1.1.0
+
       yargs-parser: 21.1.1
       yocto-spinner: 0.2.3
       zod: 3.25.76
@@ -5316,7 +5318,11 @@ snapshots:
       '@types/unist': 3.0.3
       vfile-message: 4.0.2
 
+
+  
+
   vite@6.3.5(@types/node@24.1.0)(yaml@2.8.0):
+
     dependencies:
       esbuild: 0.25.8
       fdir: 6.4.6(picomatch@4.0.3)
@@ -5329,9 +5335,11 @@ snapshots:
       fsevents: 2.3.3
       yaml: 2.8.0
 
+
   vitefu@1.1.1(vite@6.3.5(@types/node@24.1.0)(yaml@2.8.0)):
     optionalDependencies:
       vite: 6.3.5(@types/node@24.1.0)(yaml@2.8.0)
+
 
   volar-service-css@0.0.62(@volar/language-service@2.4.20):
     dependencies:
