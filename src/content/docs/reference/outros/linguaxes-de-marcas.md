@@ -38,7 +38,7 @@ Algúns exemplos de linguaxes de marcado segundo a clasificación anterior serí
 
 - **RTF** (Rich Text Format): Desenvolvido por Microsoft en 1987. Representa documentos de texto con formato de presentación engadido.
 
-```rtf
+```text
 {\rtf1\ansi{\fonttbl\f0\fswiss Helvetica;}\f0\pard
  Este é texto en {\b negra}.\par
  }

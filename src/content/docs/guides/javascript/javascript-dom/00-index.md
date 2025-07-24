@@ -1,6 +1,6 @@
 ---
-title: Javascript DOM
-description: Uso de javascript na arbore do modelo de obxecto do documento
+title: JavaScript DOM
+description: Uso de JavaScript na arbore do modelo de obxectos do documento
 ---
 
 ## Introdución
@@ -15,13 +15,13 @@ description: Uso de javascript na arbore do modelo de obxecto do documento
 - [Select Elements By Class Names](https://www.javascripttutorial.net/javascript-dom/javascript-getelementsbyclassname/)
 - [Select Element By CSS Selectors](https://www.javascripttutorial.net/javascript-dom/javascript-queryselector/)
 
-## TRAVESING ELEMENTS
+## Elementos transversais
 
 - [Get the Parent Element](https://www.javascripttutorial.net/javascript-dom/javascript-get-parent-element-parentnode/)
 - [Get Siblings of an Element](https://www.javascripttutorial.net/javascript-dom/javascript-siblings/)
 - [Get Children of an Element](https://www.javascripttutorial.net/javascript-dom/javascript-get-child-element/)
 
-## MANIPULATING ELEMENTS
+## Manipulando elementos
 
 - [Create Elements](https://www.javascripttutorial.net/javascript-dom/javascript-createelement/)
 - [Append Child Nodes](https://www.javascripttutorial.net/javascript-dom/javascript-appendchild/)
@@ -42,7 +42,7 @@ description: Uso de javascript na arbore do modelo de obxecto do documento
 
 
 
-## MANGING ATTRIBUTES
+## Administrando atributos
 
 - [HTML Attributes & DOM Properties](https://www.javascripttutorial.net/javascript-dom/html-attributes-dom-object-properties/)
 - [Set Value of an Attribute](https://www.javascripttutorial.net/javascript-dom/javascript-setattribute/)
@@ -50,7 +50,7 @@ description: Uso de javascript na arbore do modelo de obxecto do documento
 - [Remove an Attribute from Elements](https://www.javascripttutorial.net/javascript-dom/javascript-removeattribute/)
 - [Check if an Element has an Attribute](https://www.javascripttutorial.net/javascript-dom/javascript-hasattribute/)
 
-## STYLING
+## Estilo
 
 - [Get or Set Inline Style](https://www.javascripttutorial.net/javascript-dom/javascript-style/)
 - [Get the Computed Style](https://www.javascripttutorial.net/javascript-dom/javascript-getcomputedstyle/)
@@ -58,7 +58,7 @@ description: Uso de javascript na arbore do modelo de obxecto do documento
 - [Manipulate CSS Classes](https://www.javascripttutorial.net/javascript-dom/javascript-classlist/)
 - [Get Element’s Width and Height](https://www.javascripttutorial.net/javascript-dom/javascript-width-height/)
 
-## HANDLING EVENTS
+## Manexando eventos
 
 - [Introduction to Events](https://www.javascripttutorial.net/javascript-dom/javascript-events/)
 - [Event Handling](https://www.javascripttutorial.net/javascript-dom/handling-events-in-javascript/)
@@ -77,7 +77,7 @@ description: Uso de javascript na arbore do modelo de obxecto do documento
 - [Simulate Events](https://www.javascripttutorial.net/javascript-dom/javascript-dispatchevent/)
 - [Custom Events](https://www.javascripttutorial.net/javascript-dom/javascript-custom-events/)
 
-## SCRIPTING FORMS
+## Formularios
 
 - [Form: submit & reset](https://www.javascripttutorial.net/javascript-dom/javascript-form/)
 - [Checkbox](https://www.javascripttutorial.net/javascript-dom/javascript-checkbox/)
@@ -86,7 +86,7 @@ description: Uso de javascript na arbore do modelo de obxecto do documento
 - [Add & Remove Options](https://www.javascripttutorial.net/javascript-dom/javascript-add-remove-options/)
 - [Remove Items from Select Element Conditionally](https://www.javascripttutorial.net/javascript-dom/javascript-remove-items-from-a-select-conditionally/)
 
-## MINI PROJECTS
+## Mini proxectos
 
 - [Toggle Password Visibility](https://www.javascripttutorial.net/javascript-dom/javascript-toggle-password-visibility/)
 - [Wikipedia Search App](https://www.javascripttutorial.net/javascript-dom/javascript-debounce/)

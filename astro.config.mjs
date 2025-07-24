@@ -1,17 +1,17 @@
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
-import vercel from '@astrojs/vercel/static';
+import vercel from '@astrojs/vercel';
 
 import { rehypeHeadingIds } from '@astrojs/markdown-remark';
 import rehypeSlug from 'rehype-slug';
-import { rehypeAutolinkHeadings } from 'rehype-autolink-headings';
+import rehypeAutolinkHeadings from 'rehype-autolink-headings';
 import { rehypeAccessibleEmojis } from 'rehype-accessible-emojis';
 
 
 // https://astro.build/config
 export default defineConfig({
 	output: 'static',
-	adapter: vercel(),
+	adapter: vercel({ target: 'static' }),
 	integrations: [
 		starlight({
 			title: 'MegaBoot',
@@ -22,9 +22,9 @@ export default defineConfig({
 					lang: 'gl', // lang is required for root locales
 				},
 			},
-			social: {
-				github: 'https://github.com/nunhes',
-			},
+			social: [
+				{ label: 'GitHub', icon: 'github', href: 'https://github.com/nunhes' },
+			],
 			sidebar: [
 				{
 					label: 'Guías',
