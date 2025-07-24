@@ -6,7 +6,7 @@ description: Follas de estilo en cascada...
 
 CSS (Cascading Style Sheets) é unha linguaxe de estilos utilizada para describir a presentación dun documento escrito en HTML ou XML (incluíndo vários formatos de XML como SVG ou XHTML). A principal función do CSS é controlar o aspecto visual e o formato do contido das páxinas web, permitindo separar o contido (HTML) da súa presentación (CSS).
 
-### Principais conceptos de CSS:
+### Principais conceptos de CSS
 
 1. **[Selectores](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors):** Permiten apuntar elementos HTML específicos e aplicarlles estilos. Pódese seleccionar por **[etiquetas HTML](https://developer.mozilla.org/en-US/docs/Web/CSS/Type_selectors)**, **[clases](https://developer.mozilla.org/es/docs/Web/CSS/Class_selectors)**, **[identificadores](https://developer.mozilla.org/es/docs/Web/CSS/ID_selectors)**, **[atributos](https://developer.mozilla.org/es/docs/Web/CSS/Attribute_selectors)** ou **[relacións entre elementos](https://developer.mozilla.org/en-US/docs/Web/CSS/Child_combinator)**.
 
@@ -57,7 +57,7 @@ CSS (Cascading Style Sheets) é unha linguaxe de estilos utilizada para describi
 
 5. **[Herdanza](https://developer.mozilla.org/es/docs/Learn/CSS/Building_blocks/Cascade_and_inheritance):** Algúns estilos aplicados a un elemento poden ser herdados por elementos fillos.
 
-### Sintaxe básica de CSS:
+### Sintaxe básica de CSS
 
 Unha regra CSS consta dun selector e un conxunto de propiedades e valores separados por dous puntos (:). O conxunto de propiedade-valor vai seguido por un punto e coma (;). As regras CSS normalmente son escritas nun arquivo separado coa extensión `.css` ou tamén poden ser incluídas internamente nun documento HTML.
 
@@ -99,6 +99,6 @@ Exemplo de uso externo:
 </html>
 ```
 
-### Conclusión:
+### Conclusión
 
 O CSS é unha ferramenta poderosa para controlar a aparencia visual das páxinas web, permitindo unha presentación máis atractiva e unha separación máis clara entre o contido e a súa presentación. É fundamental para a creación de sitios web modernos e responsivos.

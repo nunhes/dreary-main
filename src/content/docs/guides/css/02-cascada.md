@@ -169,7 +169,7 @@ Debido a que os estilos en capas teñen unha prioridade máis baixa que os estil
 ## **Debemos usar capas en cascada CSS?**
 
 [É cedo para usalas?](https://caniuse.com/css-cascade-layers) As capas en cascada son unha das novas caracteristicas de CSS 2022. Encetaron empregandose nas versións máis recentes de Firefox, pero tamén Chrome e Edge, engadiron o soporte completo para a partires da versión 99.
-
+Desde Marzo 2022, esta funcionalidade funciona xa en tódolos dispositivos e as principais versións dos navegadores.
 ![img](./assets/cascade_css-tableau.png)
 
 Xoga coas capas en cascada para entender mellor como usalas.

@@ -3,11 +3,11 @@ title: Atallos Markdown
 description: Trucos de como escribir Markdown e como se visualiza interpretado
 ---
 
-Esta folla de trucos de Markdown ofrece unha visión xeral rápida de todos os elementos de sintaxe de Markdown. Non pode cubrir todos os casos extremos, polo que se precisa máis información sobre algún destes elementos, consulte as guías de referencia para [sintaxe básica](https://www.markdownguide.org/basic-syntax/) e [estendido sintaxe](https://www.markdownguide.org/extended-syntax/).
+Esta folla de trucos de Markdown ofrece unha visión xeral rápida de todos os elementos de sintaxe de Markdown. Non pode cubrir todos os casos extremos, polo que se precisa máis información sobre algún destes elementos, consulte as guías de referencia para [sintaxe básica](https://www.markdownguide.org/basic-syntax/) e [sintaxe estendida](https://www.markdownguide.org/extended-syntax/).
 
 ## Sintaxe básica
 
-Estes son os elementos descritos no documento de deseño orixinal de John Gruber. Todas as aplicacións Markdown admiten estes elementos.
+Estes son os elementos descritos no documento de deseño orixinal de John Gruber. Desde o seu nacemento Markdown adoptou [distintos estilos](https://github.github.com/gfm/) de renderizado vinculados a programas de edición e|ou plataforms de soporte. Todas as aplicacións Markdown admiten estes elementos.
 
 ### Cabeceiras
 
@@ -16,57 +16,67 @@ Estes son os elementos descritos no documento de deseño orixinal de John Gruber
 ## H2
 ### H3
 ```
+
 # H1
+
 ## H2
+
 ### H3
 
-### Negriña
+### Enfasé en negriña
 
 ```md
 **texto reslatado en negriña**
 ```
+
 **texto reslatado en negriña**
 
-### Cursiva
+### Enfasé en cursiva
 
 ```md
 *texto en cursiva/italica*
 ```
+
 *texto en cursiva/italica*
 
-### Bloque resaltado
+### Bloque de cita
 
 ```md
 > Un bloque destacado
 ```
+
 > Un bloque destacado
 
 ### Listas ordeadas
 
 ```md
-1. First item
-2. Second item
-3. Third item
+1. Primeiro item
+2. Segundo item
+3. Terceiro item
 ```
-1. First item
-2. Second item
-3. Third item
+
+1. Primeiro item
+2. Segundo item
+3. Terceiro item
 
 ### Lista desordeada
 
 ```md
-- First item
-- Second item
-- Third item
+- Primeiro item
+- Segundo item
+- Terceiro item
 ```
-- First item
-- Second item
-- Third item
+
+- Primeiro item
+- Segundo item
+- Terceiro item
 
 ### Citas de código en liña
+
 ```md
 citar `código` en liña
 ```
+
 citar `código` en liña
 
 ### División horizontal
@@ -74,12 +84,13 @@ citar `código` en liña
 ```md
 ---
 ```
+
 ---
 
 ### Ligazón
 
 ```md
-[Markdown Guide](https://www.markdownguide.org)
+[Guía Markdown](https://www.markdownguide.org)
 ```
 
 [Guía Markdown](https://www.markdownguide.org)
@@ -87,10 +98,10 @@ citar `código` en liña
 ### Imaxe
 
 ```md
-![alt text](https://www.markdownguide.org/assets/images/tux.png)
+![alt text](./assets/Wikipedia-logo-v2.svg.png)
 ```
 
-![alt text](https://www.markdownguide.org/assets/images/tux.png)
+![alt text](./assets/Wikipedia-logo-v2.svg.png)
 
 ## Sintaxe extendida
 
@@ -111,6 +122,7 @@ Estes elementos extenden a sintaxe básica engadindo funcións adicionais. Non t
 | Paragraph | Text |
 
 ### Bloque de código cercado
+
 ````md
 ```json
 {
@@ -146,19 +158,43 @@ Esta é unha sentenza con unha nota ao pé. [^1]
 ```md
 ### Un gran titular {#titular-id}
 ```
+
 ### Un gran titular {#titular-id}
 
 ### Lista de definición
 
 ```md
-termino
-: definición
+- termo1
+
+  - : Descrición do termo1
+
+- `termo2`
+
+  - : Descrición do termo2
+
+    Pode conter varios parágrafos e tamén bloques de código:
+
+    ```js
+    const thing = 1;
+    ```
 ```
 
-termino
-: definición
+- termo1
+
+  - : Descrición do termo1
+
+- `termo2`
+
+  - : Descrición do termo2
+
+    Pode conter varios parágrafos e tamén bloques de código:
+
+    ```js
+    const thing = 1;
+    ```
 
 ### Riscado
+
 ```md
 ~~Riscar este texto.~~
 ```
@@ -166,39 +202,49 @@ termino
 ~~Riscar este texto.~~
 
 ### Lista de tarefas
+
 ```md
 - [x] Escribir novos artigos
 - [ ] Actualizar website
 - [ ] Contactar co medio
 ```
+
 - [x] Escribir novos artigos
 - [ ] Actualizar website
 - [ ] Contactar co medio
 
 ### Emoji
+
 ```md
 Isto pode ser divertido! :joy:
 ```
+
 Isto pode ser divertido! :joy:
 
 (Ver tamén [Copiar e Pegar Emoji](https://www.markdownguide.org/extended-syntax/#copying-and-pasting-emoji))
 
 ### Highlight
+
 ```md
 Se necesitas destacar algunhas ==palabras moi importantes==.
 ```
+
 Se necesitas destacar algunhas <mark>palabras moi importantes</mark>.
 
 ### Subscript
+
 ```md
 H~2~O
 ```
+
 H<sub>2</sub>O
 
 ### Superscript
+
 ```md
 X^2^
 ```
+
 X<sup>2</sup>
 
 ### HTML
@@ -217,10 +263,17 @@ Ou presentar unha información difícil de codificar con markdown:
 
 <center><small>Ou presentar unha información difícil de codificar con markdown.</small></center>
 
+### ...
+
 ---
 
 *_ref:*
 
-*[Daring Fireball: Markdown](https://daringfireball.net/projects/markdown/)*
+- *[Daring Fireball: Markdown](https://daringfireball.net/projects/markdown/)*
+- *[MDN Cómo escribir en Markdown](https://developer.mozilla.org/es/docs/MDN/Writing_guidelines/Howto/Markdown_in_MDN)*
+- *[Markdown Guide](https://www.markdownguide.org/)*
+- *[Markdown and Visual Studio Code](https://code.visualstudio.com/docs/languages/markdown)*
+- *[Markdown style guide](https://docs.gruntwork.io/guides/style/markdown-style-guide/)*
 
-*[Markdown Guide](https://www.markdownguide.org/)*
+---
+##### NOTAS:

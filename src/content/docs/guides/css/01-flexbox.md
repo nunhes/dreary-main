@@ -616,4 +616,8 @@ Como vimos neste artigo, Flexbox é o complemento perfecto para a disposición d
 
 Feliz codificación!
 
- 
+---
+Saber máis:
+- https://developer.mozilla.org/es/docs/Web/CSS/CSS_flexible_box_layout/Basic_concepts_of_flexbox
+- https://developer.mozilla.org/es/docs/Web/CSS/flex
+- https://css-tricks.com/snippets/css/a-guide-to-flexbox/

@@ -3,15 +3,13 @@ title: Introdución HTML
 description: Linguaxe de marcado de hipertexto...
 ---
 
-
-
 A finais dos anos 80, Tim Berners-Lee traballaba nun proxecto interno da Organización Europea para a Investigación Nuclear (CERN) que ía permitir o intercambio transnacional de información na súa rede de laboratorios, distribuídos entre Francia e Suíza. Aquel proxecto interno acabaría por converterse nas bases do que pronto acabaría por coñecerse como Internet ou World Wide Web. 
 
 Como base daquela infraestrutura de intercambio de datos a traves das redes de comunicación, Berners-Lee utilizou unha linguaxe de hipertexto, un tipo de escritura baseado nunha linguaxe de marcado que buscaba transmitir información a través de documentos entrelazados por hipervínculos ao que denominou Hypertext Markup Language ou HTML.
 
-Esta linguaxe, xunto a outros compoñentes como o protocolo de transferencia HTTP, o localizador de URL, ou os navegadores e servidores web, pronto se converterían na pedra angular da interconexión dixital global. 
+**Esta linguaxe, xunto a outras compoñentes coma o protocolo de transferencia HTTP, o localizador de URL, ou os navegadores e servidores web, pronto se converterían na pedra angular da interconexión dixital global**. 
 
-Agora, trinta e poucos anos máis tarde, aprender a usar esta linguaxe de marcado é unha das primeiras tarefas que acometer se queres converterte nun desenvolvedor web.
+Agora, trinta e tantos anos máis tarde, aprender a usar esta linguaxe de marcado é unha das primeiras tarefas que acometer se queres converterte nun desenvolvedor web.
 
 Esta introdución repasa os principios básicos desta linguaxe de marcado, e apunta algúns consellos para novizos, co fin de que poidas encetar con coñecementos sólidos e que os teus primeiros pasos no desenvolvemento web sexan o máis firmes posible.
 
@@ -69,14 +67,14 @@ HTML foi desenvolvido a partir da metanlinguaxe **SGML** (Standard Generalized M
 
 ## Que se necesita para escribir código HTML?
 
-HTML é texto, un tipo especial de texto pero texto ao fin. Isto fai que non exixa grandes requirimentos, abonda con contar cun editor de texto plano ou *bloc de notas*, que se pode atopar en calquera sistema operativo.
+HTML é texto, un tipo especial de texto pero texto ao fin e ao cabo. Isto fai que non exixa grandes requirimentos, abonda con contar cun editor de texto plano ou *bloc de notas*, que se pode atopar en calquera sistema operativo.
 
 Certo é que existen aplicacións especiais que ofrecen facilidades á hora de escribir: os editores de código.  Son aqueles editores con funcionalidades como:
 
 - o **resaltado cromático** das etiquetas, que ofrece unha visión máis clara do código e permite detectar erros sintácticos ou de aniñado. 
 - o **autocompletado**, que propón formas de expander ou completar etiquetas, incluso pechalas automaticamente.
 
-Tamén existen os editores **WYSIWYG** - *"What You See Is What You Get" ("O que ves é o que obtés")*-, que permiten escribir e ver o resultado en tempo real, desenvolvidos co obxectivo de permitir crear código HTML sen *case* coñecementos de linguaxe de marcado. Estes editores funcionan de forma similar a un procesador de textos, o texto articúlase mediante **funcións predeterminadas** dispoñibles nun menú, e sen necesidade de escribir manualmente as etiquetas, que o editor xera en segundo plano.
+Tamén existen os editores **WYSIWYG** - *"What You See Is What You Get" ("O que ves é o que obtés")*-, que permiten escribir e ver o resultado en tempo real. Desenvolvidos co obxectivo de permitir crear código HTML sen *case* coñecementos de linguaxe de marcado. Estes editores funcionan de forma similar a un procesador de textos, o texto articúlase mediante **funcións predeterminadas** dispoñibles nun menú, e sen necesidade de escribir manualmente as etiquetas, que o editor xera en segundo plano.
 
 :eye: Descartados os editores de texto tipo *Office*!! :bomb:
 
@@ -166,12 +164,12 @@ Reducido aos seus mínimos elementos necesarios, o código básico dunha páxina
 
 ```html
 <!DOCTYPE html>
-<html lang="en">
+<html lang="gl">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Aquí podes inserir toda a información sobre o marco básico HTML.">
-  <title>Aprende HTML: o marco básico</title>
+  <meta name="description" content="Aquí podes inserir toda a información sobre o asunto principal do sitio web.">
+  <title>Aprende HTML: a linguaxe de marcado da www</title>
 </head>
 <body>
 	<!-- Aqui iran os contidos da páxina -->
@@ -346,3 +344,5 @@ Outro compoñente básico do deseño web moderno é JavaScript, coa axuda do cal
 ---
 
 OUT 2023
+
+*Podes probar os exemplos nalgún [editor en liña](https://codi.link/).*

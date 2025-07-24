@@ -4,6 +4,7 @@ description: A lingua franca que o teu navegador web entende
 ---
 
 HTML é unha linguaxe de marcado que define a estrutura dunha páxina web. É unha linguaxe que o teu navegador web (Brave, Safari, Chrome, Firefox, etc.) interpreta para mostrar contido na pantalla.
+
 - Un arquivo HTML sinxelo:
 
 ```html
@@ -15,7 +16,7 @@ HTML é unha linguaxe de marcado que define a estrutura dunha páxina web. É un
   <body>
     Bos días mundo!
   </body>
-<html>
+</html>
 ```
 
 - Cando abrimos este arquivo no noso navegador, obtemos:
@@ -27,7 +28,7 @@ Analizamos o arquivo que acabamos de crear:
 
 - Despois diso, a páxina consta de algúns **[elementos HTML](https://developer.mozilla.org/es/docs/Web/HTML/Element)** aniñados (como `html`, `head` ou `body`), cada un cunha **etiqueta de apertura e outra de peche** marcada coma `<elemento>` para a apertura e `</elemento>` para o peche.
 
-  <img src="./assets/esquemahtml.webp" alt="Esquema do documento HTML. Estrutura" />
+![Estrutura do documento HTML](./assets/esquemahtml.png)
 
 - Os elementos HTML poden incluír **atributos** , que proporcionan ao navegador información adicional sobre dito elemento. Por exemplo, cando incluímos `lang="gl"` na etiqueta `html` inicial, estamos indicándolle ao navegador cal vai ser o idioma principal dos contidos e axudaremos aos buscadores a indexalos mellor.
 
@@ -58,13 +59,13 @@ Como tamén se poden engadir comentarios empregando o marcado `<!-- -->` , usar�
         <title>Elementos HTML</title>
     </head>
     <body>
-        <!-- Se poden crear titulares - headings - usando de as etiquetas h1, h2,... até h6. -->
+        <!-- Se poden crear titulares - headings - usando as etiquetas h1, h2,... até h6. -->
         <h1>Un titular grande ou principal</h1>
         <h2>Un titular menor ou subtitular</h2>
         <h6>O titular máis pequeno</h6>
 
         <!-- As etiquetas strong e i devolven texto en negriñas ou itálicas respectivamente. -->
-        Unha palabra en negriña ou <strong>bold</strong> e outra en <i>itálicas</i>!
+        Unha palabra en negriña ou <strong>bold</strong> e outra en <i>itálicas</i>! Aínda que para estás últimas poidas empregar <em>... </em>; e reservar <i> para declarar iconas - coma no caso de Fontawesome ou as iconas de de Bootstrap, entre outras.
 
         <!-- Se pode enlazar outra paxina (como a paxina de CS50) usando a etiqueta anchor: a -->
         Visita <a href="https://cs50.harvard.edu/">o sitio web CS50</a>!
@@ -171,7 +172,7 @@ Do mesmo xeito que con outros elementos HTML, non hai necesidade de memorizalos.
     <h1 style="color: blue; text-align: center;">Un títular coloreado!</h1>
     Bos días mundo!
   </body>
-<html>
+</html>
 ```
 
 ![Usar CSS para crear un título azul](./assets/style0.png)
@@ -188,7 +189,7 @@ Do mesmo xeito que con outros elementos HTML, non hai necesidade de memorizalos.
     <h1>Un títular coloreado!</h1>
     Bos días mundo!
   </body>
-<html>
+</html>
 ```
 
 ![Aplicar estilo a tódolos elementos aproveitando á herdanza de estilos](./assets/style1.png)
@@ -298,8 +299,8 @@ Usemos algo do que acabamos de aprender para mellorar a nosa táboa de océanos 
         </tr>
       </tbody>
     </table>
-</body>
-<html>
+ </body>
+</html>
 ```
 
 O que nos deixa unha táboa con mellor aspecto:
@@ -349,7 +350,16 @@ CSS ten a característica da [especificidade](https://developer.mozilla.org/es/d
 
 - Ademais da coma para varios selectores, hai varias outras formas de especificar cales son os elementos aos que se quere aplicar estilo. Esta táboa ofrece algunhas posibilidades máis comúns:
 
-![selectores](./assets/selectors.png)
+
+| selectores | descrición |
+| :--- | :--- |
+| `a`, `b` | Selector de elementos múltiples |
+| `a b` | Selector de descendentes |
+| `a > b` | Selector de fillos |
+| `a + b` | selector de irmáns adxacentes |
+| `[a=b]` | Selector de atributo |
+| `a:b` | Selector de pseudoclase |
+| `a::b` | Selector de pseudoelemento |
 
 - **Selector descendente**: aquí, usamos o selector descendente para aplicar un estilo só aos elementos da lista que se atopan nunha lista sen ordenar:
 
@@ -403,7 +413,7 @@ CSS ten a característica da [especificidade](https://developer.mozilla.org/es/d
       <li><a href="https://www.facebook.com/">Facebook</a></li>
     </ol>
   </body>
-<html>
+</html>
 ```
 
 ![Selectores de atributos](./assets/selectors2.png)
@@ -434,10 +444,10 @@ CSS ten a característica da [especificidade](https://developer.mozilla.org/es/d
     <button>Botón 2</button>
     <button>Botón 3</button>
   </body>
-<html>
+</html>
 ```
 
-![botóns](https://cs50.harvard.edu/web/2020/notes/0/images/buttons.gif)
+![botóns](./assets/buttons.gif)
 
 ### Deseño receptivo ou *responsive*
 
@@ -480,7 +490,8 @@ Para obter un exemplo dunha consulta multimedia, intentemos simplemente cambiar 
 </html>
 ```
 
-![tamaño da pantalla](https://cs50.harvard.edu/web/2020/notes/0/images/responsive0.gif)
+
+![tama&ntilde;o da pantalla](./assets/responsive0.gif)
 
 Outra forma de tratar con diferentes tamaños de pantalla é usar un novo atributo CSS coñecido como [flexbox](https://developer.mozilla.org/es/docs/Learn/CSS/CSS_layout/Flexbox). Isto permítenos que os elementos se despreguen facilmente á seguinte liña se non encaixan horizontalmente. Facemos isto poñendo todos os nosos elementos nun contedor  `div`  que, no exemplo, denominaremos `container`. Despois engadimos un estilo a ese `div` especificando que queremos usar unha modelo *flexbox* para os elementos contidos nel. Tamén engadimos algún estilo adicional aos *divs* internos para ilustrar mellor o envolvemento que se está a producir aquí.
 
@@ -523,7 +534,7 @@ Outra forma de tratar con diferentes tamaños de pantalla é usar un novo atribu
 </html>
 ```
 
-![caixa flexible](https://cs50.harvard.edu/web/2020/notes/0/images/flexbox.gif)
+![caixa flexible](./assets/flexbox.gif)
 
 Outra forma popular de deseñar unha páxina é usar unha [grella](https://developer.mozilla.org/es/docs/Web/CSS/CSS_grid_layout) HTML. Nesta grade, podemos especificar atributos de estilo como anchos de columnas e ocos entre columnas e filas, como se demostra a continuación. Ter en conta que cando especificamos anchos de columna, dicimos que a terceira é `auto`, o que significa que debería encher o resto da páxina.
 
@@ -570,7 +581,7 @@ Outra forma popular de deseñar unha páxina é usar unha [grella](https://devel
 </html>
 ```
 
-![grella](https://cs50.harvard.edu/web/2020/notes/0/images/grid.gif)
+![grella](./assets/grid.gif)
 
 ### Bootstrap
 
@@ -579,7 +590,12 @@ Resulta que hai moitas bibliotecas que outras persoas xa escribiron e que poden 
 Podemos incluír Bootstrap no noso código engadindo unha soa liña á cabeceira do noso arquivo HTML:
 
 ```html
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+<link
+  href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+  rel="stylesheet"
+  integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+  crossorigin="anonymous"
+/>
 ```
 
 A continuación, podemos ver algunhas das funcións de Bootstrap navegando ata a parte de [documentación](https://getbootstrap.com/docs/5.3/customize/components/#base-classes) no seu sitio web. Nesta páxina atoparás moitos exemplos de clases que podes engadir aos elementos da túa e dar estilo con Bootstrap.
@@ -591,7 +607,12 @@ Unha característica Bootstrap é o seu [sistema de grella](https://getbootstrap
 <html lang="gl">
   <head>
     <title>Miña paxina web!</title>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
     <style>
       .row > div {
         padding: 20px;
@@ -608,7 +629,7 @@ Unha característica Bootstrap é o seu [sistema de grella](https://getbootstrap
         <div class="col-4">Esta é a terceira sección.</div>
       </div>
     </div>
-    <br/>
+    <br />
     <div class="container">
       <div class="row">
         <div class="col-3">Esta é unha sección.</div>
@@ -620,7 +641,7 @@ Unha característica Bootstrap é o seu [sistema de grella](https://getbootstrap
 </html>
 ```
 
-![columnas](https://cs50.harvard.edu/web/2020/notes/0/images/cols1.gif)
+![columnas](./assets/cols1.gif)
 
 Para mellorar a capacidade de resposta no móbil, Bootstrap tamén nos permite especificar tamaños de columna que varían segundo o tamaño da pantalla. No seguinte exemplo, usamos `col-lg-3` para mostrar que un elemento debe ocupar 3 columnas nunha pantalla grande e `col-sm-6` para mostrar que un elemento debe ocupar 6 columnas cando a pantalla é pequena:
 
@@ -629,7 +650,12 @@ Para mellorar a capacidade de resposta no móbil, Bootstrap tamén nos permite e
 <html lang="gl">
   <head>
     <title>My Web Page!</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
     <style>
       .row > div {
         padding: 20px;
@@ -651,9 +677,9 @@ Para mellorar a capacidade de resposta no móbil, Bootstrap tamén nos permite e
 </html>
 ```
 
-![envolver columnas](https://cs50.harvard.edu/web/2020/notes/0/images/cols2.gif)
+![envolver columnas](./assets/cols2.gif)
 
-### Sass (follas de estilo sintácticamente impresionantes)
+### Sass (follas de estilo sintacticamente impresionantes)
 
 Ata agora, atopamos algunhas formas de eliminar a redundancia en CSS, como movela a arquivos separados ou usar [librarías como Bootstrap](https://2023.stateofcss.com/es-ES/css-frameworks/), pero inda hai bastantes lugares nos que aínda podemos facer melloras.
 
@@ -716,7 +742,7 @@ div ul {
 }
 ```
 
-- Unha característica máis que nos ofrece Sass é a coñecida como [herdanza](https://sass-lang.com/guide/#inheritance) . Isto permítenos crear un conxunto básico de estilo que pode ser compartido por varios elementos diferentes. Facemos isto engadindo `%` antes do nome dunha clase, engadindo algún estilo e despois engadindo a liña `@extend %classname` ao comezo dalgún estilo. Por exemplo, o seguinte código aplica o estilo dentro da clase `message` a cada unha das diferentes clases a continuación, o que resulta nunha páxina web que se parece á seguinte.
+- Unha característica máis que nos ofrece Sass é a coñecida [herdanza](https://sass-lang.com/guide/#inheritance). Isto permítenos crear un conxunto básico de estilo que pode ser compartido por varios elementos diferentes. Facemos isto engadindo `%` antes do nome dunha clase, engadindo algún estilo e despois engadindo a liña `@extend %classname` ao comezo dalgún estilo. Por exemplo, o seguinte código aplica o estilo dentro da clase `message` a cada unha das diferentes clases a continuación, o que resulta nunha páxina web que se parece á seguinte.
 
 ```css
 %message {

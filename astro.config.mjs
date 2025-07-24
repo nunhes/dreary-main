@@ -1,8 +1,17 @@
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
+import vercel from '@astrojs/vercel/static';
+
+import { rehypeHeadingIds } from '@astrojs/markdown-remark';
+import rehypeSlug from 'rehype-slug';
+import { rehypeAutolinkHeadings } from 'rehype-autolink-headings';
+import { rehypeAccessibleEmojis } from 'rehype-accessible-emojis';
+
 
 // https://astro.build/config
 export default defineConfig({
+	output: 'static',
+	adapter: vercel(),
 	integrations: [
 		starlight({
 			title: 'MegaBoot',
@@ -40,4 +49,7 @@ export default defineConfig({
 			],
 		}),
 	],
+	markdown: {
+		rehypePlugins: [rehypeHeadingIds, rehypeSlug, [rehypeAutolinkHeadings, { behavior: 'append' }], rehypeAccessibleEmojis],
+	},
 });

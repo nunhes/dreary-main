@@ -17,7 +17,7 @@ O menú de puntos suspensivos da parte dereita das **Ferramentas para programado
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | ![imaxe 1](../assets/iframe_button.png) | Este botón só aparece cando hai varios iframes nunha páxina. Fai clic nel para ver a lista dos iframes da páxina actual e selecciona aquel no que queres traballar. |
 | ![imaxe 2](../assets/camera_button.png) | Fai clic neste botón para facer unha captura de pantalla da páxina actual. ( *Nota:* esta función non está activada por defecto, debe ser activada na configuración para que apareza a icona.) |
-| ![imaxe 3](../assets/responsive_button.png) | Activa o modo de deseño receptivo                            |
+| ![imaxe 3](../assets/responsive_button.png) | Activa o modo de deseño responsivo                           |
 | ![imaxe 4](../assets/menu_button.png) | Abre o menú que inclúe opcións de acoplamento, a posibilidade de amosar ou agochar a consola dividida e a configuración das Ferramentas para programadores. O menú tamén inclúe ligazóns á documentación de Firefox Web Tools e da comunidade Mozilla. |
 | ![imaxe 5](../assets/close_button.png) | Pecha as ferramentas para programadores                      |
 
@@ -35,7 +35,7 @@ Desde aquí poderás consultar as mensaxes rexistradas por unha páxina web e in
 
 ### Depurador de JavaScript
 
-[![O panel depurador](https://firefox-source-docs.mozilla.org/_images/landingpage_debugger.png)](https://firefox-source-docs.mozilla.org/devtools-user/debugger/)
+[![O panel depurador](./assets/landingpage_debugger.png)](https://firefox-source-docs.mozilla.org/devtools-user/debugger/)
 
 Deter, avanzar e examinar o JavaScript que se está executando nunha páxina.
 
@@ -53,7 +53,7 @@ Analizar a capacidade de resposta xeral, JavaScript e o rendemento do deseño do
 
 ### Modo de deseño sensible
 
-[![Modo de deseño receptivo nas ferramentas para programadores de Firefox](../assets/landingpage_responsivedesign.png)](https://firefox-source-docs.mozilla.org/devtools-user/responsive_design_mode/)
+[![Modo de deseño responsivo nas ferramentas para programadores de Firefox](../assets/landingpage_responsivedesign.png)](https://firefox-source-docs.mozilla.org/devtools-user/responsive_design_mode/)
 
 Consulta como se verá e se comportará o teu sitio web ou aplicación en diferentes dispositivos e tipos de rede.
 
@@ -89,4 +89,4 @@ Estas seguintes ferramentas para desenvolvedores tamén están integradas en Fir
 | [Regras](https://firefox-source-docs.mozilla.org/devtools-user/rulers/index.html) | Superpoñer regras horizontais e verticais nunha páxina web   |
 | [Formatadores personalizados](https://firefox-source-docs.mozilla.org/devtools-user/custom_formatters/index.html) | Personaliza a forma en que se mostran os obxectos dentro de DevTools. |
 
-![Logo Firefox Developer Edition](../assets/logo-developer-quantum.png)
+![Logo de Firefox Developer Edition](../assets/logo-developer-quantum.png)
