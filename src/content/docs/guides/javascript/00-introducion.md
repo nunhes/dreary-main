@@ -7,7 +7,7 @@ description: A linguaxe ...
 
 JavaScript é unha linguaxe de programación amplamente utilizado que permite agregar interactividade e funcionalidades avanzadas ás páxinas web. JavaScript é un estándar no desenvolvemento web e é compatible con todos os navegadores modernos.
 
-### A consola JavaScript
+## A consola JavaScript
 
 A consola JavaScript é unha ferramenta integrada nos navegadores que permite aos desenvolvedores executar e depurar código JavaScript en tempo real. Ofrece varias funcións para mostrar información e erros, como ``console.log()`` e ``console.error()``, facilitando a identificación e a solución de problemas no código.
 
@@ -23,7 +23,7 @@ console.error("Houbo un erro na execución do código"); // Mostra unha mensaxe 
 
 JavaScript funciona a través da interpretación e execución de código no navegador, permitindo agregar interactividade e funcionalidades avanzadas ás páxinas web.
 
-### Cargar un arquivo JavaScript
+## Cargar un arquivo JavaScript
 
 Os arquivos JavaScript poden cargarse nunha páxina HTML utilizando a etiqueta `<script>` co atributo `src` que apunta ao arquivo JavaScript.
 
@@ -31,23 +31,23 @@ Os arquivos JavaScript poden cargarse nunha páxina HTML utilizando a etiqueta `
 <script src="arquivo.js"></script>
 ```
 
-### Conceptos básicos
+## Conceptos básicos
 
 Os conceptos básicos de JavaScript inclúen **variables**, **operadores**, **estruturas de control de fluxo**, **funcións** e **obxectos**.
 
-### Palabras comúns usadas en programación
+## Palabras comúns usadas en programación
 
 Algunhas palabras comúns na programación con JavaScript son: **variable**, **función**, **obxecto**, **array**, **bucle**, **condición**, **evento** e **erro**.
 
-### A especificación ECMAScript
+## A especificación ECMAScript
 
 ECMAScript é a especificación que define a linguaxe de programación JavaScript e as súas características. JavaScript é unha implementación desta especificación.
 
-### Normas e regras de funcionamento de JavaScript
+## Normas e regras de funcionamento de JavaScript
 
 JavaScript sigue certas normas e regras, como a sensibilidade a maiúsculas e minúsculas, o uso de punto e coma para separar instrucións e a declaración de variables antes do seu uso.
 
-### Exemplo: Cargar un arquivo JavaScript en HTML
+## Exemplo: Cargar un arquivo JavaScript en HTML
 
 ```html
 <!DOCTYPE html>
@@ -856,7 +856,7 @@ button.addEventListener('click', function() {
 });
 ```
 
-### Escoitar eventos e handleEvent
+### Escoitar eventos e `handleEvent`
 
 Podes utilizar a interface `EventListener` e o seu método `handleEvent` para manexar eventos dunha maneira máis estruturada e orientada a obxectos:
 
@@ -886,7 +886,7 @@ element.dispatchEvent(customEvent);
 
 ### Eventos do navegador
 
-Os eventos do navegador son eventos globais que ocorren no obxecto `window`, como “``resize``”, “``scroll``” e “``beforeunload``”.
+Os eventos do navegador son eventos globais que ocorren no obxecto `window`, como  `resize`, `scroll` e `beforeunload`.
 
 ### Emisión de eventos
 
@@ -958,7 +958,7 @@ const daysDifference = -3;
 console.log(relativeFormatter.format(daysDifference, 'day')); // Exemplo de saída: 'fai 3 días'
 ```
 
-### Formatear datas con dayjs
+### Formatear datas con `dayjs`
 
 ``Day.js`` é unha biblioteca liviana e fácil de usar para manipular e formatear datas e horas en JavaScript. Podes utilizar ``Day.js`` para formatear datas de maneira similar ás solucións nativas:
 
@@ -1095,23 +1095,23 @@ O elemento HTML `<audio>` e `<video>` se poden utilizar para reproducir arquivos
 
 A asincronía en JavaScript permite executar tarefas sin bloquear a execución do resto do código, como solicitudes a un servidor, lectura de arquivos, entre outros. Isto é crucial para evitar que as aplicacións web se conxelen mentres esperan a finalización de tarefas que consumen tempo.
 
-### Funcións callbacks
+### Funcións de devolución de chamadas (`callback`)
 
-As funcións ``callback`` son funcións que se pasan como argumentos a outras funcións e se executan despois de que a función principal teña terminado. Estas se utilizan frecuentemente en JavaScript para manexar operacións asíncronas.
+As funcións `callback` son funcións que se pasan como argumentos a outras funcións e se executan despois de que a función principal teña terminado. Estas se utilizan frecuentemente en JavaScript para manexar operacións asíncronas.
 
 ```javascript
-function exemploCallback(mensaje, callback) {
-  console.log(mensaje);
+function exemploCallback(mensaxe, callback) {
+  console.log(mensaxe);
   callback();
 }
 
-exemploCallback('Mensaje 1', function() {
-  console.log('Mensaje 2 (callback)');
+exemploCallback('Mensaxe 1', function() {
+  console.log('Mensaxe 2 (callback)');
 });
 ```
 ### Que son as promesas?
 
-As promesas son obxectos que representan o resultado final dunha operación asíncrona. Permiten manexar o fluxo de control de forma máis clara e lexible en comparación cos *callbacks*. Unha promesa ten tres estados: pendente, resolta (cumprida) ou rexeitada.
+As promesas son obxectos que representan o resultado final dunha operación asíncrona. Permiten manexar o fluxo de control de forma máis clara e lexible en comparación cos *`callbacks`*. Unha promesa ten tres estados: pendente, resolta (cumprida) ou rexeitada.
 
 ```javascript
 const promesa = new Promise((resolve, reject) => {

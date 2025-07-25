@@ -1,6 +1,8 @@
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
+import tailwindcss from '@tailwindcss/vite';
 import vercel from '@astrojs/vercel';
+
 
 import { rehypeHeadingIds } from '@astrojs/markdown-remark';
 import rehypeSlug from 'rehype-slug';
@@ -15,6 +17,10 @@ export default defineConfig({
 	integrations: [
 		starlight({
 			title: 'MegaBoot',
+			customCss: [
+				//  Path to your Tailwind base styles:
+				'./src/styles/global.css',
+			],
 			defaultLocale: 'root', // optional
 			locales: {
 				root: {
@@ -49,6 +55,7 @@ export default defineConfig({
 			],
 		}),
 	],
+	vite: { plugins: [tailwindcss()] },
 	markdown: {
 		rehypePlugins: [rehypeHeadingIds, rehypeSlug, [rehypeAutolinkHeadings, { behavior: 'append' }], rehypeAccessibleEmojis],
 	},

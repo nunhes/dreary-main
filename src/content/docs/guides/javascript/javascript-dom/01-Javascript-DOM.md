@@ -2,34 +2,45 @@
 title: Javascript DOM - Introdución
 description: Uso de javascript na arbore do modelo de obxecto do documento
 ---
-# Modelo de obxectos de documento en JavaScript
+## Modelo de obxectos de documento en JS
 
-**Resumo**: neste artigo verás  que se entende por **modelo de obxecto de documento** en JavaScript, e que utilidades ten.
+Vexamos que se entende por **modelo de obxecto de documento** (Document Object Model, DOM) en JavaScript, e que utilidades ten.
 
-## Que é o Document Object Model (DOM)?
+### Que é o Document Object Model (DOM)?
 
 O Document Object Model (DOM) é unha interface de programación de aplicacións (API) para manipular documentos HTML.
 
 O DOM representa un documento HTML como unha árbore de nodos. O DOM ofrece funcións que che permiten engadir, eliminar e modificar partes do documento de forma eficaz.
 
-Ter en conta que o DOM é independente da plataforma e nos modos da linguaxe para manipular documentos HTML e XML.
+Ter en conta que o DOM é independente da plataforma e dos modos da linguaxe para manipular documentos HTML e XML.
 
-## Un documento como xerarquía de nodos
+### Un documento como xerarquía de nodos
 
 O DOM representa un documento HTML como unha xerarquía de nodos. Observa o seguinte documento HTML:
 
 ```html
-<html>
+<!DOCTYPE html>
+<html lang="gl">
     <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>JavaScript DOM</title>
     </head>
     <body>
-        <p>Boas DOM!</p>
+        <h1>Boas DOM!</h1>
     </body>
 </html>
 ```
+Cando o documento HTML se carga no navegador este crea internamente unha árbore de nodos.
 
-Observado dende o navegador  a seguinte árbore representa o anterior documento HTML:
+```mermaid
+flowchart TD
+    A(("HTML")) --> B(("HEAD")) & C(("BODY"))
+    B --> E(("META")) & F(("META")) & G(("TITLE"))
+    C --> D(("H1"))
+```
+
+Observado dende o navegador a seguinte árbore representa o anterior documento HTML:
 
 ![JavaScript DOM](./assets/JavaScript-DOM.png)
 
@@ -37,7 +48,7 @@ Nesta árbore DOM, o nodo `document` é o nodo raíz. O nodo raíz ten un nodo f
 
 Cada documento só pode ter un elemento `document`. Nun documento HTML, o elemento `document` é o elemento  `<html>`. Cada etiqueta do documento HTML ou marca pode ser representada por un nodo na árbore DOM.
 
-### Tipos de nodos
+#### Tipos de nodos
 
 Cada nodo da árbore DOM identifícase por un **tipo de nodo**. JavaScript usa números enteiros para determinar os tipos de nodos. A seguinte táboa ilustra as constantes do tipo de nodo:
 
@@ -66,7 +77,7 @@ if (node.nodeType == Node.ELEMENT_NODE) {
 }
 ```
 
-### As propiedades `nodeName` e `nodeValue`
+#### As propiedades `nodeName` e `nodeValue`
 
 Un nodo ten dúas propiedades importantes: `nodeName` e `nodeValue` que proporcionan información específica sobre o nodo.
 
@@ -80,7 +91,7 @@ if (node.nodeType == Node.ELEMENT_NODE) {
 }
 ```
 
-### Nodo e elemento
+#### Nodo e elemento
 
 Ás veces é fácil confundir entre o `Node`  e o `Element`.
 
@@ -96,7 +107,7 @@ A seguinte imaxe ilustra a relación entre os tipos `Node` e `Element`:
 
 Ter en conta que `getElementById()` e `querySelector()` devolve un obxecto co tipo `Element` mentres `getElementsByTagName()` ou [`querySelectorAll()`](https://www.javascripttutorial.net/javascript-dom/javascript-queryselector/) devolve `NodeList` que é unha colección de nós. 
 
-### Relacións de nodos
+#### Relacións de nodos
 
 Calquera nodo ten relacións con outros nodos da árbore DOM. As relacións son as mesmas que as descritas nunha árbore xenealóxica tradicional.
 
@@ -108,7 +119,7 @@ A seguinte imaxe ilustra as relacións entre nós:
 
 ![Relacións de nodos DOM JavaScript](./assets/JavaScript-DOM-Node-Relationships.png)
 
-## Resumo
+#### Resumo
 
 - Un documento HTML ou XML pódese representar como unha árbore de nodos, como unha árbore xenealóxica tradicional.
 - Cada marcación pódese representar como un nodo cun tipo de nodo específico.
@@ -116,7 +127,9 @@ A seguinte imaxe ilustra as relacións entre nós:
 - Na árbore DOM, un nodo ten relacións con outros nodos.
 
 
-
+{% card title="Check this out" %}
+Interesting content you want to highlight.
+{% /card %}
 
 
 ---
