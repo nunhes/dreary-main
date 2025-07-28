@@ -33,12 +33,7 @@ O DOM representa un documento HTML como unha xerarquía de nodos. Observa o segu
 ```
 Cando o documento HTML se carga no navegador este crea internamente unha árbore de nodos.
 
-```mermaid
-flowchart TD
-    A(("HTML")) --> B(("HEAD")) & C(("BODY"))
-    B --> E(("META")) & F(("META")) & G(("TITLE"))
-    C --> D(("H1"))
-```
+...
 
 Observado dende o navegador a seguinte árbore representa o anterior documento HTML:
 
